@@ -8,7 +8,7 @@ NAME = "Earth Rules"
 CHECKED = "November 25, 2026"
 
 NAV = [("index.html", "Home"), ("calendar.html", "Yearly calendar"), ("stages.html", "Life stages"),
-       ("whats-normal.html", "What's normal"), ("states/index.html", "States"), ("help.html", "Get help now"),
+       ("whats-normal.html", "What's normal"), ("states/index.html", "States"), ("rights/index.html", "Your rights"), ("help.html", "Get help now"),
        ("about.html", "About")]
 
 
@@ -77,7 +77,7 @@ URLS = []
 finder = [("turning-18.html", "school", "I'm turning 18"), ("moving.html", "housing", "I'm moving"),
           ("taxes.html", "document", "Taxes are due"), ("credit.html", "funding", "Money and credit"),
           ("friends.html", "peer_support", "I want more friends"), ("checkups.html", "medical", "Checkups and screenings"),
-          ("help.html", "crisis", "I need help right now"), ("calendar.html", "clock", "What's due this month?")]
+          ("help.html", "crisis", "I need help right now"), ("rights/police.html", "rights_legal", "Police stopped me"), ("calendar.html", "clock", "What's due this month?")]
 fhtml = '<nav class="finder" aria-label="Start with what is going on">' + "".join(
     f'<a href="{h}">{ic(i)}<span>{t}</span></a>' for h, i, t in finder) + "</nav>"
 
@@ -90,6 +90,7 @@ sections = [
     ("checkups.html", "medical", "Body and mind", "Which screenings are recommended at which age, and where to read about a condition."),
     ("whats-normal.html", "chart", "What's normal", "Averages for income, home buying, sleep and friendship, and how much they vary."),
     ("turning-18.html", "ballot", "Civic duties", "Registering to vote, Selective Service, IDs and jury duty."),
+    ("rights/index.html", "rights_legal", "Your rights", "What's yours as a person, patient, renter, worker, voter and more, and the law behind each one."),
     ("help.html", "crisis", "Getting help", "Crisis lines, local help, legal aid and benefits, in one place."),
     ("states/index.html", "map_pin", "Your state", "The rules that change by state, starting with Ohio."),
 ]
@@ -318,6 +319,7 @@ oh = f"""
 ])}</section>
 <section aria-labelledby="o2"><h2 id="o2">Taxes</h2><p>Ohio has a state income tax, due the same day as the federal return. Many cities and school districts add their own. Free filing: {ext("https://tax.ohio.gov/", "Ohio Department of Taxation")}.</p></section>
 <section aria-labelledby="o3"><h2 id="o3">Voting</h2><p>Register at least 30 days before an election, at {ext("https://www.ohiosos.gov/", "the Ohio Secretary of State")}. You can register at 17 if you will be 18 by the general election.</p></section>
+<section aria-labelledby="o5"><h2 id="o5">Your rights in Ohio</h2><p>Every page in <a href="../rights/index.html">Your rights</a> lists what Ohio adds to federal law: as a renter, worker, patient, voter, veteran and more.</p></section>
 <section aria-labelledby="o4"><h2 id="o4">Help</h2>{checklist([
  ("benefits", ext("https://benefits.ohio.gov/", "Ohio Benefits") + ": food, health coverage and cash assistance applications."),
  ("rights_legal", ext("https://www.ohiolegalhelp.org/", "Ohio Legal Help") + ": free legal information and help finding a lawyer."),
@@ -344,6 +346,12 @@ URLS.append(page("privacy.html", "Privacy | Earth Rules", "What Earth Rules coll
                  "EARTH RULES · PRIVACY", "Privacy.", "What this site collects, which is very little.", pv))
 page("404.html", "Page not found | Earth Rules", "That page isn't here.", "EARTH RULES", "That page isn't here.",
      "It may have moved.", '<section><p><a href="/">Go to the home page</a>.</p></section>')
+
+# ---------------- Your rights ----------------
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import rights
+rights.build(page, ic, ext, checklist, checked, URLS)
 
 # ---------------- sitemap, robots, CNAME, favicon ----------------
 with open(os.path.join(ROOT, "sitemap.xml"), "w") as f:
