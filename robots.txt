@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://earthrules.org/sitemap.xml
