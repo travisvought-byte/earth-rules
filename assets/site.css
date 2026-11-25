@@ -56,3 +56,8 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding-top:18px;font-si
  body{font-size:17px}
 }
 @media print{header nav,.skip,.finder{display:none}header{background:#fff;color:#000}header p,header small{color:#000}}
+.rights li strong{display:block}
+.rights .cite{display:block;margin-top:.3rem;font-size:.92rem}
+.say ul{margin:.25rem 0 0;padding-left:1.25rem}
+.say li{margin:.15rem 0;font-weight:600}
+h2 .ic{vertical-align:-4px;margin-right:.35rem}
