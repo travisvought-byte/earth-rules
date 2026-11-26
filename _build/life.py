@@ -58,7 +58,7 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
 <section aria-labelledby="m4"><h2 id="m4">{ic("globe")} How the big system works</h2>
 <p><strong>Banks make money by lending.</strong> When a bank makes a loan, it creates new money in your account. That's how most money comes to exist, the Bank of England explains.</p>
 <p><strong>Central banks set the base price of money.</strong> In the US that's the Federal Reserve. When it raises rates, loans cost more for everyone. When prices rise faster than your pay, your money buys less. That's inflation.</p>
-<p><strong>Wealth piles up at the top.</strong> In the US, the top 10% of households hold about two-thirds of all wealth, and the bottom half holds a few percent, the Federal Reserve's own figures show.</p>
+<p><strong>Wealth piles up at the top.</strong> In the US, the richest 1% of households held about a third of all wealth in 2026, by the Federal Reserve's own count. That's about as much as the bottom 90% combined.</p>
 <p><strong>Every country works this way</strong>, with different rules for banks, debt and help. Your protections depend on where you live.</p></section>
 <section aria-labelledby="m5"><h2 id="m5">{ic("yes")} What actually works</h2>{checklist([
  ("yes", "Keep a little cash for emergencies, even $20 a week. It's what keeps a flat tire from becoming a payday loan."),
@@ -76,7 +76,7 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
           ext("https://www.consumerfinance.gov/ask-cfpb/what-are-the-costs-and-fees-for-a-payday-loan-en-1589/", "CFPB: costs of a payday loan"),
           ext("https://www.myfico.com/credit-education/whats-in-your-credit-score", "myFICO: what's in your credit score"),
           ext("https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy", "Bank of England: money creation in the modern economy"),
-          ext("https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/chart/", "Federal Reserve: distribution of household wealth"),
+          ext("https://fred.stlouisfed.org/series/WFRBST01134", "Federal Reserve DFA: share of net worth held by the top 1%"), ext("https://www.cbsnews.com/news/us-wealth-gap-widest-in-three-decades-federal-reserve", "CBS News: top 1% vs bottom 90%"),
           ext("https://www.annualcreditreport.com/", "AnnualCreditReport.com"), ext("https://www.nfcc.org/", "NFCC")])}
 """
     URLS.append(page("money.html", "How money works, and how it works against you | Earth Rules",
@@ -182,7 +182,7 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
  ]),
  checklist([
   ("idcard", "<strong>State ID card:</strong> free for Ohioans 17 and older, at any " + ext("https://bmv.ohio.gov/", "Ohio BMV") + " office."),
-  ("document", "<strong>Birth certificate:</strong> any local health department in Ohio can print one for anyone born in Ohio, usually for about $25."),
+  ("document", "<strong>Birth certificate:</strong> local health departments in Ohio can print one for anyone born in Ohio since 1908, usually for about $25. Call yours first."),
  ]), world_h="Everywhere", us_h="In the United States", oh_h="In Ohio")}</section>
 <section aria-labelledby="p1"><h2 id="p1">{ic("document")} Keep your papers in one folder</h2>
 <p>Print this list. Put each paper in one folder or envelope, and check it off. Keep it somewhere dry that you can grab fast.</p>{printbtn()}
@@ -196,7 +196,7 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
 <table class="fill"><caption class="sr">Fill in your important numbers</caption><tr><th scope="col">Who</th><th scope="col">Name</th><th scope="col">Phone</th></tr>
 {"".join(f'<tr><td>{w}</td><td></td><td></td></tr>' for w in ["Emergency contact", "Doctor", "Pharmacy", "Dentist", "Caseworker", "Landlord", "Work"])}</table></div></section>
 {checked([ext("https://www.ssa.gov/number-card", "SSA: Social Security card"), ext("https://bmv.ohio.gov/", "Ohio BMV"),
-          ext("https://odh.ohio.gov/know-our-programs/vital-statistics/", "Ohio Department of Health: vital statistics"), ext("https://www.archives.gov/veterans/military-service-records", "National Archives: military records")])}
+          ext("https://odh.ohio.gov/know-our-programs/vital-statistics/", "Ohio Department of Health: vital statistics"), ext("https://www.columbus.gov/Services/Public-Health/Get-a-Birth-or-Death-Certificate", "Columbus Public Health: birth certificates"), ext("https://www.archives.gov/veterans/military-service-records", "National Archives: military records")])}
 """
     URLS.append(page("papers.html", "Replace your ID and keep your papers organized | Earth Rules",
                      "How to replace an ID, birth certificate or Social Security card, plus a printable checklist of papers to keep in one folder.",
@@ -267,7 +267,7 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
  ("transportation", "Buses and trains are the cheapest way to get around in most places. Ask about reduced fares for older people, people with disabilities and students."),
  ("peer_support", "Carpools and vanpools split the cost of a commute. Many cities and employers will match you with riders."),
 ]), checklist([
- ("transportation", "<strong>Reduced fares:</strong> bus systems that take federal money must offer half fare at off-peak times to older adults and people with disabilities."),
+ ("transportation", "<strong>Reduced fares:</strong> bus and train systems that take federal money can charge older adults, people with disabilities and anyone with a Medicare card no more than half fare at off-peak times."),
  ("service_dog", "<strong>Paratransit:</strong> if a disability keeps you from using the bus, your transit system must offer door-to-door rides in the same area. Ask your transit agency to apply."),
  ("clock", "<strong>Older adults:</strong> the " + ext("https://eldercare.acl.gov/", "Eldercare Locator") + ", " + tel("800-677-1116") + ", finds senior ride programs near you."),
  ("veterans", "<strong>Veterans:</strong> many VA medical centers run free shuttles and van programs to appointments. Call your VA clinic."),
@@ -275,8 +275,8 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
  ("medical", "<strong>Medicaid rides:</strong> call the member number on your card at least two days ahead. Your county Job and Family Services office can also help."),
  ("phone", "Dial <a href=\"tel:211\">211</a> for local ride programs."),
 ]))}
-{checked([ext("https://www.transit.dot.gov/regulations-and-guidance/civil-rights-ada/half-fare-program", "FTA: half-fare program"),
-          ext("https://www.transit.dot.gov/regulations-and-guidance/civil-rights-ada/ada-paratransit", "FTA: ADA paratransit"),
+{checked([ext("https://www.transit.dot.gov/are-transit-providers-required-offer-reduced-transit-fares-seniors-people-disabilities-or-medicare", "FTA: reduced fares for seniors, people with disabilities and Medicare cardholders"),
+          ext("https://www.ecfr.gov/current/title-49/subtitle-A/part-37/subpart-F", "49 CFR Part 37, Subpart F: ADA paratransit"),
           ext("https://eldercare.acl.gov/", "Eldercare Locator"),
           ext("https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/Providers/ProviderTypes/Managed%20Care/Managed_Care_Transportation_Resource_Guide_for_Practices_042024_Final.pdf", "Ohio Medicaid transportation guide")])}
 """
