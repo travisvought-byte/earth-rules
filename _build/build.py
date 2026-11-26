@@ -7,8 +7,8 @@ SITE = "https://earthrules.org"
 NAME = "Earth Rules"
 CHECKED = "November 25, 2026"
 
-NAV = [("index.html", "Home"), ("help.html", "Get help"), ("rights/index.html", "Rights"), ("calendar.html", "Calendar"),
-       ("stages.html", "Life stages"), ("whats-normal.html", "What's normal"), ("places/index.html", "Places"), ("about.html", "About")]
+NAV = [("index.html", "Home"), ("help.html", "Get help"), ("explore.html", "Explore"), ("rights/index.html", "Rights"),
+       ("calendar.html", "Calendar"), ("places/index.html", "Places"), ("about.html", "About")]
 
 # One big picture at the top of every page, so the page can be recognized without reading.
 PAGE_ICONS = {
@@ -28,6 +28,11 @@ PAGE_ICONS = {
     "my-year/index.html": "calendar", "my-year/18-29.html": "calendar", "my-year/30-39.html": "calendar",
     "my-year/40-49.html": "calendar", "my-year/50-64.html": "calendar", "my-year/65.html": "calendar",
 }
+
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import dex
+PAGE_ICONS.update(dex.region_icons())
 
 # Big tap-to-call buttons that sit at the top of every page.
 HELPBAR = ('<nav class="helpbar" aria-label="Get help now"><span class="hb-t">Get help now</span>'
@@ -49,6 +54,7 @@ def ext(url, text):
 def page(path, title, desc, kicker, h1, lead, body, crumbs=None):
     depth = path.count("/")
     P = "../" * depth
+    body = dex.wrap(path, body, ic, PAGE_ICONS)
     nav = "".join(f'<a href="{P}{h}">{t}</a>' for h, t in NAV)
     url = SITE + "/" + ("" if path == "index.html" else path)
     crumbs = crumbs or [(NAME, SITE + "/")] + ([] if path == "index.html" else [(h1, url)])
@@ -81,7 +87,7 @@ def page(path, title, desc, kicker, h1, lead, body, crumbs=None):
 {body}
 <footer><p>{NAME} is a free guide to the things everyone is expected to know and do, created and maintained by <a href="https://travisvought.com/">Travis Vought</a>. <a href="mailto:travis@vethomeguard.org?subject=Earth%20Rules%20correction">Report a mistake</a> · <a href="{P}about.html">About and sources</a> · <a href="{P}privacy.html">Privacy</a></p>
 <p>General information from official and published sources, with the date each was checked. It is not legal, tax, financial or medical advice. Rules change and differ by state, so confirm with the source before you act.</p></footer>
-</main><script src="{P}assets/nav.js" defer></script><script src="{P}assets/read.js" defer></script></body></html>
+</main><script src="{P}assets/nav.js" defer></script><script src="{P}assets/read.js" defer></script><script src="{P}assets/dex.js" defer></script></body></html>
 """
     out = out.replace("{P}", P)
     full = os.path.join(ROOT, path)
@@ -110,28 +116,6 @@ TILE_GROUPS = [
                   ("help-groups.html", "peer_support", "Help groups", "Drinking, drugs, betting", ""),
                   ("rides.html", "transportation", "Rides", "Bus, Medicaid, seniors", ""),
                   ("rights/police.html", "shield", "Police", "Stopped or arrested", "")]),
-    ("Your life", [("money.html", "dollar", "Money", "Interest, credit, debt", ""),
-                   ("work.html", "wrench", "Work", "Real job programs", ""),
-                   ("coverage.html", "medical", "Health coverage", "Medicaid, Medicare, VA", ""),
-                   ("checkups.html", "heart", "Checkups", "By age", ""),
-                   ("my-year/index.html", "calendar", "My year", "Print a checklist", ""),
-                   ("papers.html", "idcard", "Papers and ID", "Replace and keep", ""),
-                   ("moving.html", "housing", "Home", "Moving and renting", ""),
-                   ("taxes.html", "document", "Taxes", "File for free", ""),
-                   ("friends.html", "peer_support", "Friends", "Meet people, beat loneliness", ""),
-                   ("body-basics.html", "clock", "Sleep and food", "The basics", ""),
-                   ("when-someone-dies.html", "comfort", "When someone dies", "What to do", ""),
-                   ("business.html", "store", "Start a business", "Step one", "")]),
-    ("Know how it works", [("rights/index.html", "rights_legal", "My rights", "What's yours", ""),
-                           ("scams.html", "siren", "Scams", "Spot and report", ""),
-                           ("manipulation.html", "megaphone", "Spot the trick", "Tricks and biases", ""),
-                           ("attention.html", "device", "Phone traps", "Why you can't stop", ""),
-                           ("disagree.html", "chat_q", "Disagree well", "Without a fight", ""),
-                           ("fine-print.html", "search", "Fine print", "Before you sign", ""),
-                           ("how-people-work.html", "globe", "How people work", "Teams, tribes, culture", ""),
-                           ("stages.html", "children", "Life stages", "From 18 to retired", ""),
-                           ("whats-normal.html", "chart", "What's normal", "How others live", ""),
-                           ("places/index.html", "map_pin", "Where I live", "Tap the map", "")]),
 ]
 
 
@@ -144,6 +128,7 @@ def tiles(items):
 home = f"""
 <p class="lead2">Tap a picture.</p>
 {"".join(f'<section aria-labelledby="tg{n}"><h2 id="tg{n}">{g}</h2>{tiles(t)}</section>' for n, (g, t) in enumerate(TILE_GROUPS))}
+<section aria-labelledby="rg-h"><h2 id="rg-h">Explore your life</h2><p class="lead2">Eight regions. Learn them in any order and watch your progress fill up. <a href="explore.html">See the whole map</a>.</p>{dex.region_cards(ic, PAGE_ICONS)}</section>
 <section aria-labelledby="why-h" class="panel"><h2 id="why-h">Why this exists</h2><p>Nobody hands you a manual. School covers the quadratic formula and skips how to file a tax return, build credit, change your address or make a friend after college. Earth Rules puts those things in one place, in plain words, with a link to the official source for every rule and the date it was checked.</p><p>Where someone already explains a topic well, such as the IRS, USA.gov or Khan Academy, we link to them instead of rewriting it.</p></section>
 """
 URLS.append(page("index.html", "Earth Rules: the user manual for being a person",
@@ -417,6 +402,7 @@ import life
 life.build(page, ic, ext, checklist, checked, tiles, URLS)
 import mind
 mind.build(page, ic, ext, checklist, checked, tiles, URLS)
+dex.build(page, ic, ext, checklist, checked, tiles, URLS, PAGE_ICONS)
 import places
 places.build(page, ic, ext, checklist, checked, tiles, URLS)
 
