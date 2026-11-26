@@ -1,0 +1,91 @@
+{
+  "slug": "orthodox-judaism",
+  "name": "Orthodox Judaism",
+  "family": "Judaism",
+  "icon": "book",
+  "line": "Orthodox Jews follow the Torah, written and oral, as God's word given at Mount Sinai, and live by Jewish law every day.",
+  "summary": "<p>Orthodox Jews believe in one God who made the world, watches over it, and rewards and punishes. They believe God gave the Torah to Moses at Mount Sinai: the Written Torah and the Oral Torah, which was later written down in the Mishnah and Talmud. The Torah does not change. Jewish law, called halakhah, guides daily life, from prayer and food to the Sabbath. Orthodox Jews look forward to the Messiah and believe the dead will rise again. There is no single head of Orthodox Judaism. It is made up of several related groups that share the same commitment to the Torah.</p>",
+  "beliefs": [
+    "There is one God, who has no body and lives forever.",
+    "God gave the Written and Oral Torah at Mount Sinai, and it does not change.",
+    "God knows everything people do and rewards and punishes.",
+    "The Messiah will come, and the dead will rise again."
+  ],
+  "practices": [
+    "Keep the Sabbath from Friday sunset to Saturday night, with no work.",
+    "Pray every day, often with others at the synagogue.",
+    "Eat only kosher food, following the Jewish food laws.",
+    "Study the Torah and Talmud as a lifelong duty.",
+    "Keep the Jewish holy days through the year."
+  ],
+  "followers": {
+    "value": "About 9% of Jewish adults in the U.S.",
+    "year": "2020",
+    "src": [
+      "https://www.pewresearch.org/religion/2021/05/11/jewish-americans-in-2020/",
+      "Pew Research Center: Jewish Americans in 2020"
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1
+    },
+    "jesus": {
+      "notkey": 1
+    },
+    "afterlife": {
+      "heaven": 1
+    },
+    "guide": {
+      "tradition": 1,
+      "scripture": 0.5
+    },
+    "path": {
+      "law": 1
+    },
+    "gather": {
+      "weekly": 1
+    },
+    "leaders": {
+      "local": 1
+    },
+    "rules": {
+      "many": 1
+    },
+    "prayer": {
+      "pray": 1,
+      "ritual": 0.5
+    },
+    "others": {
+      "one": 1,
+      "many": 0.5
+    },
+    "nature": {
+      "created": 1
+    }
+  },
+  "find": [
+    [
+      "https://www.chabad.org/jewish-centers/",
+      "Find a Chabad center near you (Chabad.org locator; Chabad is one Orthodox movement)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.britannica.com/topic/Orthodox-Judaism",
+      "Britannica: Orthodox Judaism"
+    ],
+    [
+      "https://www.jewishvirtuallibrary.org/background-and-overview-of-orthodox-judaism",
+      "Jewish Virtual Library: Orthodox Judaism, background and overview"
+    ],
+    [
+      "https://www.chabad.org/library/article_cdo/aid/332555/jewish/The-13-Principles.htm",
+      "Chabad.org: The 13 Principles of faith"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2021/05/11/jewish-americans-in-2020/",
+      "Pew Research Center: Jewish Americans in 2020"
+    ]
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "bahai",
+  "name": "Baha'i Faith",
+  "family": "Baha'i",
+  "icon": "globe",
+  "line": "Baha'is follow Baha'u'llah and believe in one God, the oneness of religion and the oneness of all people.",
+  "summary": "<p>Baha'is believe in one God, who is beyond full human understanding. God has sent a series of messengers, called Manifestations of God, to teach people over time. They include the founders of the world's great religions, and most recently the Bab and Baha'u'llah, who founded the faith in Iran in the mid-1800s. Baha'is call this progressive revelation. The oneness of humankind is at the heart of the faith, so Baha'is work to end prejudice of every kind. Each person has a soul that lives on after death and keeps growing closer to God. The faith has no clergy. Elected councils guide its communities.</p>",
+  "beliefs": [
+    "There is one God, whose full nature is beyond our understanding.",
+    "God sends messengers over time, and Baha'u'llah is the most recent.",
+    "All people are one human family, and prejudice should end.",
+    "The soul lives on after death and keeps growing in the spiritual worlds of God."
+  ],
+  "practices": [
+    "Pray every day.",
+    "Fast from sunrise to sunset for 19 days each March.",
+    "Meet with the local community at the Nineteen Day Feast for prayer, news and fellowship.",
+    "Host or join devotional gatherings, study circles and children's classes.",
+    "Elect local and national councils (Spiritual Assemblies) each year."
+  ],
+  "followers": {
+    "value": "More than 5 million worldwide (the Baha'i community says)",
+    "year": "2026",
+    "src": [
+      "https://news.bahai.org/media-information/statistics/",
+      "Baha'i World News Service: Statistics"
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1
+    },
+    "jesus": {
+      "prophet": 1
+    },
+    "afterlife": {
+      "spirit": 1,
+      "heaven": 0.5
+    },
+    "guide": {
+      "scripture": 1,
+      "tradition": 0.5
+    },
+    "path": {
+      "law": 1,
+      "practice": 0.5
+    },
+    "gather": {
+      "sometimes": 1,
+      "weekly": 0.5
+    },
+    "leaders": {
+      "none": 1,
+      "local": 0.5
+    },
+    "rules": {
+      "some": 1
+    },
+    "prayer": {
+      "pray": 1,
+      "meditate": 0.5
+    },
+    "others": {
+      "many": 1
+    },
+    "nature": {
+      "created": 1
+    }
+  },
+  "find": [
+    [
+      "https://www.bahai.us/contact/",
+      "Meet Baha'is near you or talk to a Baha'i (Baha'is of the United States, official)"
+    ],
+    [
+      "https://find.bahai.us/",
+      "Baha'i communities by state (Baha'is of the United States, official)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.bahai.org/beliefs/",
+      "Bahai.org (Baha'i International Community): What Baha'is Believe"
+    ],
+    [
+      "https://www.bahai.org/beliefs/life-spirit/human-soul/life-death",
+      "Bahai.org: Life and Death"
+    ],
+    [
+      "https://www.bahai.org/beliefs/life-spirit/devotion/fasting",
+      "Bahai.org: Fasting"
+    ],
+    [
+      "https://news.bahai.org/story/224/",
+      "Baha'i World News Service: Inviting the wider community"
+    ],
+    [
+      "https://www.britannica.com/topic/Bahai-Faith",
+      "Britannica: Baha'i Faith"
+    ]
+  ]
+}

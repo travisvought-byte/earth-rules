@@ -1,0 +1,104 @@
+{
+  "slug": "shinto",
+  "name": "Shinto",
+  "family": "Shinto",
+  "icon": "globe",
+  "line": "Shinto, \"the way of the kami,\" is the traditional religion of Japan, centered on honoring sacred spirits called kami.",
+  "summary": "<p>Shinto is the native religion of Japan. Its name means \"the way of the kami.\" Kami are sacred spirits with awe-inspiring power. There are countless kami. They include the sun goddess Amaterasu, great ancestors, and parts of nature such as plants, rocks and animals. Shinto has no founder, no official holy book and no fixed creed. What matters most are rituals that honor the kami and keep people pure. People visit shrines, join festivals called matsuri, and keep small home altars. Shinto teaches that the soul lives on after death, and families honor their ancestors. Many people in Japan take part in both Shinto and Buddhism.</p>",
+  "beliefs": [
+    "Kami, sacred spirits, live in nature, in ancestors and in great people.",
+    "Purity matters; uncleanness is washed away through purification rites.",
+    "Living in step with the will of the kami brings their protection.",
+    "The soul lives on after death, and ancestors stay close to their families.",
+    "Shinto can be practiced side by side with other religions, like Buddhism."
+  ],
+  "practices": [
+    "Visiting a local shrine to pay respects and ask for blessings like health.",
+    "Keeping a kamidana, a home altar, with food offerings morning and evening.",
+    "Joining shrine festivals (matsuri), often with portable shrines carried in parades.",
+    "Making offerings to honor family ancestors.",
+    "Holding Shinto funerals at home, not at the shrine."
+  ],
+  "followers": {
+    "value": "About 85 million in Japan, as counted by Shinto groups themselves (many are also counted as Buddhist)",
+    "year": "2016",
+    "src": [
+      "https://www.nippon.com/en/features/h00226/",
+      "Nippon.com: Japan's Agency for Cultural Affairs religion figures"
+    ]
+  },
+  "dims": {
+    "god": {
+      "many": 1,
+      "everything": 0.5
+    },
+    "jesus": {
+      "notkey": 1
+    },
+    "afterlife": {
+      "spirit": 1,
+      "unknown": 0.5
+    },
+    "guide": {
+      "tradition": 1,
+      "experience": 0.5
+    },
+    "path": {
+      "ethics": 1,
+      "practice": 0.5
+    },
+    "gather": {
+      "sometimes": 1
+    },
+    "leaders": {
+      "local": 1,
+      "hierarchy": 0.5
+    },
+    "rules": {
+      "few": 1,
+      "some": 0.5
+    },
+    "prayer": {
+      "ritual": 1,
+      "pray": 0.5
+    },
+    "others": {
+      "many": 1
+    },
+    "nature": {
+      "sacred": 1
+    }
+  },
+  "find": [
+    [
+      "https://en.wikipedia.org/wiki/List_of_Shinto_shrines_in_the_United_States",
+      "Shinto shrines in the US, listed by state and city (Wikipedia, free)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://britannica.com/topic/Shinto/Introduction",
+      "Britannica: Shinto"
+    ],
+    [
+      "https://www.britannica.com/summary/Shinto",
+      "Britannica: Shinto summary"
+    ],
+    [
+      "https://www2.kokugakuin.ac.jp/ijcc/wp/bts/bts_k.html",
+      "Kokugakuin University: Basic Terms of Shinto, kami and kamidana"
+    ],
+    [
+      "https://d-museum.kokugakuin.ac.jp/bts/detail/?id=3980",
+      "Kokugakuin University: Basic Terms of Shinto, funerals"
+    ],
+    [
+      "https://www.nippon.com/en/features/h00226/",
+      "Nippon.com: Japan's Agency for Cultural Affairs religion figures"
+    ],
+    [
+      "https://www.pewresearch.org/short-reads/2024/06/17/6-facts-about-religion-and-spirituality-in-east-asian-societies/",
+      "Pew Research Center: 6 facts about religion and spirituality in East Asian societies"
+    ]
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "sunni-islam",
+  "name": "Sunni Islam",
+  "family": "Islam",
+  "icon": "book",
+  "line": "Sunni Muslims worship one God, Allah, follow the Quran and the example (Sunnah) of the Prophet Muhammad, and make up most of the world's Muslims.",
+  "summary": "<p>Sunni Muslims believe in one God, Allah, who sent prophets to guide people. Muhammad is God's messenger, and the Quran is God's word given to him. Sunnis follow the Quran and the Sunnah, which is the Prophet's example as recorded in the Hadith. They honor the first four caliphs as the rightful leaders after the Prophet. Scholars of four main schools of law (Hanafi, Maliki, Shafi'i and Hanbali) help explain how to live by God's guidance. Sunnis believe that on the Last Day the dead will rise and each person will be judged by their deeds, and that God is merciful.</p>",
+  "beliefs": [
+    "There is one God, Allah, and Muhammad is His messenger.",
+    "The Quran is God's word, and the Prophet's example (Sunnah) shows how to live it.",
+    "Jesus is a great prophet of God, not God.",
+    "On the Last Day the dead will rise and be judged, then go to paradise or hell."
+  ],
+  "practices": [
+    "Pray five times a day, facing toward Mecca.",
+    "Join the Friday midday prayer and sermon at the mosque.",
+    "Fast from dawn to sunset in the month of Ramadan.",
+    "Give a set share of wealth to people in need (zakat).",
+    "Make the pilgrimage (hajj) to Mecca once in life, if able."
+  ],
+  "followers": {
+    "value": "About 1.4 billion worldwide, about 87 to 90% of Muslims",
+    "year": "2010",
+    "src": [
+      "https://www.pewresearch.org/religion/2011/01/27/future-of-the-global-muslim-population-sunni-and-shia/",
+      "Pew Research Center: Future of the Global Muslim Population, Sunni and Shia"
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1
+    },
+    "jesus": {
+      "prophet": 1
+    },
+    "afterlife": {
+      "heaven": 1
+    },
+    "guide": {
+      "scripture": 1,
+      "tradition": 1
+    },
+    "path": {
+      "law": 1,
+      "grace": 0.5
+    },
+    "gather": {
+      "weekly": 1
+    },
+    "leaders": {
+      "local": 1
+    },
+    "rules": {
+      "many": 1
+    },
+    "prayer": {
+      "pray": 1,
+      "ritual": 0.5
+    },
+    "others": {
+      "one": 1
+    },
+    "nature": {
+      "created": 1
+    }
+  },
+  "find": [
+    [
+      "https://hirr.hartfordinternational.edu/research/mosque-database/",
+      "List of U.S. mosques by state, with each mosque's tradition (Hartford International University, free)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.britannica.com/topic/Sunni",
+      "Britannica: Sunni"
+    ],
+    [
+      "https://www.britannica.com/topic/Pillars-of-Islam",
+      "Britannica: Pillars of Islam"
+    ],
+    [
+      "https://www.britannica.com/topic/salat",
+      "Britannica: Salat (Muslim prayer)"
+    ],
+    [
+      "https://www.britannica.com/topic/Islam/Eschatology-doctrine-of-last-things",
+      "Britannica: Islam, beliefs about the Last Day"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2011/01/27/future-of-the-global-muslim-population-sunni-and-shia/",
+      "Pew Research Center: Future of the Global Muslim Population, Sunni and Shia"
+    ],
+    [
+      "https://www.britannica.com/topic/Do-Muslims-Celebrate-Christmas",
+      "Britannica: Do Muslims celebrate Christmas? (how Islam sees Jesus)"
+    ]
+  ]
+}

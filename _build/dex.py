@@ -47,6 +47,7 @@ REGIONS = [
         ("calendar.html", "Calendar", "What's due when"), "legal-ages", "retirement"]),
     ("world", "World and culture", "globe", "#0f6b6b", "How people live, believe and celebrate around the planet.", [
         "world-almanac", ("places/index.html", "Where you live", "Pick your part of the world"), "religions",
+        ("find-your-belief.html", "Find your belief", "A fair quiz, faith or none"),
         "greetings-manners", "holidays", "coming-of-age", "mourning-customs"]),
     ("skills", "Skills and fun", "wrench", "#4f5d16", "Cook, fix things, care for a pet, and have some fun.", [
         "cheap-cooking", "home-repairs", "pets", "play-and-fun"]),

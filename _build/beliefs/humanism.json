@@ -1,0 +1,101 @@
+{
+  "slug": "humanism",
+  "name": "Secular humanism",
+  "family": "Non-religious",
+  "icon": "heart",
+  "line": "Humanists live by reason, science and care for others, without belief in God or the supernatural.",
+  "summary": "<p>Humanism is a non-religious way of life. The American Humanist Association calls it a belief system that says we can all live good, meaningful lives without the supernatural or a god who steps in. Humanists trust science and the scientific method to learn how the world works. They make choices based on reason, empathy and concern for people and other animals. Humanists believe this life is the only one we have, so they try to find happiness in it and help others do the same. Humanists are usually atheists or agnostics, and some prefer other labels.</p>",
+  "beliefs": [
+    "This life is the only life we have.",
+    "Science and reason are the best ways to understand the world.",
+    "Every person has worth and basic rights.",
+    "People can be good without God, guided by reason and empathy.",
+    "People give their own lives meaning."
+  ],
+  "practices": [
+    "Keep thinking about their choices and growing in their values over a lifetime.",
+    "Try to ease suffering through kind, practical action.",
+    "Mark namings, weddings and funerals with ceremonies led by trained humanist celebrants.",
+    "Some join local humanist groups to meet others who share their views.",
+    "Speak up for human rights and freedom of thought."
+  ],
+  "followers": {
+    "value": "",
+    "year": "",
+    "src": [
+      "",
+      ""
+    ]
+  },
+  "dims": {
+    "god": {
+      "none": 1,
+      "unsure": 0.5
+    },
+    "jesus": {
+      "notkey": 1
+    },
+    "afterlife": {
+      "none": 1
+    },
+    "guide": {
+      "reason": 1,
+      "experience": 0.5
+    },
+    "path": {
+      "ethics": 1
+    },
+    "gather": {
+      "alone": 1,
+      "sometimes": 0.5
+    },
+    "leaders": {
+      "none": 1,
+      "local": 0.5
+    },
+    "rules": {
+      "few": 1
+    },
+    "prayer": {
+      "none": 1
+    },
+    "others": {
+      "nopath": 1
+    },
+    "nature": {
+      "natural": 1
+    }
+  },
+  "find": [
+    [
+      "https://local.humanist.org/",
+      "Find a local humanist group by city, state or ZIP code (American Humanist Association)"
+    ],
+    [
+      "https://sundayassembly.org/map",
+      "Find a Sunday Assembly, a secular community gathering open to all (Sunday Assembly map)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://americanhumanist.org/what-is-humanism/definition-of-humanism/",
+      "American Humanist Association: Definition of Humanism"
+    ],
+    [
+      "https://humanists.uk/humanism/",
+      "Humanists UK: Humanism"
+    ],
+    [
+      "https://humanists.uk/thatshumanism/",
+      "Humanists UK: That's humanism"
+    ],
+    [
+      "https://humanists.uk/ceremonies/old-home/",
+      "Humanists UK: Humanist Ceremonies"
+    ],
+    [
+      "https://americanhumanist.org/get-involved/local-groups/",
+      "American Humanist Association: Local Groups"
+    ]
+  ]
+}

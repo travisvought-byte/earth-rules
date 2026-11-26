@@ -1,0 +1,99 @@
+{
+  "slug": "catholic",
+  "name": "Catholic Christianity",
+  "family": "Christianity",
+  "icon": "book",
+  "line": "Catholics are Christians who follow Jesus Christ in the worldwide Catholic Church, led by the pope and the bishops.",
+  "summary": "<p>Catholics believe in one God who is Father, Son and Holy Spirit. They believe Jesus is the Son of God, who died and rose again to free people from sin. Catholics believe God speaks through the Bible and through Tradition, the teaching handed down in the Church. The pope, the bishop of Rome, leads the Church together with the other bishops, who Catholics see as following after the Apostles. The Mass, where people receive the Eucharist, is the center of Catholic worship. Catholics believe each person is judged after death, and that the body will rise again at the end of time.</p>",
+  "beliefs": [
+    "One God in three persons: Father, Son and Holy Spirit.",
+    "Jesus is the Son of God, who died and rose to save people.",
+    "God speaks through the Bible and through the Church's Tradition.",
+    "The pope and bishops carry on the work of the Apostles.",
+    "Each person is judged after death, and the body will rise again."
+  ],
+  "practices": [
+    "Go to Mass on Sundays and on holy days.",
+    "Receive the seven sacraments, such as baptism, the Eucharist and confession.",
+    "Pray alone, with family and with the parish.",
+    "Use blessings and holy objects, like holy water and medals."
+  ],
+  "followers": {
+    "value": "About 1.4 billion worldwide, the Church says",
+    "year": "2023",
+    "src": [
+      "https://www.americamagazine.org/faith/2025/03/27/vatican-statistics-baptisms-communions-confirmations-250250",
+      "America Magazine: Vatican Statistical Yearbook of the Church figures"
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1
+    },
+    "jesus": {
+      "god": 1
+    },
+    "afterlife": {
+      "heaven": 1
+    },
+    "guide": {
+      "tradition": 1
+    },
+    "path": {
+      "grace": 1,
+      "law": 0.5
+    },
+    "gather": {
+      "weekly": 1
+    },
+    "leaders": {
+      "hierarchy": 1
+    },
+    "rules": {
+      "some": 1
+    },
+    "prayer": {
+      "pray": 1,
+      "ritual": 0.5
+    },
+    "others": {
+      "one": 1,
+      "many": 0.5
+    },
+    "nature": {
+      "created": 1
+    }
+  },
+  "find": [
+    [
+      "https://www.usccb.org/find-a-bishop-and-diocese",
+      "Find your diocese in the U.S. (U.S. Catholic bishops' official locator)"
+    ],
+    [
+      "https://masstimes.org/",
+      "Find Mass times near you, worldwide (MassTimes, a free Catholic ministry)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.vatican.va/archive/ENG0015/__P7O.HTM",
+      "The Holy See: Catechism of the Catholic Church, Sunday and holy days"
+    ],
+    [
+      "https://www.britannica.com/topic/Roman-Catholicism/Major-dogmas-and-doctrines",
+      "Britannica: Roman Catholicism, major dogmas and doctrines"
+    ],
+    [
+      "https://www.britannica.com/topic/Roman-Catholicism/Structure-of-the-church",
+      "Britannica: Roman Catholicism, structure of the church"
+    ],
+    [
+      "https://www.americamagazine.org/faith/2025/03/27/vatican-statistics-baptisms-communions-confirmations-250250",
+      "America Magazine: Vatican statistics for 2023"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2008/12/18/many-americans-say-other-faiths-can-lead-to-eternal-life/",
+      "Pew Research Center: Many Americans say other faiths can lead to eternal life (2008)"
+    ]
+  ]
+}

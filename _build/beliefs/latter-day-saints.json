@@ -1,0 +1,95 @@
+{
+  "slug": "latter-day-saints",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "family": "Christianity",
+  "icon": "book",
+  "line": "Latter-day Saints are Christians who believe God restored the Church of Jesus Christ through the Prophet Joseph Smith.",
+  "summary": "<p>Members of The Church of Jesus Christ of Latter-day Saints believe in God the Eternal Father, His Son Jesus Christ, and the Holy Ghost. They believe Jesus is the Savior, and that through His Atonement all people can be saved by following the gospel's laws and ordinances, such as baptism. They believe the Bible and the Book of Mormon are both the word of God, and that God still reveals His will through living prophets. All people will be resurrected and judged, and each will receive a place in one of the kingdoms of glory. Temple marriage is needed for the highest glory.</p>",
+  "beliefs": [
+    "God the Eternal Father, His Son Jesus Christ, and the Holy Ghost.",
+    "Jesus is the Savior, and His Atonement makes salvation possible for all.",
+    "The Bible and the Book of Mormon are both the word of God.",
+    "God still reveals His will through living prophets.",
+    "All will be resurrected and judged, then live in a kingdom of glory."
+  ],
+  "practices": [
+    "Keep Sunday holy for worship, rest and family.",
+    "Follow the Word of Wisdom: no alcohol, tobacco, tea, coffee or harmful drugs.",
+    "Give one-tenth of their yearly increase as tithing.",
+    "Serve in unpaid church callings, a few hours each week."
+  ],
+  "followers": {
+    "value": "About 17.5 million members worldwide, the Church says",
+    "year": "2024",
+    "src": [
+      "https://newsroom.churchofjesuschrist.org/article/2024-statistical-report",
+      "Church Newsroom: 2024 Statistical Report"
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1
+    },
+    "jesus": {
+      "god": 1
+    },
+    "afterlife": {
+      "heaven": 1
+    },
+    "guide": {
+      "tradition": 1,
+      "scripture": 0.5
+    },
+    "path": {
+      "grace": 1,
+      "law": 1
+    },
+    "gather": {
+      "weekly": 1
+    },
+    "leaders": {
+      "hierarchy": 1
+    },
+    "rules": {
+      "many": 1
+    },
+    "prayer": {
+      "pray": 1,
+      "ritual": 0.5
+    },
+    "others": {
+      "one": 1
+    },
+    "nature": {
+      "created": 1
+    }
+  },
+  "find": [
+    [
+      "https://www.churchofjesuschrist.org/comeuntochrist/requests/church/find-a-church",
+      "Find a meetinghouse and meeting times near you (official locator)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.churchofjesuschrist.org/comeuntochrist/article/articles-of-faith",
+      "The Church of Jesus Christ of Latter-day Saints: The Articles of Faith"
+    ],
+    [
+      "https://www.churchofjesuschrist.org/study/manual/gospel-topics/kingdoms-of-glory?lang=eng",
+      "The Church of Jesus Christ of Latter-day Saints: Kingdoms of Glory"
+    ],
+    [
+      "https://www.churchofjesuschrist.org/study/manual/missionary-preparation-student-manual/chapter-13-preparing-investigators-for-baptism-and-confirmation?lang=eng",
+      "The Church of Jesus Christ of Latter-day Saints: Missionary Preparation manual, commandments before baptism"
+    ],
+    [
+      "https://newsroom.churchofjesuschrist.org/article/mormon-lay-ministry",
+      "Church Newsroom: Lay leadership, the volunteer ministry of the Church"
+    ],
+    [
+      "https://newsroom.churchofjesuschrist.org/article/2024-statistical-report",
+      "Church Newsroom: 2024 Statistical Report"
+    ]
+  ]
+}

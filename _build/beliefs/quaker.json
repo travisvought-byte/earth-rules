@@ -1,0 +1,105 @@
+{
+  "slug": "quaker",
+  "name": "Quakers (Religious Society of Friends)",
+  "family": "Christianity",
+  "icon": "peer_support",
+  "line": "Quakers, also called Friends, believe there is that of God in everyone and seek God's guidance together, often in silent worship.",
+  "summary": "<p>Quakers, also called the Religious Society of Friends, believe there is \"that of God in everyone,\" and that every person can know God directly. They call this the Inner Light. Quakers have deep Christian roots, and many try to follow the example of Jesus, though Friends hold a wide range of beliefs. In many meetings, Friends worship in silence, and anyone may stand to speak. Other Friends, including many in Kenya, have pastors, hymns and planned services. Quakers try to live out their testimonies, such as peace, truth, equality, simplicity and care for the earth.</p>",
+  "beliefs": [
+    "There is that of God in everyone.",
+    "Every person can know God directly, through the Inner Light.",
+    "All people are equal and of equal worth.",
+    "Love is at the center of life, so Friends work for peace.",
+    "Scripture is valued, and read alongside the Light Within."
+  ],
+  "practices": [
+    "Meet for worship, often in silence, where anyone may speak.",
+    "Make decisions together by seeking the sense of the meeting, not by voting.",
+    "Share leadership through volunteer clerks and committees in many meetings.",
+    "Live simply and work for peace, equality and care for the earth."
+  ],
+  "followers": {
+    "value": "About 380,000 worldwide",
+    "year": "2017",
+    "src": [
+      "https://www.friendsjournal.org/new-worldwide-quaker-released/",
+      "Friends Journal: Friends World Committee for Consultation world Quaker map"
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1,
+      "everything": 0.5,
+      "unsure": 0.5
+    },
+    "jesus": {
+      "god": 1,
+      "teacher": 0.5
+    },
+    "afterlife": {
+      "unknown": 1,
+      "heaven": 0.5
+    },
+    "guide": {
+      "experience": 1,
+      "scripture": 0.5
+    },
+    "path": {
+      "ethics": 1,
+      "grace": 0.5
+    },
+    "gather": {
+      "weekly": 1
+    },
+    "leaders": {
+      "none": 1,
+      "local": 0.5
+    },
+    "rules": {
+      "few": 1
+    },
+    "prayer": {
+      "meditate": 1,
+      "pray": 0.5
+    },
+    "others": {
+      "many": 1
+    },
+    "nature": {
+      "created": 1,
+      "sacred": 0.5
+    }
+  },
+  "find": [
+    [
+      "https://fgcquaker.org/find-a-meeting/",
+      "Find a Quaker meeting in the U.S. or Canada (QuakerFinder, Friends General Conference)"
+    ],
+    [
+      "https://fwccamericas.org/visitation/find-friends.aspx",
+      "Find Friends across the Americas (Friends World Committee for Consultation map)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.quaker.org.uk/faith/read-about-quaker-faith",
+      "Quakers in Britain: Read about Quaker faith"
+    ],
+    [
+      "https://fgcquaker.org/discover",
+      "Friends General Conference: Discover Quakers"
+    ],
+    [
+      "https://www.britannica.com/topic/Inner-Light",
+      "Britannica: Inner Light"
+    ],
+    [
+      "https://abcnews.com/Lifestyle/wireStory/loud-worship-contrasts-set-apart-kenyas-large-community-136775913",
+      "Associated Press via ABC News: Kenya's large community of Quakers"
+    ],
+    [
+      "https://www.friendsjournal.org/new-worldwide-quaker-released/",
+      "Friends Journal: New worldwide Quaker map released"
+    ]
+  ]
+}

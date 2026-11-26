@@ -34,6 +34,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import dex
 PAGE_ICONS.update(dex.region_icons())
 import factcards as _fc
+import beliefs
+PAGE_ICONS.update(beliefs.page_icons())
 PAGE_ICONS.update({_fc.page_path(s): "map_pin" for s in _fc.CARDS if s != "united-states"})
 
 # Big tap-to-call buttons that sit at the top of every page.
@@ -409,6 +411,7 @@ import places
 places.build(page, ic, ext, checklist, checked, tiles, URLS)
 import factcards
 factcards.build(page, ic, ext, checked, tiles, URLS, {c[0]: c[1] for c in places.CONTINENTS})
+beliefs.build(page, ic, ext, checked, tiles, URLS)
 
 # ---------------- sitemap, robots, CNAME, favicon ----------------
 with open(os.path.join(ROOT, "sitemap.xml"), "w") as f:

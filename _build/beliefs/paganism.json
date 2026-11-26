@@ -1,0 +1,111 @@
+{
+  "slug": "paganism",
+  "name": "Modern Paganism and Wicca",
+  "family": "Paganism",
+  "icon": "globe",
+  "line": "Modern Pagans, including Wiccans, follow nature-centered paths inspired by the old religions of Europe and nearby lands.",
+  "summary": "<p>Modern Paganism is a family of new religions that grew in the late 1800s and 1900s. They draw on the old, pre-Christian religions of Europe, North Africa and West Asia. Wicca, Druidry and Heathenry are some of these paths. Pagans share a love for nature and honor the cycle of life and death. Many honor a Goddess and a God, or many gods, and some see the divine in all of nature. Most Pagans do not follow a fixed creed. Many follow a simple rule: do what you will, as long as it harms none. Pagans mark the seasons with eight yearly holidays, and many meet at the full moon. Some practice alone; others meet in small groups called covens.</p>",
+  "beliefs": [
+    "Nature is sacred, and people are kin to all living things.",
+    "The divine may be a Goddess and a God, many gods, or present in all nature.",
+    "Each person is responsible for their own choices: harm none.",
+    "Life and death move in a cycle that keeps renewing.",
+    "There is no single holy book or creed, so views differ."
+  ],
+  "practices": [
+    "Celebrating eight seasonal holidays, including the solstices.",
+    "Meeting for ritual at the full moon.",
+    "Practicing alone, or with a small group such as a coven.",
+    "Rituals outdoors or at a home altar, with symbols and meditation.",
+    "Marking life events, like handfasting, a Pagan wedding."
+  ],
+  "followers": {
+    "value": "About 74,000 Pagans and 13,000 Wiccans in England and Wales (census)",
+    "year": "2021",
+    "src": [
+      "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion/bulletins/religionenglandandwales/census2021",
+      "Office for National Statistics: Religion, England and Wales, Census 2021"
+    ]
+  },
+  "dims": {
+    "god": {
+      "many": 1,
+      "everything": 0.5,
+      "one": 0.5
+    },
+    "jesus": {
+      "notkey": 1
+    },
+    "afterlife": {
+      "unknown": 1,
+      "rebirth": 0.5,
+      "spirit": 0.5
+    },
+    "guide": {
+      "experience": 1,
+      "tradition": 0.5
+    },
+    "path": {
+      "ethics": 1,
+      "practice": 0.5
+    },
+    "gather": {
+      "sometimes": 1,
+      "alone": 1
+    },
+    "leaders": {
+      "local": 1,
+      "none": 0.5
+    },
+    "rules": {
+      "few": 1
+    },
+    "prayer": {
+      "ritual": 1,
+      "meditate": 0.5,
+      "pray": 0.5
+    },
+    "others": {
+      "many": 1
+    },
+    "nature": {
+      "sacred": 1
+    }
+  },
+  "find": [
+    [
+      "https://cog.org/map/",
+      "Covenant of the Goddess: local Wiccan and Witch councils in the US"
+    ],
+    [
+      "https://www.paganfederation.org/for-members/coordinators/",
+      "Pagan Federation International: a contact person for each country, including the USA"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.paganfederation.org/about-the-pf/",
+      "Pagan Federation International: About the PF, its three principles"
+    ],
+    [
+      "https://www.britannica.com/topic/modern-Paganism",
+      "Britannica: Modern Paganism"
+    ],
+    [
+      "https://www.britannica.com/summary/Wicca",
+      "Britannica: Wicca summary"
+    ],
+    [
+      "https://www.britannica.com/topic/witchcraft/Contemporary-witchcraft",
+      "Britannica: Contemporary witchcraft"
+    ],
+    [
+      "https://pluralism.org/paganism",
+      "Harvard Pluralism Project: Paganism"
+    ],
+    [
+      "https://cog.org/about-cog",
+      "Covenant of the Goddess: About CoG"
+    ]
+  ]
+}
