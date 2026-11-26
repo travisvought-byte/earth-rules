@@ -200,9 +200,9 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
  ("book", "Put it all in <a href=\"papers.html\">your papers folder</a> and tell someone where it is."),
 ])}
 <p>Grief has no schedule. If it's become too heavy, call or text <a href="tel:988">988</a>.</p></section>
-{checked([ext("https://www.usa.gov/when-someone-dies", "USA.gov: what to do when someone dies"), ext("https://consumer.ftc.gov/articles/ftc-funeral-rule", "FTC: the Funeral Rule"),
+{checked([ext("https://www.usa.gov/death-loved-one", "USA.gov: dealing with the death of a loved one"), ext("https://www.usa.gov/report-a-death", "USA.gov: agencies to notify when someone dies"), ext("https://consumer.ftc.gov/articles/ftc-funeral-rule", "FTC: the Funeral Rule"),
           ext("https://www.va.gov/burials-memorials/", "VA burials and memorials"), ext("https://codes.ohio.gov/ohio-revised-code/section-2113.03", "Ohio Revised Code 2113.03: small estates"),
-          ext("https://www.consumerfinance.gov/ask-cfpb/am-i-responsible-for-my-spouses-debts-after-they-die-en-1463/", "CFPB: debts after a death")])}
+          ext("https://www.consumerfinance.gov/ask-cfpb/am-i-responsible-for-my-spouses-debts-after-they-die-en-1463/", "CFPB: does a person's debt go away when they die?")])}
 """
     URLS.append(page("when-someone-dies.html", "When someone dies: what to do, and the paperwork | Earth Rules",
                      "What to do in the first days and weeks after a death, and the will, power of attorney and health care papers to put in place now.",
@@ -219,7 +219,7 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
  ("medical", "Loud snoring, gasping or always tired? Ask a doctor; sleep apnea is common and treatable."),
 ])}</section>
 <section aria-labelledby="bb2"><h2 id="bb2">{ic("food")} Food and moving</h2>{checklist([
- ("food", "Half your plate fruits and vegetables. Drink water. That's most of it."),
+ ("food", "Eat mostly real food you can recognize: vegetables, fruit, beans, eggs, meat, fish and whole grains. Cut back on highly processed food and sugary drinks. Drink water."),
  ("dollar", "Cheap and healthy: dry beans, rice, oats, eggs, frozen vegetables, bananas."),
  ("transportation", "Move about 150 minutes a week, like a 30-minute walk five days a week. Any movement beats none."),
 ])}</section>
@@ -229,8 +229,8 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
  ("wrench", "Have one thing you do with your hands: cooking, fixing, drawing, gardening."),
  ("transportation", "When you're stuck, go outside and walk for ten minutes."),
 ])}</section>
-{checked([ext("https://www.cdc.gov/sleep/about/index.html", "CDC: sleep"), ext("https://www.myplate.gov/", "USDA MyPlate"),
-          ext("https://odphp.health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines", "Physical Activity Guidelines for Americans")])}
+{checked([ext("https://www.cdc.gov/sleep/about/index.html", "CDC: sleep"), ext("https://www.dietaryguidelines.gov/", "Dietary Guidelines for Americans"),
+          ext("https://odphp.health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines/current-guidelines/top-10-things-know", "Physical Activity Guidelines for Americans: top 10 things to know")])}
 """
     URLS.append(page("body-basics.html", "Sleep, food and boredom: the basics | Earth Rules",
                      "The dull basics behind most bad decisions: sleep, food, moving and boredom, with the simple habits that help.",
