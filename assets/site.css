@@ -121,3 +121,9 @@ ol.steps li{margin:0 0 10px}
  ul.todo li::before{width:14pt;height:14pt;top:3pt}
  .printable .ic{display:none}
 }
+ul.tricks{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+ul.tricks li{display:flex;gap:14px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px}
+ul.tricks li .ic{width:40px;height:40px;color:var(--deep)}
+ul.tricks h3{margin:0 0 4px;color:var(--deep)}
+ul.tricks p{margin:0 0 6px}
+ul.tricks .def{color:var(--leaf);margin:0}
