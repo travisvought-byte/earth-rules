@@ -127,3 +127,14 @@ ul.tricks li .ic{width:40px;height:40px;color:var(--deep)}
 ul.tricks h3{margin:0 0 4px;color:var(--deep)}
 ul.tricks p{margin:0 0 6px}
 ul.tricks .def{color:var(--leaf);margin:0}
+/* world map picker */
+.worldmap{margin:0 0 18px}
+.worldmap svg{width:100%;height:auto;display:block}
+.worldmap .sea{fill:#dcebee}
+.worldmap a path{stroke:#fff;stroke-width:3;stroke-linejoin:round;cursor:pointer;transition:filter .15s}
+.worldmap a:hover path{filter:brightness(1.15)}
+.worldmap a text{font:700 30px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#10201c;paint-order:stroke;stroke:#fff;stroke-width:6px;stroke-linejoin:round;pointer-events:none}
+.wm-north-america path{fill:#6fae8b}.wm-south-america path{fill:#d9a441}.wm-europe path{fill:#7aa6c9}
+.wm-africa path{fill:#c9845c}.wm-asia path{fill:#a98bc4}.wm-oceania path{fill:#5fb3a8}
+.worldmap figcaption{color:var(--muted);font-size:16px;margin-top:6px}
+@media print{.worldmap{display:none}}

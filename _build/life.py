@@ -412,19 +412,6 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
                      "EARTH RULES · HOW PEOPLE WORK", "How people work.", "Teams, tribes, betting, drinking and the unwritten rules, without the preaching.", hw))
 
     # ================= Places: world -> country -> state =================
-    pl = f"""
-<section aria-labelledby="pl0"><h2 id="pl0">Where are you?</h2>{tiles([
- ("world.html", "globe", "Anywhere", "What's true everywhere", ""),
- ("us.html", "map_pin", "United States", "Federal rules", ""),
- ("../states/ohio.html", "map_pin", "Ohio", "State rules", ""),
-])}</section>
-<section aria-labelledby="pl1"><h2 id="pl1">How this guide is built</h2>
-<p>Every section starts with what's true everywhere. Then it narrows to your country, then your state or province. The United States and Ohio come first. More countries and states are added one at a time, each checked against that place's own official pages.</p></section>
-"""
-    URLS.append(page("places/index.html", "Where you are: world, country, state | Earth Rules",
-                     "Pick your place. Earth Rules starts with what's true everywhere, then your country, then your state. US and Ohio first.",
-                     "EARTH RULES · PLACES", "Where you are.", "Start with the whole world. Then your country. Then your state.", pl))
-
     wd = f"""
 <section aria-labelledby="wd0"><h2 id="wd0">{ic("siren")} Emergency numbers</h2>
 <table><caption>The number to call for police, fire or ambulance</caption><tr><th scope="col">Where</th><th scope="col">Number</th></tr>
@@ -441,7 +428,14 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
  ("dollar", "<strong>Money:</strong> tipping, taxes in the price or added at the register, and how people pay."),
  ("peer_support", "<strong>Manners:</strong> greetings, personal space, time and how direct people are. See " + "<a href=\"../how-people-work.html\">how people work</a>."),
 ])}</section>
-<section aria-labelledby="wd2"><h2 id="wd2">{ic("idcard")} Countries in this guide</h2><p><a href="us.html">United States</a>. More are on the way.</p></section>
+<section aria-labelledby="wd2"><h2 id="wd2">{ic("idcard")} Pick your part of the world</h2>{tiles([
+ ("north-america.html", "globe", "North America", "US, Canada, Mexico", ""),
+ ("south-america.html", "globe", "South America", "Brazil, Argentina and more", ""),
+ ("europe.html", "globe", "Europe", "112 and 116 123", ""),
+ ("africa.html", "globe", "Africa", "South Africa, Nigeria and more", ""),
+ ("asia.html", "globe", "Asia", "India, China, Japan and more", ""),
+ ("oceania.html", "globe", "Oceania", "Australia, New Zealand", ""),
+])}<p>Countries with a full guide: <a href="us.html">United States</a>. More are on the way.</p></section>
 {checked([ext("https://digital-strategy.ec.europa.eu/en/policies/112", "European Union: 112"),
           ext("https://www.gov.uk/guidance/999-and-112-the-uks-national-emergency-numbers", "GOV.UK: 999 and 112"),
           ext("https://www.triplezero.gov.au/", "Triple Zero (Australia)"), ext("https://112.gov.in/", "India: 112"),

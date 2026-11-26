@@ -22,7 +22,7 @@ PAGE_ICONS = {
     "rights/veterans.html": "veterans", "rights/disability.html": "service_dog",
     "money.html": "dollar", "help-groups.html": "peer_support", "coverage.html": "medical", "papers.html": "idcard",
     "basics.html": "food", "work.html": "wrench", "rides.html": "transportation", "business.html": "store",
-    "how-people-work.html": "globe", "places/index.html": "map_pin", "places/world.html": "globe", "places/us.html": "map_pin",
+    "how-people-work.html": "globe", "places/index.html": "map_pin", "places/world.html": "globe", "places/us.html": "map_pin", "places/north-america.html": "globe", "places/south-america.html": "globe", "places/europe.html": "globe", "places/africa.html": "globe", "places/asia.html": "globe", "places/oceania.html": "globe",
     "manipulation.html": "megaphone", "scams.html": "siren", "attention.html": "device", "disagree.html": "chat_q",
     "fine-print.html": "search", "when-someone-dies.html": "comfort", "body-basics.html": "clock",
     "my-year/index.html": "calendar", "my-year/18-29.html": "calendar", "my-year/30-39.html": "calendar",
@@ -131,7 +131,7 @@ TILE_GROUPS = [
                            ("how-people-work.html", "globe", "How people work", "Teams, tribes, culture", ""),
                            ("stages.html", "children", "Life stages", "From 18 to retired", ""),
                            ("whats-normal.html", "chart", "What's normal", "How others live", ""),
-                           ("places/index.html", "map_pin", "Where I live", "World, US, Ohio", "")]),
+                           ("places/index.html", "map_pin", "Where I live", "Tap the map", "")]),
 ]
 
 
@@ -417,6 +417,8 @@ import life
 life.build(page, ic, ext, checklist, checked, tiles, URLS)
 import mind
 mind.build(page, ic, ext, checklist, checked, tiles, URLS)
+import places
+places.build(page, ic, ext, checklist, checked, tiles, URLS)
 
 # ---------------- sitemap, robots, CNAME, favicon ----------------
 with open(os.path.join(ROOT, "sitemap.xml"), "w") as f:
