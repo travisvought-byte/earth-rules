@@ -99,3 +99,25 @@ ul.tiles.big .tl{font-size:26px}
  .tile .pic{width:72px;height:72px}
 }
 @media print{.helpbar,.readaloud{display:none}}
+.lead2{font-size:22px;font-weight:700;color:var(--deep);margin:0 0 16px}
+ul.todo{list-style:none;padding:0;columns:2 300px;column-gap:28px}
+ul.todo li{position:relative;padding:6px 0 6px 40px;break-inside:avoid;min-height:36px}
+ul.todo li::before{content:"";position:absolute;left:0;top:6px;width:26px;height:26px;border:2.5px solid var(--deep);border-radius:5px;background:#fff}
+.printbtn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:8px 18px;background:var(--deep);color:#fff;border:0;border-radius:999px;font:600 17px/1.2 system-ui,sans-serif;cursor:pointer}
+.printbtn .ic{color:#fff;width:24px;height:24px}
+.printable h2{font-size:22px;margin-top:18px}
+table.fill td{height:40px}
+.blank{display:inline-block;min-width:180px;border-bottom:2px solid var(--ink);margin:0 4px}
+.blank.wide{min-width:320px}
+.worksheet p{line-height:2.4}
+ol.steps li{margin:0 0 10px}
+@media print{
+ header nav,header .pic,header small,.helpbar,.printbtn,.readaloud,footer,.skip,section:has(#src-h),.note{display:none!important}
+ header{padding:0}header h1{font-size:20pt;color:#000;margin:0 0 6pt}
+ body{font-size:12pt;background:#fff}
+ main{padding:0}
+ .printable h2{font-size:15pt;margin:10pt 0 4pt}
+ ul.todo li{padding:3pt 0 3pt 26pt;min-height:0}
+ ul.todo li::before{width:14pt;height:14pt;top:3pt}
+ .printable .ic{display:none}
+}
