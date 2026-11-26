@@ -1,0 +1,91 @@
+{
+  "slug": "sikhism",
+  "name": "Sikhism",
+  "family": "Sikhism",
+  "icon": "book",
+  "line": "Sikhs follow the teachings of Guru Nanak and the nine Gurus after him, and the holy book Guru Granth Sahib, the living Guru.",
+  "summary": "<p>Sikhs believe in one God, without form, who made all things. The faith began with Guru Nanak in the Punjab region of South Asia in the late 1400s. Nine more Gurus followed. The tenth, Guru Gobind Singh, passed the Guru's light to the holy book, the Guru Granth Sahib, which Sikhs honor as their eternal Guru. Sikhs believe souls are born again and again, and that remembering God's name sets a person free from this cycle. Guru Nanak taught that all people are equal, whatever their caste, class or gender. Sikhs aim to remember God, work honestly and share with others.</p>",
+  "beliefs": [
+    "There is one God (Ik Onkar), without form, who made all things.",
+    "The Guru Granth Sahib is the living, eternal Guru.",
+    "Souls are reborn until set free by remembering God's name.",
+    "All people are equal, whatever their caste, class or gender."
+  ],
+  "practices": [
+    "Remember God through prayer and meditation on God's name.",
+    "Earn an honest living and share with people in need.",
+    "Gather at the gurdwara to sing hymns from the Guru Granth Sahib.",
+    "Serve and eat the free community meal (langar), sitting together as equals.",
+    "Initiated Sikhs (Khalsa) keep the five Ks, such as uncut hair and a steel bracelet."
+  ],
+  "followers": {
+    "value": "About 25 million worldwide",
+    "year": "early 2000s",
+    "src": [
+      "https://www.britannica.com/topic/Sikhism",
+      "Britannica: Sikhism"
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1,
+      "everything": 0.5
+    },
+    "jesus": {
+      "notkey": 1
+    },
+    "afterlife": {
+      "rebirth": 1
+    },
+    "guide": {
+      "scripture": 1,
+      "tradition": 0.5
+    },
+    "path": {
+      "practice": 1,
+      "ethics": 0.5
+    },
+    "gather": {
+      "weekly": 1,
+      "sometimes": 0.5
+    },
+    "leaders": {
+      "local": 1,
+      "none": 0.5
+    },
+    "rules": {
+      "some": 1,
+      "many": 0.5
+    },
+    "prayer": {
+      "pray": 1,
+      "meditate": 1
+    },
+    "others": {
+      "many": 1
+    },
+    "nature": {
+      "created": 1
+    }
+  },
+  "find": [
+    [
+      "https://www.sikhiwiki.org/index.php/Gurdwara_Map",
+      "Worldwide gurdwara map (SikhiWiki, free; the locator SikhNet points to)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.britannica.com/topic/Sikhism",
+      "Britannica: Sikhism"
+    ],
+    [
+      "https://punjabidiaspora.ucdavis.edu/contributions/religion/about-the-sikh-religion/",
+      "UC Davis Punjabi Diaspora project: About the Sikh Religion"
+    ],
+    [
+      "https://sikhnet.com/node/41508",
+      "SikhNet: How to Find Gurdwaras Around the World"
+    ]
+  ]
+}

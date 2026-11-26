@@ -1,0 +1,96 @@
+{
+  "slug": "jehovahs-witnesses",
+  "name": "Jehovah's Witnesses",
+  "family": "Christianity",
+  "icon": "book",
+  "line": "Jehovah's Witnesses are Christians who worship Jehovah as the one true God and share the Bible's message about God's Kingdom.",
+  "summary": "<p>Jehovah's Witnesses worship one God, Jehovah, the Creator. They honor Jesus as the Son of God and their Savior, but they do not believe he is Almighty God, and they do not teach the Trinity. They believe the Bible is God's inspired message. They teach that God's Kingdom is a real government in heaven, ruled by Jesus, that will replace human governments. The dead are not in pain, and God will raise billions back to life. A group of 144,000 will rule with Jesus in heaven, and obedient people will live forever on a paradise earth. Witnesses meet twice a week and share their beliefs with others.</p>",
+  "beliefs": [
+    "Jehovah is the one true Almighty God and the Creator.",
+    "Jesus is God's Son and the Savior, but not Almighty God.",
+    "God's Kingdom in heaven will replace human governments.",
+    "The dead are not suffering; God will raise billions back to life.",
+    "Obedient people will live forever on a paradise earth."
+  ],
+  "practices": [
+    "Meet twice a week at a Kingdom Hall to study the Bible.",
+    "Preach the good news of God's Kingdom to others.",
+    "Pray, study the Bible and help people in need.",
+    "Avoid blood transfusions and stay neutral in politics and war."
+  ],
+  "followers": {
+    "value": "About 9.2 million worldwide, the group says (people who share in preaching each month)",
+    "year": "2025",
+    "src": [
+      "https://www.jw.org/en/jehovahs-witnesses/faq/how-many-jw/",
+      "Jehovah's Witnesses (jw.org): How many Jehovah's Witnesses are there worldwide?"
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1
+    },
+    "jesus": {
+      "god": 1
+    },
+    "afterlife": {
+      "heaven": 1
+    },
+    "guide": {
+      "scripture": 1,
+      "tradition": 0.5
+    },
+    "path": {
+      "grace": 1,
+      "law": 0.5
+    },
+    "gather": {
+      "weekly": 1
+    },
+    "leaders": {
+      "none": 1,
+      "local": 0.5,
+      "hierarchy": 0.5
+    },
+    "rules": {
+      "some": 1
+    },
+    "prayer": {
+      "pray": 1
+    },
+    "others": {
+      "one": 1
+    },
+    "nature": {
+      "created": 1
+    }
+  },
+  "find": [
+    [
+      "https://www.jw.org/en/jehovahs-witnesses/meetings/",
+      "Meeting times and \"Find a Location Near You\" (official site)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.jw.org/en/jehovahs-witnesses/faq/jehovah-witness-beliefs/",
+      "Jehovah's Witnesses (jw.org): What do Jehovah's Witnesses believe?"
+    ],
+    [
+      "https://www.jw.org/en/jehovahs-witnesses/faq/how-many-jw/",
+      "Jehovah's Witnesses (jw.org): How many Jehovah's Witnesses are there worldwide?"
+    ],
+    [
+      "https://www.jw.org/en/jehovahs-witnesses/meetings/",
+      "Jehovah's Witnesses (jw.org): Meetings"
+    ],
+    [
+      "https://www.jw.org/en/jehovahs-witnesses/faq/true-religion/",
+      "Jehovah's Witnesses (jw.org): Do Jehovah's Witnesses believe they are the true religion?"
+    ],
+    [
+      "https://www.britannica.com/topic/Jehovahs-Witnesses",
+      "Britannica: Jehovah's Witness"
+    ]
+  ]
+}

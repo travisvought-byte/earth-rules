@@ -37,7 +37,8 @@ ENTRIES = [
 <li><strong>Other faiths.</strong> Sikhism grew from the teachings of Guru Nanak and nine Gurus after him, in India in the 1500s. Daoism, from China, centers on living in harmony with the natural order. Shinto comes from Japan. Jains are known for strict vegetarianism: 92% are vegetarian in the Pew India survey.</li>
 </ul>
 <p>See <a href="holidays.html">world holidays</a> for when these holy days fall.</p>'''),
-            ("Being a respectful guest", '''<ul>
+            ("Find what fits you", '<p>Still working out what you believe? <a href="find-your-belief.html">Take the Find your belief quiz</a>: 11 plain questions, and you see which of 25 belief systems are closest, each described in its own words with a way to find it near you. You can also <a href="beliefs/index.html">read them side by side</a>.</p>'),
+        ("Being a respectful guest", '''<ul>
 <li>Ask your host ahead of time what to wear and what will happen. Customs differ from place to place, even within one faith.</li>
 <li>Modest clothes are a safe choice.</li>
 <li>Be ready to take off your shoes or cover your head. In a Sikh gurdwara, everyone covers their head and goes barefoot.</li>

@@ -1,0 +1,106 @@
+{
+  "slug": "buddhism",
+  "name": "Buddhism",
+  "family": "Buddhism",
+  "icon": "comfort",
+  "line": "Buddhists follow the teaching of the Buddha, \"the Awakened One,\" about why we suffer and how suffering can end.",
+  "summary": "<p>Buddhists follow the Buddha, Siddhartha Gautama, who lived in India about 2,500 years ago. Buddha means \"the Awakened One.\" Buddhists do not believe in a creator god. The Buddha taught the Four Noble Truths: life has suffering, craving causes it, suffering can end, and the Eightfold Path is the way. Craving causes beings to be reborn again and again. The goal is nirvana, the end of suffering. Buddhists take refuge in the Buddha, his teaching (the Dharma) and the community (the Sangha). There are three main streams. Theravada is found in South and Southeast Asia. Mahayana, which includes Zen and Pure Land, is found in East Asia. Vajrayana, or Tibetan Buddhism, uses chants called mantras and sacred drawings called mandalas.</p>",
+  "beliefs": [
+    "Life includes suffering, and craving is its cause.",
+    "Suffering can end by following the Noble Eightfold Path.",
+    "Beings are reborn again and again until they reach nirvana.",
+    "There is no creator god; every person can grow into a Buddha.",
+    "Mahayana Buddhists stress compassion and the bodhisattva, who helps others become free."
+  ],
+  "practices": [
+    "Meditation and mindfulness, alone or with a group.",
+    "Taking refuge in the Buddha, the Dharma and the Sangha.",
+    "Chanting the sutras and paying respects to the Buddha.",
+    "Supporting monks and nuns and learning from them.",
+    "Celebrating holy days like the Buddha's birthday."
+  ],
+  "followers": {
+    "value": "About 324 million worldwide",
+    "year": "2020",
+    "src": [
+      "https://www.pewresearch.org/religion/2025/06/09/how-the-global-religious-landscape-changed-from-2010-to-2020/",
+      "Pew Research Center: How the global religious landscape changed from 2010 to 2020"
+    ]
+  },
+  "dims": {
+    "god": {
+      "none": 1,
+      "many": 0.5
+    },
+    "jesus": {
+      "notkey": 1,
+      "teacher": 0.5
+    },
+    "afterlife": {
+      "rebirth": 1
+    },
+    "guide": {
+      "tradition": 1,
+      "experience": 0.5
+    },
+    "path": {
+      "practice": 1
+    },
+    "gather": {
+      "sometimes": 1,
+      "weekly": 0.5
+    },
+    "leaders": {
+      "local": 1,
+      "hierarchy": 0.5
+    },
+    "rules": {
+      "some": 1
+    },
+    "prayer": {
+      "meditate": 1,
+      "ritual": 0.5,
+      "pray": 0.5
+    },
+    "others": {
+      "many": 1,
+      "one": 0.5
+    },
+    "nature": {
+      "natural": 1,
+      "sacred": 0.5
+    }
+  },
+  "find": [
+    [
+      "https://www.buddhanet.info/wbd/",
+      "World Buddhist Directory: search temples and centers by country and tradition (BuddhaNet, nonprofit)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://pluralism.org/introduction-to-buddhism",
+      "Harvard Pluralism Project: Introduction to Buddhism"
+    ],
+    [
+      "https://pluralism.org/religions/buddhism/introduction-to-buddhism/mahayana-the-great-vehicle",
+      "Harvard Pluralism Project: Mahayana, the Great Vehicle"
+    ],
+    [
+      "https://www.buddhanet.net/e-learning/qanda03.htm",
+      "BuddhaNet: Good Questions, Good Answers, on God"
+    ],
+    [
+      "https://www.buddhanet.net/e-learning/qanda02/",
+      "BuddhaNet: Basic Buddhist concepts, the Four Noble Truths"
+    ],
+    [
+      "https://www.pewresearch.org/short-reads/2024/06/17/6-facts-about-religion-and-spirituality-in-east-asian-societies/",
+      "Pew Research Center: 6 facts about religion and spirituality in East Asian societies"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2025/06/09/how-the-global-religious-landscape-changed-from-2010-to-2020/",
+      "Pew Research Center: How the global religious landscape changed from 2010 to 2020"
+    ]
+  ]
+}

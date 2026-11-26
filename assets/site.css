@@ -186,3 +186,28 @@ ul.factcard .pic .ic{width:1.6rem;height:1.6rem;color:#17423b}
 .fc-v{grid-area:v;font-size:1.15rem;font-weight:700;line-height:1.3;margin:.15rem 0}
 .fc-s{grid-area:s;font-size:.85rem;color:#3d4a45}
 .fc-note{font-size:.95rem;color:#3d4a45}
+.bqform fieldset.bq{border:2px solid #d5ddd8;border-radius:12px;padding:1rem;margin:0 0 1rem;background:#fff}
+.bq legend{display:grid;grid-template-columns:3rem 1fr;grid-template-areas:"p n" "p q";column-gap:.75rem;align-items:center;padding:0 .25rem}
+.bq legend .pic{grid-area:p;width:3rem;height:3rem;border-radius:50%;background:#e6f0f0;display:flex;align-items:center;justify-content:center}
+.bq legend .pic .ic{width:1.6rem;height:1.6rem;color:#0f6b6b}
+.bq-n{grid-area:n;font-size:.85rem;font-weight:700;color:#3d4a45;text-transform:uppercase;letter-spacing:.03em}
+.bq-q{grid-area:q;font-size:1.2rem;font-weight:700}
+.bq-opt{display:flex;gap:.6rem;align-items:center;min-height:44px;padding:.5rem .75rem;margin:.4rem 0;border:2px solid #d5ddd8;border-radius:10px;cursor:pointer}
+.bq-opt input{width:1.25rem;height:1.25rem;flex:none;accent-color:#0f6b6b}
+.bq-opt:has(input:checked){border-color:#0f6b6b;background:#e6f0f0}
+.bq-opt:focus-within{outline:3px solid #0f6b6b;outline-offset:2px}
+.bq-skip{color:#3d4a45}
+.bq-go,.bq-showall{display:inline-flex;gap:.5rem;align-items:center;min-height:48px;padding:.6rem 1.2rem;border:0;border-radius:10px;background:#0f6b6b;color:#fff;font:inherit;font-weight:700;cursor:pointer}
+.bq-go .ic{color:#fff}
+.bq-showall{background:#fff;color:#0f6b6b;border:2px solid #0f6b6b;margin-top:.5rem}
+ol.bq-list{padding-left:1.5rem}
+ol.bq-list li{margin:.6rem 0}
+a.bq-res{display:grid;grid-template-columns:1fr auto;grid-template-areas:"n p" "b b" "l l";gap:.3rem .75rem;padding:.75rem;border:2px solid #d5ddd8;border-radius:10px;background:#fff;color:inherit;text-decoration:none}
+a.bq-res:hover,a.bq-res:focus{border-color:#0f6b6b}
+a.bq-res b{grid-area:n;color:#0f6b6b;text-decoration:underline}
+.bq-pct{grid-area:p;font-weight:700}
+.bq-bar{grid-area:b;height:.6rem;border-radius:.3rem;background:#e6f0f0;overflow:hidden}
+.bq-bar span{display:block;height:100%;background:#0f6b6b}
+.bq-line{grid-area:l;font-size:.95rem;color:#3d4a45}
+.bq-some{color:#3d4a45}
+#bq-results:focus{outline:none}

@@ -1,0 +1,102 @@
+{
+  "slug": "reform-judaism",
+  "name": "Reform and liberal Judaism",
+  "family": "Judaism",
+  "icon": "peer_support",
+  "line": "Reform Jews hold to God, Torah and the Jewish people, and believe Judaism can grow and change with each new time.",
+  "summary": "<p>Reform Jews affirm the central teachings of Judaism: God, Torah and Israel. They believe in one God, even if members understand God in different ways. They see the Torah as God's ongoing revelation to the Jewish people, open to new understanding over time. Each person studies Jewish teaching and chooses how to take part in it. Reform Jews are called to be God's partners in tikkun olam, which means repairing the world through justice and kindness. The movement began in Germany over 200 years ago. It embraces religious and cultural diversity and seeks dialogue with people of other faiths.</p>",
+  "beliefs": [
+    "There is one God, though members may understand God in different ways.",
+    "The Torah is God's ongoing revelation, open to new understanding.",
+    "People are God's partners in repairing the world (tikkun olam).",
+    "The spirit within us is eternal.",
+    "We help bring nearer a time of peace for all, the messianic age."
+  ],
+  "practices": [
+    "Gather at the temple or synagogue for Shabbat services.",
+    "Keep the Jewish holy days and mark life events with the congregation.",
+    "Study Torah and Hebrew.",
+    "Pray to God in public and in private.",
+    "Take part in social justice work and service to the community."
+  ],
+  "followers": {
+    "value": "About 37% of Jewish adults in the U.S.",
+    "year": "2020",
+    "src": [
+      "https://www.pewresearch.org/religion/2021/05/11/jewish-americans-in-2020/",
+      "Pew Research Center: Jewish Americans in 2020"
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1,
+      "unsure": 0.5
+    },
+    "jesus": {
+      "notkey": 1
+    },
+    "afterlife": {
+      "unknown": 1,
+      "spirit": 0.5,
+      "none": 0.5
+    },
+    "guide": {
+      "tradition": 1,
+      "experience": 0.5,
+      "reason": 0.5
+    },
+    "path": {
+      "ethics": 1,
+      "law": 0.5
+    },
+    "gather": {
+      "sometimes": 1,
+      "weekly": 0.5
+    },
+    "leaders": {
+      "local": 1
+    },
+    "rules": {
+      "few": 1,
+      "some": 0.5
+    },
+    "prayer": {
+      "pray": 1,
+      "meditate": 0.5
+    },
+    "others": {
+      "many": 1
+    },
+    "nature": {
+      "created": 1
+    }
+  },
+  "find": [
+    [
+      "https://reformjudaism.org/congregations",
+      "Find a Reform congregation near you (Union for Reform Judaism finder)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://reformjudaism.org/beliefs-practices/what-reform-judaism",
+      "ReformJudaism.org (Union for Reform Judaism): What is Reform Judaism?"
+    ],
+    [
+      "https://www.ccarnet.org/rabbinic-voice/platforms/article-statement-principles-reform-judaism/",
+      "Central Conference of American Rabbis: A Statement of Principles for Reform Judaism (1999)"
+    ],
+    [
+      "https://reformjudaism.org/beliefs-practices/what-reform-judaism/intro-congregational-life",
+      "ReformJudaism.org: Why join a Reform congregation?"
+    ],
+    [
+      "https://www.britannica.com/topic/Reform-Judaism",
+      "Britannica: Reform Judaism"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2021/05/11/jewish-americans-in-2020/",
+      "Pew Research Center: Jewish Americans in 2020"
+    ]
+  ]
+}

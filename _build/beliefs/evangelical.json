@@ -1,0 +1,95 @@
+{
+  "slug": "evangelical",
+  "name": "Evangelical Protestant Christianity",
+  "family": "Christianity",
+  "icon": "book",
+  "line": "Evangelicals are Protestant Christians who stress a personal faith in Jesus, the authority of the Bible, and sharing the good news.",
+  "summary": "<p>Evangelicals are Protestant Christians found in many different churches and groups. The word evangelical comes from a word for \"good news.\" Evangelicals believe the Bible is God's inspired word and the highest authority for what they believe. They believe in one God: Father, Son and Holy Spirit. They believe Jesus is God, died on the cross to pay for sin, and rose from the dead. They teach that a person receives God's free gift of salvation by trusting in Jesus, often called being \"born again.\" Sharing this good news with others is a key part of their faith.</p>",
+  "beliefs": [
+    "The Bible is God's inspired word and the highest authority.",
+    "One God in three persons: Father, Son and Holy Spirit.",
+    "Jesus died on the cross for sin and rose from the dead.",
+    "God's free gift of salvation comes by trusting in Jesus.",
+    "Everyone will be raised, to life with God or to judgment."
+  ],
+  "practices": [
+    "Gather with a local church to worship and hear the Bible preached.",
+    "Read and study the Bible as the guide for faith and life.",
+    "Share their faith and invite others to trust in Jesus.",
+    "Support missions and Christian groups at school, college and work."
+  ],
+  "followers": {
+    "value": "More than 285 million worldwide",
+    "year": "2011",
+    "src": [
+      "https://www.pewresearch.org/religion/2011/12/19/global-christianity-movements-and-denominations/",
+      "Pew Research Center: Global Christianity, movements and denominations (citing the Center for the Study of Global Christianity)"
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1
+    },
+    "jesus": {
+      "god": 1
+    },
+    "afterlife": {
+      "heaven": 1
+    },
+    "guide": {
+      "scripture": 1
+    },
+    "path": {
+      "grace": 1
+    },
+    "gather": {
+      "weekly": 1
+    },
+    "leaders": {
+      "local": 1,
+      "hierarchy": 0.5
+    },
+    "rules": {
+      "few": 1,
+      "some": 0.5
+    },
+    "prayer": {
+      "pray": 1
+    },
+    "others": {
+      "one": 1,
+      "many": 0.5
+    },
+    "nature": {
+      "created": 1
+    }
+  },
+  "find": [
+    [
+      "https://churches.sbc.net",
+      "Find a Southern Baptist church near you (official finder of one large evangelical group)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.nae.org/statement-of-faith/",
+      "National Association of Evangelicals: Statement of Faith"
+    ],
+    [
+      "https://www.christianitytoday.com/2015/11/what-is-evangelical-new-definition-nae-lifeway-research",
+      "Christianity Today: the NAE and LifeWay Research definition of evangelical beliefs"
+    ],
+    [
+      "https://www.britannica.com/print/article/196819",
+      "Britannica: Evangelical church"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2011/12/19/global-christianity-movements-and-denominations/",
+      "Pew Research Center: Global Christianity, movements and denominations"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2008/12/18/many-americans-say-other-faiths-can-lead-to-eternal-life/",
+      "Pew Research Center: Many Americans say other faiths can lead to eternal life (2008)"
+    ]
+  ]
+}

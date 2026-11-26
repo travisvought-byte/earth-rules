@@ -1,0 +1,93 @@
+{
+  "slug": "agnosticism",
+  "name": "Agnosticism",
+  "family": "Non-religious",
+  "icon": "chat_q",
+  "line": "Agnostics hold that we cannot know, or do not yet know, whether God exists.",
+  "summary": "<p>Agnosticism is the view that people cannot know whether God, or anything beyond what we can experience, exists. The word was first used in 1869 by the British scientist Thomas Henry Huxley. He called it not a creed but a method: follow reason as far as it goes, then admit what we do not know. American Atheists puts it this way: atheism is about what you believe, and agnosticism is about what you know. Agnostics hold many views. Pew Research Center found that 43% of US agnostics believe in God or a universal spirit, and 55% believe in something spiritual beyond the natural world.</p>",
+  "beliefs": [
+    "We cannot know for sure whether God exists.",
+    "Follow reason and evidence as far as they go.",
+    "Be honest about the limits of what we know.",
+    "Big questions, like what happens after death, stay open."
+  ],
+  "practices": [
+    "Keep asking questions and weigh the evidence.",
+    "Most do not belong to a religion.",
+    "Make choices using reason and their own conscience.",
+    "Some join secular community groups, like local humanist groups or Sunday Assemblies."
+  ],
+  "followers": {
+    "value": "About 6% of US adults (Pew Research Center)",
+    "year": "2023-24",
+    "src": [
+      "https://www.pewresearch.org/religious-landscape-study/religious-family/agnostic/",
+      "Pew Research Center: Agnostics, 2023-24 Religious Landscape Study"
+    ]
+  },
+  "dims": {
+    "god": {
+      "unsure": 1,
+      "none": 0.5
+    },
+    "jesus": {
+      "notkey": 1
+    },
+    "afterlife": {
+      "unknown": 1
+    },
+    "guide": {
+      "reason": 1
+    },
+    "path": {
+      "ethics": 1
+    },
+    "gather": {
+      "alone": 1
+    },
+    "leaders": {
+      "none": 1
+    },
+    "rules": {
+      "few": 1
+    },
+    "prayer": {
+      "none": 1
+    },
+    "others": {
+      "nopath": 1,
+      "many": 0.5
+    },
+    "nature": {
+      "natural": 1
+    }
+  },
+  "find": [
+    [
+      "https://local.humanist.org/",
+      "Find a local humanist or freethought group by city, state or ZIP code (American Humanist Association)"
+    ],
+    [
+      "https://sundayassembly.org/map",
+      "Find a Sunday Assembly, a secular community gathering open to all (Sunday Assembly map)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.britannica.com/topic/agnosticism",
+      "Britannica: Agnosticism"
+    ],
+    [
+      "https://www.atheists.org/activism/resources/about-atheism/",
+      "American Atheists: What is an Atheist? (atheism and agnosticism)"
+    ],
+    [
+      "https://www.pewresearch.org/religious-landscape-study/religious-family/agnostic/",
+      "Pew Research Center: Agnostics"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2025/02/26/religious-and-spiritual-beliefs/",
+      "Pew Research Center: Religious and spiritual beliefs, 2023-24 Religious Landscape Study"
+    ]
+  ]
+}

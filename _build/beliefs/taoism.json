@@ -1,0 +1,109 @@
+{
+  "slug": "taoism",
+  "name": "Taoism",
+  "family": "Taoism",
+  "icon": "comfort",
+  "line": "Taoists, also called Daoists, seek to live in harmony with the Tao, the natural Way behind all things.",
+  "summary": "<p>Taoism, also spelled Daoism, comes from China. The Tao, or \"the Way,\" is the nameless source and pattern of everything. It existed before heaven and earth. Taoists try to live simply and naturally, in step with the rhythm of the world. A key idea is wu wei: acting without forcing. Yin and yang are two balancing forces, like night and day, that keep the world changing. The main book is the Tao Te Ching, linked to the sage Laozi. Taoism is both a way of thinking and a religion. Many Taoists honor gods, immortals and ancestors at temples and home altars. Many also do meditation, tai chi and qigong to balance their life energy, called qi.</p>",
+  "beliefs": [
+    "The Tao is the nameless source and pattern of all things.",
+    "Live simply and naturally, and act without forcing (wu wei).",
+    "Yin and yang are balancing forces that keep the world changing.",
+    "People and nature belong together; wisdom is following the rhythm of the world.",
+    "Many Taoists honor gods, immortals and their ancestors."
+  ],
+  "practices": [
+    "Meditation to quiet the mind.",
+    "Tai chi and qigong, gentle movements to balance qi, or life energy.",
+    "Visiting temples to burn incense and honor the deities.",
+    "Keeping a home altar and honoring ancestors.",
+    "Reading the Tao Te Ching and the Zhuangzi."
+  ],
+  "followers": {
+    "value": "Hard to count worldwide. In Taiwan, about 1 in 4 adults say they are Taoist",
+    "year": "2023",
+    "src": [
+      "https://www.pewresearch.org/short-reads/2024/07/29/4-facts-about-religion-and-diversity-in-taiwan/",
+      "Pew Research Center: 4 facts about religion and diversity in Taiwan"
+    ]
+  },
+  "dims": {
+    "god": {
+      "everything": 1,
+      "many": 0.5
+    },
+    "jesus": {
+      "notkey": 1
+    },
+    "afterlife": {
+      "spirit": 1,
+      "unknown": 0.5
+    },
+    "guide": {
+      "experience": 1,
+      "tradition": 0.5
+    },
+    "path": {
+      "practice": 1,
+      "ethics": 0.5
+    },
+    "gather": {
+      "sometimes": 1,
+      "alone": 0.5
+    },
+    "leaders": {
+      "local": 1,
+      "none": 0.5
+    },
+    "rules": {
+      "few": 1,
+      "some": 0.5
+    },
+    "prayer": {
+      "meditate": 1,
+      "ritual": 1
+    },
+    "others": {
+      "many": 1
+    },
+    "nature": {
+      "sacred": 1
+    }
+  },
+  "find": [
+    [
+      "https://www.taoisttaichi.org/find-a-location/",
+      "Find a Taoist Tai Chi class (Taoist Tai Chi Society, a nonprofit linked to the Fung Loy Kok Institute of Taoism)"
+    ],
+    [
+      "https://www.taoisttaichi.org/temples-shrines-2/",
+      "Taoist temples and shrines of the Fung Loy Kok Institute of Taoism, open to all"
+    ]
+  ],
+  "sources": [
+    [
+      "https://britannica.com/topic/Taoism/General-characteristics",
+      "Britannica: Taoism, general characteristics"
+    ],
+    [
+      "https://britannica.com/topic/Taoism/Basic-concepts-of-Taoism",
+      "Britannica: Taoism, basic concepts"
+    ],
+    [
+      "https://pluralism.org/daoism",
+      "Harvard Pluralism Project: Daoism"
+    ],
+    [
+      "https://pluralism.org/folk-daoism-comes-to-the-west",
+      "Harvard Pluralism Project: Folk Daoism comes to the West"
+    ],
+    [
+      "https://www.pewresearch.org/short-reads/2024/07/29/4-facts-about-religion-and-diversity-in-taiwan/",
+      "Pew Research Center: 4 facts about religion and diversity in Taiwan"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2023/08/30/measuring-religion-in-china/",
+      "Pew Research Center: Measuring religion in China"
+    ]
+  ]
+}

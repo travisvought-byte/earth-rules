@@ -1,0 +1,106 @@
+{
+  "slug": "unitarian-universalist",
+  "name": "Unitarian Universalism",
+  "family": "Unitarian Universalism",
+  "icon": "peer_support",
+  "line": "Unitarian Universalists are a faith community with no shared creed, held together by shared values centered on love.",
+  "summary": "<p>Unitarian Universalists (often called UUs) belong to a faith with no shared creed. Members can be theists, atheists, agnostics, or anything in between. Some also call themselves Christian, Jewish, Buddhist, Pagan or Humanist. What holds them together is a covenant, a set of shared promises, with love at the center. Their six shared values are interdependence, pluralism, justice, transformation, generosity and equity. UUs learn from many world religions and philosophies. Each congregation runs itself, and members vote on things like calling their minister. Many UUs work for justice and for the care of the Earth.</p>",
+  "beliefs": [
+    "There is no shared creed; each person searches for truth and meaning.",
+    "Love is the power that holds the community together.",
+    "Every person is worthy and has the right to live with dignity.",
+    "All life is part of an interdependent web of existence.",
+    "Views on God and life after death differ; many hold them as open questions."
+  ],
+  "practices": [
+    "Gather for Sunday worship, which often starts by lighting a flaming chalice.",
+    "Share music, readings, a sermon, and the joys and concerns of members.",
+    "Offer faith learning programs for children and youth during Sunday worship.",
+    "Use many spiritual practices, such as meditation, prayer or journaling.",
+    "Work together for justice and to protect the Earth."
+  ],
+  "followers": {
+    "value": "About 130,000 members in about 1,000 US congregations (the UUA says)",
+    "year": "2024",
+    "src": [
+      "https://www.uua.org/node/26466",
+      "Unitarian Universalist Association: UUA Membership Statistics, 1961 to 2024"
+    ]
+  },
+  "dims": {
+    "god": {
+      "unsure": 1,
+      "one": 0.5,
+      "everything": 0.5,
+      "none": 0.5
+    },
+    "jesus": {
+      "teacher": 1,
+      "notkey": 0.5
+    },
+    "afterlife": {
+      "none": 1,
+      "unknown": 1
+    },
+    "guide": {
+      "experience": 1,
+      "reason": 1
+    },
+    "path": {
+      "ethics": 1
+    },
+    "gather": {
+      "weekly": 1
+    },
+    "leaders": {
+      "local": 1
+    },
+    "rules": {
+      "few": 1
+    },
+    "prayer": {
+      "meditate": 1,
+      "pray": 0.5,
+      "ritual": 0.5
+    },
+    "others": {
+      "many": 1
+    },
+    "nature": {
+      "sacred": 1,
+      "natural": 0.5
+    }
+  },
+  "find": [
+    [
+      "https://www.uua.org/find",
+      "Find a Unitarian Universalist congregation near you (UUA official finder)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.uua.org/beliefs",
+      "Unitarian Universalist Association: Our Unitarian Universalist Faith"
+    ],
+    [
+      "https://www.uua.org/node/35514",
+      "Unitarian Universalist Association: Beliefs and Shared Values"
+    ],
+    [
+      "https://uua.org/beliefs/what-we-believe/higher-power",
+      "Unitarian Universalist Association: Higher Power"
+    ],
+    [
+      "https://www.uua.org/node/26412",
+      "Unitarian Universalist Association: Beliefs about Life and Death"
+    ],
+    [
+      "https://www.uua.org/node/35670",
+      "Unitarian Universalist Association: Unitarian Universalist Worship Services"
+    ],
+    [
+      "https://www.uua.org/node/71460",
+      "Unitarian Universalist Association: Background on Congregational Polity"
+    ]
+  ]
+}

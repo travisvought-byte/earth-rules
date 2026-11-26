@@ -1,0 +1,103 @@
+{
+  "slug": "jainism",
+  "name": "Jainism",
+  "family": "Jainism",
+  "icon": "book",
+  "line": "Jains follow an ancient Indian path of nonviolence toward every living being, shown by 24 great teachers called Tirthankaras.",
+  "summary": "<p>Jainism is one of the oldest religions of India that is still practiced. Jains believe every living being, from people to animals to plants, has a soul called a jiva. Souls are caught in a long cycle of rebirth. Karma is like a fine material that sticks to the soul and clouds it. The goal is moksha, setting the soul free. Jains do not believe in a creator god or a moment of creation. They honor 24 Tirthankaras, souls who set themselves free and showed the way. Mahavira was the last. Ahimsa, or nonviolence, guides every part of Jain life. The two main groups are the Digambara and the Shvetambara.</p>",
+  "beliefs": [
+    "Every living being, even a plant, has a soul.",
+    "Ahimsa, or nonviolence toward all living things, guides every choice.",
+    "There is no creator god; each person must free their own soul.",
+    "The Tirthankaras are freed souls who teach the way, not gods who grant favors.",
+    "Right vision, right knowledge and right conduct lead to freedom."
+  ],
+  "practices": [
+    "Eating a vegetarian diet so as not to harm living beings.",
+    "Going to the temple to pray, meditate, sing and hear monks teach.",
+    "In many groups, offering flowers, water and incense before images of the Tirthankaras.",
+    "Keeping vows of nonviolence, truth, not stealing, chastity and not clinging to things.",
+    "Marking festivals such as Paryushana, a time of forgiveness."
+  ],
+  "followers": {
+    "value": "About 4.5 million in India (census count)",
+    "year": "2011",
+    "src": [
+      "https://www.pewresearch.org/short-reads/2021/09/21/key-findings-about-the-religious-composition-of-india/",
+      "Pew Research Center: Key findings about the religious composition of India"
+    ]
+  },
+  "dims": {
+    "god": {
+      "none": 1,
+      "many": 0.5
+    },
+    "jesus": {
+      "notkey": 1
+    },
+    "afterlife": {
+      "rebirth": 1
+    },
+    "guide": {
+      "tradition": 1
+    },
+    "path": {
+      "practice": 1
+    },
+    "gather": {
+      "sometimes": 1,
+      "weekly": 0.5
+    },
+    "leaders": {
+      "local": 1,
+      "none": 0.5
+    },
+    "rules": {
+      "many": 1,
+      "some": 0.5
+    },
+    "prayer": {
+      "ritual": 1,
+      "meditate": 1
+    },
+    "others": {
+      "many": 1,
+      "one": 0.5
+    },
+    "nature": {
+      "sacred": 1
+    }
+  },
+  "find": [
+    [
+      "https://www.yja.org/regions/midwest",
+      "Jain centers in the US Midwest, including Ohio (Young Jains of America, part of JAINA)"
+    ],
+    [
+      "https://www.yja.org/regions/west",
+      "Jain centers in the western US (Young Jains of America, part of JAINA)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://pluralism.org/introduction-to-jainism",
+      "Harvard Pluralism Project: Introduction to Jainism"
+    ],
+    [
+      "https://pluralism.org/religions/jainism/introduction-to-jainism/tirthankaras-ford-makers",
+      "Harvard Pluralism Project: Tirthankaras, the Ford-Makers"
+    ],
+    [
+      "https://pluralism.org/temples-and-images",
+      "Harvard Pluralism Project: Jain temples and images"
+    ],
+    [
+      "https://britannica.com/topic/Jainism/Introduction",
+      "Britannica: Jainism"
+    ],
+    [
+      "https://www.pewresearch.org/short-reads/2021/09/21/key-findings-about-the-religious-composition-of-india/",
+      "Pew Research Center: Key findings about the religious composition of India"
+    ]
+  ]
+}

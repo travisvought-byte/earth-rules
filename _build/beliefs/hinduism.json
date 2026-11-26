@@ -1,0 +1,103 @@
+{
+  "slug": "hinduism",
+  "name": "Hinduism",
+  "family": "Hinduism",
+  "icon": "book",
+  "line": "Hindus follow Sanatana Dharma, the \"eternal way,\" an ancient faith from India with many paths to the divine.",
+  "summary": "<p>Many Hindus call their faith Sanatana Dharma, the eternal way. Hindus believe in Brahman, the one ultimate reality that is in everything. Brahman is honored in many forms, such as Vishnu, Shiva, Ganesh and the goddess Lakshmi. Each soul, called the atman, is eternal and is born again and again. Karma, the law of cause and effect, shapes each new life. The goal is moksha, freedom from the cycle of rebirth. Hindus follow different paths to that goal: devotion, knowledge, selfless work and meditation. These paths can be mixed. Hindus teach that truth is one, and the wise call it by many names.</p>",
+  "beliefs": [
+    "Brahman, the ultimate reality, is in everything and is honored in many forms.",
+    "The soul (atman) is eternal and is born again in a new body after death.",
+    "Karma means your actions now shape your future lives.",
+    "The goal is moksha, freedom from the cycle of birth and rebirth.",
+    "Truth is one, and other religions can also be paths to God."
+  ],
+  "practices": [
+    "Daily worship (puja) at a home altar with images of the deities.",
+    "Going to the temple on special days and for festivals.",
+    "Yoga and meditation, and reading holy texts like the Vedas and the Bhagavad Gita.",
+    "Festivals like Diwali, which marks the victory of good over evil.",
+    "Asking a guru, a spiritual teacher, for guidance."
+  ],
+  "followers": {
+    "value": "Nearly 1.2 billion worldwide",
+    "year": "2020",
+    "src": [
+      "https://www.pewresearch.org/religion/2025/06/09/hindu-population-change/",
+      "Pew Research Center: Hindu population change, 2010 to 2020"
+    ]
+  },
+  "dims": {
+    "god": {
+      "everything": 1,
+      "many": 0.5,
+      "one": 0.5
+    },
+    "jesus": {
+      "notkey": 1,
+      "teacher": 0.5
+    },
+    "afterlife": {
+      "rebirth": 1
+    },
+    "guide": {
+      "tradition": 1,
+      "experience": 0.5
+    },
+    "path": {
+      "practice": 1,
+      "grace": 0.5,
+      "law": 0.5
+    },
+    "gather": {
+      "sometimes": 1
+    },
+    "leaders": {
+      "local": 1
+    },
+    "rules": {
+      "some": 1,
+      "many": 0.5
+    },
+    "prayer": {
+      "ritual": 1,
+      "pray": 0.5,
+      "meditate": 0.5
+    },
+    "others": {
+      "many": 1
+    },
+    "nature": {
+      "sacred": 1,
+      "created": 0.5
+    }
+  },
+  "find": [
+    [
+      "https://chinmayamissionwest.com/centers/",
+      "Find a Chinmaya Mission center in the US or Canada (a Hindu teaching group)"
+    ],
+    [
+      "https://sfvedanta.org/vedanta/usa-centers",
+      "Find a Vedanta Society center in the US (Ramakrishna Order)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.hinduamerican.org/hinduism-101/what",
+      "Hindu American Foundation: Hinduism 101, karma, samsara and moksha"
+    ],
+    [
+      "https://www.hinduamerican.org/wp-content/uploads/2019/12/The_Basics3.0.pdf",
+      "Hindu American Foundation: Hinduism 101, The Basics"
+    ],
+    [
+      "https://pluralism.org/introduction-to-hinduism",
+      "Harvard Pluralism Project: Introduction to Hinduism"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2025/06/09/hindu-population-change/",
+      "Pew Research Center: Hindu population change, 2010 to 2020"
+    ]
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "orthodox-christian",
+  "name": "Eastern Orthodox Christianity",
+  "family": "Christianity",
+  "icon": "book",
+  "line": "Orthodox Christians belong to a family of self-governing churches that keep the faith and worship handed down from the early Church.",
+  "summary": "<p>Orthodox Christians believe in one God who is Father, Son and Holy Spirit. They believe Jesus is God the Son, who became fully human. Through his death and rising, he frees people from sin and death. Orthodox Christians say the goal of life is theosis: growing closer and closer to God and sharing in his life, starting at baptism. They learn the faith from a living Holy Tradition that includes the Bible, the early Church councils, the saints and worship. Their churches, such as the Greek and Russian Orthodox churches, are led by bishops and patriarchs. They honor Mary as the Theotokos, the one who gave birth to God.</p>",
+  "beliefs": [
+    "One God: Father, Son and Holy Spirit.",
+    "Jesus is God the Son, who became fully human to save people.",
+    "The goal of life is theosis: growing into union with God.",
+    "Holy Tradition, including the Bible and the councils, guides the faith.",
+    "All people will rise from the dead, and Christ will judge them."
+  ],
+  "practices": [
+    "Gather for worship and receive Holy Communion.",
+    "Keep icons at home and in church as part of prayer.",
+    "Pray daily and fast as the Church teaches.",
+    "Receive the sacraments, which the Church counts as seven."
+  ],
+  "followers": {
+    "value": "Nearly 260 million worldwide",
+    "year": "2010",
+    "src": [
+      "https://www.pewresearch.org/religion/2017/11/08/orthodox-christianity-in-the-21st-century/",
+      "Pew Research Center: Orthodox Christianity in the 21st Century"
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1
+    },
+    "jesus": {
+      "god": 1
+    },
+    "afterlife": {
+      "heaven": 1
+    },
+    "guide": {
+      "tradition": 1
+    },
+    "path": {
+      "grace": 1,
+      "practice": 0.5
+    },
+    "gather": {
+      "weekly": 1,
+      "sometimes": 0.5
+    },
+    "leaders": {
+      "hierarchy": 1
+    },
+    "rules": {
+      "some": 1,
+      "many": 0.5
+    },
+    "prayer": {
+      "pray": 1,
+      "ritual": 0.5
+    },
+    "others": {
+      "one": 1
+    },
+    "nature": {
+      "created": 1
+    }
+  },
+  "find": [
+    [
+      "https://www.assemblyofbishops.org/directories/parishes",
+      "Find an Orthodox parish in the U.S. or Canada, any jurisdiction (Assembly of Canonical Orthodox Bishops)"
+    ],
+    [
+      "https://www.oca.org/parishes",
+      "Find a parish of the Orthodox Church in America (official directory)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.pewresearch.org/religion/2017/11/08/orthodox-christianity-in-the-21st-century/",
+      "Pew Research Center: Orthodox Christianity in the 21st Century"
+    ],
+    [
+      "https://britannica.com/summary/Eastern-Orthodoxy",
+      "Britannica: Eastern Orthodoxy summary"
+    ],
+    [
+      "https://www.britannica.com/topic/Eastern-Orthodoxy/Doctrine",
+      "Britannica: Eastern Orthodoxy, doctrine"
+    ],
+    [
+      "https://www.oca.org/orthodoxy/the-orthodox-faith/doctrine-scripture/the-symbol-of-faith/judgment",
+      "Orthodox Church in America: The Orthodox Faith, Judgment"
+    ],
+    [
+      "https://www.oca.org/orthodoxy/the-orthodox-faith/doctrine-scripture/the-symbol-of-faith/church",
+      "Orthodox Church in America: The Orthodox Faith, Church"
+    ],
+    [
+      "https://www.annunciationcathedralchicago.org/about-orthodoxy/spirituality",
+      "Greek Orthodox Archdiocese of America article on Orthodox spirituality, shared by Annunciation Cathedral, Chicago"
+    ]
+  ]
+}

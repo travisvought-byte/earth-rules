@@ -1,0 +1,95 @@
+{
+  "slug": "atheism",
+  "name": "Atheism",
+  "family": "Non-religious",
+  "icon": "search",
+  "line": "Atheists are people who do not believe in any gods.",
+  "summary": "<p>American Atheists says an atheist is simply someone who lacks a belief in gods. Atheism is not a religion or a belief system. It answers one question: do you believe in gods? Beyond that, atheists do not share a holy book, a leader or a set of teachings, and they hold many different views, including on politics. Pew Research Center found that about three in four US atheists do not believe in God, a higher power or any spiritual force. Like most Americans, many atheists say they find meaning in family.</p>",
+  "beliefs": [
+    "They do not believe in any gods.",
+    "Atheism answers one question; it is not a full belief system.",
+    "Most US atheists do not believe in any higher power or spiritual force.",
+    "Atheists hold many different views about politics, ethics and life."
+  ],
+  "practices": [
+    "Most seldom or never pray.",
+    "Find meaning in family, friends and hobbies.",
+    "Some join local atheist, humanist or freethought groups.",
+    "Some work so nonreligious people are treated fairly."
+  ],
+  "followers": {
+    "value": "About 5% of US adults (Pew Research Center)",
+    "year": "2023-24",
+    "src": [
+      "https://www.pewresearch.org/religion/2025/02/26/religious-landscape-study-religious-identity/",
+      "Pew Research Center: Religious identity in the United States, 2023-24 Religious Landscape Study"
+    ]
+  },
+  "dims": {
+    "god": {
+      "none": 1
+    },
+    "jesus": {
+      "notkey": 1
+    },
+    "afterlife": {
+      "none": 1
+    },
+    "guide": {
+      "reason": 1
+    },
+    "path": {
+      "ethics": 1
+    },
+    "gather": {
+      "alone": 1
+    },
+    "leaders": {
+      "none": 1
+    },
+    "rules": {
+      "few": 1
+    },
+    "prayer": {
+      "none": 1
+    },
+    "others": {
+      "nopath": 1
+    },
+    "nature": {
+      "natural": 1
+    }
+  },
+  "find": [
+    [
+      "https://local.humanist.org/",
+      "Find a local atheist, humanist or freethought group by city, state or ZIP code (American Humanist Association)"
+    ],
+    [
+      "https://ffrf.org/about/ffrf-chapters",
+      "Local chapters by state (Freedom From Religion Foundation)"
+    ],
+    [
+      "https://sundayassembly.org/map",
+      "Find a Sunday Assembly, a secular community gathering open to all (Sunday Assembly map)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.atheists.org/activism/resources/about-atheism/",
+      "American Atheists: What is an Atheist?"
+    ],
+    [
+      "https://www.pewresearch.org/short-reads/2024/02/07/8-facts-about-atheists/",
+      "Pew Research Center: 8 facts about atheists"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2025/02/26/religious-and-spiritual-beliefs/",
+      "Pew Research Center: Religious and spiritual beliefs, 2023-24 Religious Landscape Study"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2025/02/26/religious-landscape-study-religious-identity/",
+      "Pew Research Center: Religious identity in the United States"
+    ]
+  ]
+}

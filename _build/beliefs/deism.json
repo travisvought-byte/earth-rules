@@ -1,0 +1,96 @@
+{
+  "slug": "deism",
+  "name": "Deism",
+  "family": "Non-religious",
+  "icon": "globe",
+  "line": "Deists believe in one God, the creator, known through nature and reason rather than through holy books.",
+  "summary": "<p>Deism is belief in God based on nature and reason, not on a religion. The World Union of Deists describes it as seeing a universal creative force greater than people, by watching the laws and design of nature and using human reason. Deists do not accept claims that God gave special messages to prophets or through holy books. Many see God as a creator who set the universe in motion, like a clockmaker. Deism grew in England and Europe in the 1600s and 1700s. In America, Thomas Paine, Benjamin Franklin and Thomas Jefferson held deist views.</p>",
+  "beliefs": [
+    "One God created the universe and its natural laws.",
+    "Reason and nature, not holy books, show us God.",
+    "Claims of special messages from God are not accepted.",
+    "Live a good life and follow your conscience.",
+    "Many deists see Jesus as a great moral teacher, not as God."
+  ],
+  "practices": [
+    "Study nature and think things through for themselves.",
+    "Practice on their own, without clergy, scriptures or rituals.",
+    "Try to live by conscience and do what is right.",
+    "Some connect with other deists in online and regional groups."
+  ],
+  "followers": {
+    "value": "",
+    "year": "",
+    "src": [
+      "",
+      ""
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1,
+      "everything": 0.5
+    },
+    "jesus": {
+      "teacher": 1,
+      "notkey": 0.5
+    },
+    "afterlife": {
+      "unknown": 1,
+      "heaven": 0.5
+    },
+    "guide": {
+      "reason": 1
+    },
+    "path": {
+      "ethics": 1
+    },
+    "gather": {
+      "alone": 1
+    },
+    "leaders": {
+      "none": 1
+    },
+    "rules": {
+      "few": 1
+    },
+    "prayer": {
+      "none": 1
+    },
+    "others": {
+      "nopath": 1,
+      "many": 0.5
+    },
+    "nature": {
+      "created": 1
+    }
+  },
+  "find": [
+    [
+      "https://www.deism.com/groups",
+      "Online and regional deist groups (World Union of Deists)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.deism.com/about/definition-of-deism",
+      "World Union of Deists: Definition of Deism"
+    ],
+    [
+      "https://www.deism.com/post/is-deism-a-religion",
+      "World Union of Deists: Is Deism a Religion?"
+    ],
+    [
+      "https://www.open.edu/openlearn/history-the-arts/history-art/the-enlightenment/content-section-4.3",
+      "The Open University (OpenLearn): The Enlightenment, Responses to religion"
+    ],
+    [
+      "https://csac.history.wisc.edu/2025/07/17/deism-and-the-founders/",
+      "University of Wisconsin, Center for the Study of the American Constitution: Deism and the Founders"
+    ],
+    [
+      "https://philosophynow.org/issues/152/Deism_Traditional_and_Contemporary",
+      "Philosophy Now: Deism, Traditional and Contemporary"
+    ]
+  ]
+}

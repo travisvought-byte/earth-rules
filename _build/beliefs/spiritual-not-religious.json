@@ -1,0 +1,86 @@
+{
+  "slug": "spiritual-not-religious",
+  "name": "Spiritual but not religious",
+  "family": "Non-religious",
+  "icon": "sliders",
+  "line": "People who feel spiritual and connected to something bigger than themselves, but do not call themselves religious.",
+  "summary": "<p>Many people say they are spiritual but not religious. Pew Research Center found that about 1 in 5 US adults describe themselves this way. There is no founder, holy book or set of teachings. Most believe in a higher power or spiritual force, though often not God as the Bible describes. Most believe people have a soul and that something spiritual exists beyond the natural world. For many, being spiritual means being connected with their true self, with nature, and with something bigger than themselves. Some belong to a religion anyway, and slightly more do not.</p>",
+  "beliefs": [
+    "There is a higher power or spiritual force.",
+    "People have a soul or spirit beyond the body.",
+    "Many believe spirits can live in nature, like mountains, rivers and trees.",
+    "Being open-minded and true to yourself matters."
+  ],
+  "practices": [
+    "Look inward or center themselves, often a few times a month or more.",
+    "Some meditate to feel connected.",
+    "Seek a feeling of connection with nature.",
+    "Some pray every day.",
+    "Few attend religious services every week."
+  ],
+  "followers": {
+    "value": "About 21% of US adults (Pew Research Center)",
+    "year": "2023-24",
+    "src": [
+      "https://www.pewresearch.org/religion/2025/02/26/spiritual-and-religious-self-descriptions/",
+      "Pew Research Center: Spiritual and religious self-descriptions, 2023-24 Religious Landscape Study"
+    ]
+  },
+  "dims": {
+    "god": {
+      "everything": 1,
+      "one": 0.5
+    },
+    "jesus": {
+      "teacher": 1,
+      "notkey": 0.5,
+      "god": 0.5
+    },
+    "afterlife": {
+      "spirit": 1,
+      "heaven": 0.5,
+      "rebirth": 0.5
+    },
+    "guide": {
+      "experience": 1
+    },
+    "path": {
+      "ethics": 1,
+      "practice": 0.5
+    },
+    "gather": {
+      "alone": 1
+    },
+    "leaders": {
+      "none": 1
+    },
+    "rules": {
+      "few": 1
+    },
+    "prayer": {
+      "meditate": 1,
+      "pray": 0.5
+    },
+    "others": {
+      "many": 1
+    },
+    "nature": {
+      "sacred": 1
+    }
+  },
+  "find": [],
+  "sources": [
+    [
+      "https://www.pewresearch.org/religion/2023/12/07/who-are-spiritual-but-not-religious-americans/",
+      "Pew Research Center: Who are 'spiritual but not religious' Americans?"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2025/02/26/spiritual-and-religious-self-descriptions/",
+      "Pew Research Center: Spiritual and religious self-descriptions"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2023/12/07/spiritual-beliefs/",
+      "Pew Research Center: Americans' spiritual beliefs"
+    ]
+  ]
+}

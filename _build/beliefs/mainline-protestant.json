@@ -1,0 +1,101 @@
+{
+  "slug": "mainline-protestant",
+  "name": "Mainline Protestant Christianity",
+  "family": "Christianity",
+  "icon": "book",
+  "line": "Mainline Protestants belong to long-established churches such as the Methodist, Lutheran, Episcopal and Presbyterian churches.",
+  "summary": "<p>Mainline Protestant churches are older, well-known Protestant churches, mostly in the United States. They include the United Methodist Church, the Evangelical Lutheran Church in America, the Episcopal Church, the Presbyterian Church (USA) and the United Church of Christ. They believe in one God: Father, Son and Holy Spirit, and that Jesus is fully human and fully divine. They teach that people are made right with God by grace, through faith, and not by good deeds. Many read the Bible with help from tradition, experience and reason. These churches often work together, serve their neighbors and care for creation.</p>",
+  "beliefs": [
+    "One God: Father, Son and Holy Spirit.",
+    "Jesus is fully human and fully divine.",
+    "People are made right with God by grace through faith, not good deeds.",
+    "The Bible is read with help from tradition, experience and reason.",
+    "All creation belongs to God, and people are called to care for it."
+  ],
+  "practices": [
+    "Worship together on Sundays, often sharing Holy Communion.",
+    "Celebrate two sacraments: baptism and Holy Communion.",
+    "Serve neighbors through works of mercy, like feeding the hungry.",
+    "Work with other churches in shared mission and dialogue."
+  ],
+  "followers": {
+    "value": "About 11% of U.S. adults",
+    "year": "2024",
+    "src": [
+      "https://www.pewresearch.org/religious-landscape-study/religious-tradition/mainline-protestant/",
+      "Pew Research Center: Religious Landscape Study 2023-24, mainline Protestants"
+    ]
+  },
+  "dims": {
+    "god": {
+      "one": 1
+    },
+    "jesus": {
+      "god": 1
+    },
+    "afterlife": {
+      "heaven": 1
+    },
+    "guide": {
+      "tradition": 1,
+      "scripture": 0.5,
+      "reason": 0.5
+    },
+    "path": {
+      "grace": 1
+    },
+    "gather": {
+      "weekly": 1
+    },
+    "leaders": {
+      "hierarchy": 1,
+      "local": 0.5
+    },
+    "rules": {
+      "few": 1
+    },
+    "prayer": {
+      "pray": 1,
+      "ritual": 0.5
+    },
+    "others": {
+      "many": 1,
+      "one": 0.5
+    },
+    "nature": {
+      "created": 1
+    }
+  },
+  "find": [
+    [
+      "https://www.umc.org/en/find-a-church",
+      "Find a United Methodist church (official finder)"
+    ],
+    [
+      "https://episcopalassetmap.org",
+      "Find an Episcopal church (Episcopal Church's official map)"
+    ]
+  ],
+  "sources": [
+    [
+      "https://www.pewresearch.org/religious-landscape-study/religious-tradition/mainline-protestant/",
+      "Pew Research Center: Religious Landscape Study, mainline Protestants"
+    ],
+    [
+      "https://encyclopedia.com/religion/legal-and-political-magazines/mainline-protestantism",
+      "Encyclopedia.com: Mainline Protestantism"
+    ],
+    [
+      "https://www.elca.org/about-the-elca/who-we-are/beliefs",
+      "Evangelical Lutheran Church in America: Beliefs"
+    ],
+    [
+      "https://www.umc.org/content/what-we-believe-what-it-means-to-be-united-methodist",
+      "United Methodist Church: What we believe"
+    ],
+    [
+      "https://www.pewresearch.org/religion/2008/12/18/many-americans-say-other-faiths-can-lead-to-eternal-life/",
+      "Pew Research Center: Many Americans say other faiths can lead to eternal life (2008)"
+    ]
+  ]
+}
