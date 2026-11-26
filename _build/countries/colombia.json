@@ -1,0 +1,99 @@
+{
+  "slug": "colombia",
+  "name": "Colombia",
+  "continent": "south-america",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "53 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO/indicator/SP.POP.TOTL?format=json&date=2023:2025",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "Bogotá",
+      "year": "2026",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO?format=json",
+        "World Bank: country data (capital city)"
+      ]
+    },
+    "languages": {
+      "value": "Spanish, plus ethnic group languages official in their own areas",
+      "year": "2026",
+      "src": [
+        "http://www.secretariasenado.gov.co/senado/basedoc/constitucion_politica_1991.html",
+        "Constitution of Colombia, Art. 10 (Senate of Colombia)"
+      ]
+    },
+    "money": {
+      "value": "Colombian peso (COP)",
+      "year": "2026",
+      "src": [
+        "https://www.banrep.gov.co/es/billetes-monedas",
+        "Banco de la República: Billetes y monedas"
+      ]
+    },
+    "government": {
+      "value": "A democratic republic with an elected president",
+      "year": "2026",
+      "src": [
+        "http://www.secretariasenado.gov.co/senado/basedoc/constitucion_politica_1991.html",
+        "Constitution of Colombia, Art. 1 (Senate of Colombia)"
+      ]
+    },
+    "religions": {
+      "value": "About 9 in 10 Christian, 1 in 10 no religion",
+      "year": "2020",
+      "src": [
+        "https://alpha.pewresearch.org/pewresearch-org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+        "Pew Research Center: Global Religious Landscape 2010 to 2020, Appendix B"
+      ]
+    },
+    "life_expectancy": {
+      "value": "78 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO/indicator/SP.DYN.LE00.IN?format=json&date=2021:2025",
+        "World Bank: Life expectancy at birth, total"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "123",
+      "Police and ambulance"
+    ],
+    [
+      "119",
+      "Fire"
+    ]
+  ],
+  "help": [
+    [
+      "192",
+      "Press option 4 for the national mental health line, free, any time"
+    ],
+    [
+      "155",
+      "Help for women facing violence, free, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/colombia/getting-help",
+      "UK government: Getting help in Colombia"
+    ],
+    [
+      "https://radionacional.co/actualidad/salud/dia-mundial-de-la-salud-mental-2025-sensibilizacion-en-guaviare",
+      "Radio Nacional de Colombia: Línea 192, opción 4"
+    ],
+    [
+      "https://findahelpline.com/countries/co",
+      "Find A Helpline: Colombia"
+    ]
+  ],
+  "note": "In Colombia, 123 is the main emergency number for police and ambulance."
+}

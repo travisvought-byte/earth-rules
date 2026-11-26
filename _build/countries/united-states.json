@@ -1,0 +1,95 @@
+{
+  "slug": "united-states",
+  "name": "United States",
+  "continent": "north-america",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "342 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO/indicator/SP.POP.TOTL?format=json&date=2023:2025",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "Washington, D.C.",
+      "year": "2026",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO?format=json",
+        "World Bank: country data (capital city)"
+      ]
+    },
+    "languages": {
+      "value": "English, made the official language in 2025",
+      "year": "2026",
+      "src": [
+        "https://www.whitehouse.gov/presidential-actions/2025/03/designating-english-as-the-official-language-of-the-united-states/",
+        "The White House: Designating English as the Official Language"
+      ]
+    },
+    "money": {
+      "value": "US dollar (USD)",
+      "year": "2026",
+      "src": [
+        "https://www.uscurrency.gov/",
+        "Federal Reserve: U.S. Currency Education Program"
+      ]
+    },
+    "government": {
+      "value": "A federal republic with an elected president and Congress",
+      "year": "2026",
+      "src": [
+        "https://www.usa.gov/branches-of-government",
+        "USA.gov: Branches of the U.S. government"
+      ]
+    },
+    "religions": {
+      "value": "About 6 in 10 Christian, 3 in 10 no religion",
+      "year": "2020",
+      "src": [
+        "https://alpha.pewresearch.org/pewresearch-org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+        "Pew Research Center: Global Religious Landscape 2010 to 2020, Appendix B"
+      ]
+    },
+    "life_expectancy": {
+      "value": "79 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO/indicator/SP.DYN.LE00.IN?format=json&date=2021:2025",
+        "World Bank: Life expectancy at birth, total"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "911",
+      "Police, fire and ambulance"
+    ]
+  ],
+  "help": [
+    [
+      "988",
+      "Suicide and Crisis Lifeline, call or text, free, any time"
+    ],
+    [
+      "741741",
+      "Crisis Text Line, text only, free, any time"
+    ],
+    [
+      "1-800-799-7233",
+      "National Domestic Violence Hotline, free, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/usa/getting-help",
+      "UK government: Getting help in the USA"
+    ],
+    [
+      "https://findahelpline.com/countries/us",
+      "Find A Helpline: United States"
+    ]
+  ],
+  "note": "Dial 911 for any emergency, and call or text 988 if you or someone you know is in crisis."
+}

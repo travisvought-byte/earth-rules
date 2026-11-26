@@ -1,0 +1,111 @@
+{
+  "slug": "france",
+  "name": "France",
+  "continent": "europe",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "69 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/CL;PE;GB;DE;FR;EG/indicator/SP.POP.TOTL?format=json&mrnev=1",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "Paris",
+      "year": "2026",
+      "src": [
+        "https://en.wikipedia.org/wiki/France",
+        "Wikipedia: France"
+      ]
+    },
+    "languages": {
+      "value": "French",
+      "year": "2026",
+      "src": [
+        "https://www.conseil-constitutionnel.fr/en/constitution-of-4-october-1958",
+        "Constitutional Council: Constitution of France, Article 2"
+      ]
+    },
+    "money": {
+      "value": "Euro (EUR)",
+      "year": "2026",
+      "src": [
+        "https://en.wikipedia.org/wiki/France",
+        "Wikipedia: France"
+      ]
+    },
+    "government": {
+      "value": "A republic with an elected president who picks the prime minister",
+      "year": "2026",
+      "src": [
+        "https://www.conseil-constitutionnel.fr/en/constitution-of-4-october-1958",
+        "Constitutional Council: Constitution of France, Articles 1, 6 and 8"
+      ]
+    },
+    "religions": {
+      "value": "Almost half Christian, about 4 in 10 no religion, about 1 in 10 Muslim",
+      "year": "2020",
+      "src": [
+        "https://alpha.pewresearch.org/pewresearch-org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+        "Pew Research Center: Global Religious Landscape 2010 to 2020, Appendix B"
+      ]
+    },
+    "life_expectancy": {
+      "value": "83 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/CL;PE;GB;DE;FR;EG/indicator/SP.DYN.LE00.IN?format=json&mrnev=1",
+        "World Bank: Life expectancy at birth, total (years)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "112",
+      "Any emergency"
+    ],
+    [
+      "17",
+      "Police"
+    ],
+    [
+      "15",
+      "Ambulance"
+    ],
+    [
+      "18",
+      "Fire"
+    ],
+    [
+      "114",
+      "Emergency by text or video for deaf people"
+    ]
+  ],
+  "help": [
+    [
+      "3114",
+      "National suicide prevention line, free, any time"
+    ],
+    [
+      "09 72 39 40 50",
+      "SOS Amitié emotional support, free, any time"
+    ],
+    [
+      "3919",
+      "Violences Femmes Infos, for violence against women, free, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/france/getting-help",
+      "UK government travel advice: France, getting help"
+    ],
+    [
+      "https://findahelpline.com/countries/fr",
+      "Find A Helpline: France"
+    ]
+  ],
+  "note": "112 works for any emergency, and deaf people can text 114 for help."
+}

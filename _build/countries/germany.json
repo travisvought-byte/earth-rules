@@ -1,0 +1,99 @@
+{
+  "slug": "germany",
+  "name": "Germany",
+  "continent": "europe",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "83 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/CL;PE;GB;DE;FR;EG/indicator/SP.POP.TOTL?format=json&mrnev=1",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "Berlin",
+      "year": "2026",
+      "src": [
+        "https://www.tatsachen-ueber-deutschland.de/en/germany-glance",
+        "Facts about Germany (German government): Germany at a glance"
+      ]
+    },
+    "languages": {
+      "value": "German",
+      "year": "2026",
+      "src": [
+        "https://www.gesetze-im-internet.de/vwvfg/__23.html",
+        "German federal law: Administrative Procedure Act, section 23"
+      ]
+    },
+    "money": {
+      "value": "Euro (EUR)",
+      "year": "2026",
+      "src": [
+        "https://www.tatsachen-ueber-deutschland.de/en/germany-glance",
+        "Facts about Germany (German government): Germany at a glance"
+      ]
+    },
+    "government": {
+      "value": "A federal democracy where the elected parliament picks the chancellor to lead",
+      "year": "2026",
+      "src": [
+        "https://www.tatsachen-ueber-deutschland.de/en/politics-germany/political-system",
+        "Facts about Germany: How the political system works"
+      ]
+    },
+    "religions": {
+      "value": "More than half Christian, about 1 in 3 no religion, about 6 in 100 Muslim",
+      "year": "2020",
+      "src": [
+        "https://alpha.pewresearch.org/pewresearch-org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+        "Pew Research Center: Global Religious Landscape 2010 to 2020, Appendix B"
+      ]
+    },
+    "life_expectancy": {
+      "value": "81 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/CL;PE;GB;DE;FR;EG/indicator/SP.DYN.LE00.IN?format=json&mrnev=1",
+        "World Bank: Life expectancy at birth, total (years)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "112",
+      "Ambulance and fire"
+    ],
+    [
+      "110",
+      "Police"
+    ]
+  ],
+  "help": [
+    [
+      "0800 111 0 111",
+      "TelefonSeelsorge emotional support, free, any time"
+    ],
+    [
+      "116 016",
+      "Help line for violence against women, free, any time"
+    ],
+    [
+      "116111",
+      "Nummer gegen Kummer, help line for children and teens"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/germany/getting-help",
+      "UK government travel advice: Germany, getting help"
+    ],
+    [
+      "https://findahelpline.com/countries/de",
+      "Find A Helpline: Germany"
+    ]
+  ],
+  "note": "Call 112 for an ambulance or fire, and 110 for the police."
+}

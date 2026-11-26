@@ -1,0 +1,95 @@
+{
+  "slug": "united-kingdom",
+  "name": "United Kingdom",
+  "continent": "europe",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "69 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/CL;PE;GB;DE;FR;EG/indicator/SP.POP.TOTL?format=json&mrnev=1",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "London",
+      "year": "2026",
+      "src": [
+        "https://en.wikipedia.org/wiki/United_Kingdom",
+        "Wikipedia: United Kingdom"
+      ]
+    },
+    "languages": {
+      "value": "English, plus Welsh, Scottish Gaelic and others in some areas",
+      "year": "2026",
+      "src": [
+        "https://en.wikipedia.org/wiki/United_Kingdom",
+        "Wikipedia: United Kingdom"
+      ]
+    },
+    "money": {
+      "value": "Pound sterling (GBP)",
+      "year": "2026",
+      "src": [
+        "https://en.wikipedia.org/wiki/United_Kingdom",
+        "Wikipedia: United Kingdom"
+      ]
+    },
+    "government": {
+      "value": "A democracy with a king as a symbol and an elected parliament led by a prime minister",
+      "year": "2026",
+      "src": [
+        "https://www.gov.uk/government/how-government-works",
+        "GOV.UK: How government works"
+      ]
+    },
+    "religions": {
+      "value": "About half Christian, 4 in 10 no religion, about 6 in 100 Muslim",
+      "year": "2020",
+      "src": [
+        "https://alpha.pewresearch.org/pewresearch-org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+        "Pew Research Center: Global Religious Landscape 2010 to 2020, Appendix B"
+      ]
+    },
+    "life_expectancy": {
+      "value": "81 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/CL;PE;GB;DE;FR;EG/indicator/SP.DYN.LE00.IN?format=json&mrnev=1",
+        "World Bank: Life expectancy at birth, total (years)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "999",
+      "Police, fire, ambulance or coastguard"
+    ],
+    [
+      "101",
+      "Police, when it is not an emergency"
+    ]
+  ],
+  "help": [
+    [
+      "116 123",
+      "Samaritans emotional support, free, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.london-fire.gov.uk/safety/calling-999/",
+      "London Fire Brigade: Calling 999"
+    ],
+    [
+      "https://www.gov.uk/contact-police",
+      "GOV.UK: Contact the police"
+    ],
+    [
+      "https://findahelpline.com/countries/gb",
+      "Find A Helpline: United Kingdom"
+    ]
+  ],
+  "note": "Call 999 only in an emergency, and 101 to reach the police when it is not urgent."
+}

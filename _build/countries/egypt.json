@@ -1,0 +1,90 @@
+{
+  "slug": "egypt",
+  "name": "Egypt",
+  "continent": "africa",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "118 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/CL;PE;GB;DE;FR;EG/indicator/SP.POP.TOTL?format=json&mrnev=1",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "Cairo",
+      "year": "2026",
+      "src": [
+        "https://www.constituteproject.org/constitution/Egypt_2019",
+        "Constitute Project: Constitution of Egypt, Article 222"
+      ]
+    },
+    "languages": {
+      "value": "Arabic",
+      "year": "2026",
+      "src": [
+        "https://www.constituteproject.org/constitution/Egypt_2019",
+        "Constitute Project: Constitution of Egypt, Article 2"
+      ]
+    },
+    "money": {
+      "value": "Egyptian pound (EGP)",
+      "year": "2026",
+      "src": [
+        "https://en.wikipedia.org/wiki/Egypt",
+        "Wikipedia: Egypt"
+      ]
+    },
+    "government": {
+      "value": "A republic with a strong elected president and an elected parliament",
+      "year": "2026",
+      "src": [
+        "https://www.constituteproject.org/constitution/Egypt_2019",
+        "Constitute Project: Constitution of Egypt, Articles 1, 102 and 143"
+      ]
+    },
+    "religions": {
+      "value": "About 95 in 100 Muslim, about 5 in 100 Christian",
+      "year": "2020",
+      "src": [
+        "https://alpha.pewresearch.org/pewresearch-org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+        "Pew Research Center: Global Religious Landscape 2010 to 2020, Appendix B"
+      ]
+    },
+    "life_expectancy": {
+      "value": "72 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/CL;PE;GB;DE;FR;EG/indicator/SP.DYN.LE00.IN?format=json&mrnev=1",
+        "World Bank: Life expectancy at birth, total (years)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "122",
+      "Police"
+    ],
+    [
+      "123",
+      "Ambulance"
+    ],
+    [
+      "180",
+      "Fire"
+    ],
+    [
+      "126",
+      "Tourist police"
+    ]
+  ],
+  "help": [],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/egypt/getting-help",
+      "UK government travel advice: Egypt, getting help"
+    ]
+  ],
+  "note": "Tourist police on 126 can help visitors."
+}

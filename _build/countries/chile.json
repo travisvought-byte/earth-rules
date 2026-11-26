@@ -1,0 +1,99 @@
+{
+  "slug": "chile",
+  "name": "Chile",
+  "continent": "south-america",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "20 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/CL;PE;GB;DE;FR;EG/indicator/SP.POP.TOTL?format=json&mrnev=1",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "Santiago",
+      "year": "2026",
+      "src": [
+        "https://en.wikipedia.org/wiki/Chile",
+        "Wikipedia: Chile"
+      ]
+    },
+    "languages": {
+      "value": "Spanish",
+      "year": "2026",
+      "src": [
+        "https://en.wikipedia.org/wiki/Chile",
+        "Wikipedia: Chile"
+      ]
+    },
+    "money": {
+      "value": "Peso (CLP)",
+      "year": "2026",
+      "src": [
+        "https://www.bcentral.cl/en/",
+        "Central Bank of Chile"
+      ]
+    },
+    "government": {
+      "value": "A republic with an elected president and an elected congress",
+      "year": "2026",
+      "src": [
+        "https://www.constituteproject.org/constitution/Chile_2021",
+        "Constitute Project: Constitution of Chile"
+      ]
+    },
+    "religions": {
+      "value": "About 7 in 10 Christian, 3 in 10 no religion",
+      "year": "2020",
+      "src": [
+        "https://alpha.pewresearch.org/pewresearch-org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+        "Pew Research Center: Global Religious Landscape 2010 to 2020, Appendix B"
+      ]
+    },
+    "life_expectancy": {
+      "value": "81 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/CL;PE;GB;DE;FR;EG/indicator/SP.DYN.LE00.IN?format=json&mrnev=1",
+        "World Bank: Life expectancy at birth, total (years)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "133",
+      "Police"
+    ],
+    [
+      "131",
+      "Ambulance"
+    ],
+    [
+      "132",
+      "Fire"
+    ]
+  ],
+  "help": [
+    [
+      "*4141",
+      "Suicide prevention and emotional support line, free, any time"
+    ],
+    [
+      "1455",
+      "SernamEG help line for violence against women, free, 8 am to midnight"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/chile/getting-help",
+      "UK government travel advice: Chile, getting help"
+    ],
+    [
+      "https://findahelpline.com/countries/cl",
+      "Find A Helpline: Chile"
+    ]
+  ],
+  "note": "Chile has no single emergency number, so call 133 for police, 131 for an ambulance and 132 for fire."
+}

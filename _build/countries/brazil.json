@@ -1,0 +1,99 @@
+{
+  "slug": "brazil",
+  "name": "Brazil",
+  "continent": "south-america",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "213 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO/indicator/SP.POP.TOTL?format=json&date=2023:2025",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "Brasília",
+      "year": "2026",
+      "src": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "Constitution of Brazil, Art. 18 (Planalto)"
+      ]
+    },
+    "languages": {
+      "value": "Portuguese",
+      "year": "2026",
+      "src": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "Constitution of Brazil, Art. 13 (Planalto)"
+      ]
+    },
+    "money": {
+      "value": "Real (BRL)",
+      "year": "2026",
+      "src": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9069.htm",
+        "Brazil, Law 9.069 of 1995, Art. 1 (Planalto)"
+      ]
+    },
+    "government": {
+      "value": "A democratic federal republic with an elected president",
+      "year": "2026",
+      "src": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "Constitution of Brazil, Art. 1 (Planalto)"
+      ]
+    },
+    "religions": {
+      "value": "About 8 in 10 Christian, about 1 in 7 no religion",
+      "year": "2020",
+      "src": [
+        "https://alpha.pewresearch.org/pewresearch-org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+        "Pew Research Center: Global Religious Landscape 2010 to 2020, Appendix B"
+      ]
+    },
+    "life_expectancy": {
+      "value": "76 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO/indicator/SP.DYN.LE00.IN?format=json&date=2021:2025",
+        "World Bank: Life expectancy at birth, total"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "190",
+      "Police"
+    ],
+    [
+      "192",
+      "Ambulance"
+    ],
+    [
+      "193",
+      "Fire"
+    ]
+  ],
+  "help": [
+    [
+      "188",
+      "CVV emotional support, free, any time"
+    ],
+    [
+      "180",
+      "Ligue 180, help for women facing violence, free, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/brazil/getting-help",
+      "UK government: Getting help in Brazil"
+    ],
+    [
+      "https://findahelpline.com/countries/br",
+      "Find A Helpline: Brazil"
+    ]
+  ],
+  "note": "In Brazil, call 190 for police, 192 for an ambulance and 193 for fire."
+}

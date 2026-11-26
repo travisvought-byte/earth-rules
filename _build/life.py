@@ -3,6 +3,7 @@
 
 
 def build(page, ic, ext, checklist, checked, tiles, URLS):
+    import factcards
     def layers(world, us, oh, world_h="Everywhere", us_h="In the United States", oh_h="In Ohio"):
         """Big picture first, then the country, then the state."""
         out = f'<section aria-labelledby="w-h"><h2 id="w-h">{ic("globe")} {world_h}</h2>{world}</section>'
@@ -454,6 +455,7 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
  ("../work.html", "wrench", "Work", "Job programs", ""),
  ("../calendar.html", "calendar", "What's due", "Year round", ""),
 ])}</section>
+{factcards.card("united-states", ic, ext)}
 <section aria-labelledby="us1"><h2 id="us1">{ic("map_pin")} States</h2>{tiles([
  ("../states/ohio.html", "map_pin", "Ohio", "Ready", ""),
 ])}<p>More states are being added one at a time.</p></section>
@@ -463,6 +465,7 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
  ("phone", "<a href=\"tel:211\">211</a>: food, rent, bills, rides and local programs."),
  ("phone", tel("1-800-662-4357") + ": drug and alcohol treatment referrals."),
 ])}</section>
+{checked(factcards.sources(factcards.CARDS["united-states"], ext))}
 """
     URLS.append(page("places/us.html", "United States: the federal rules | Earth Rules",
                      "The federal layer of Earth Rules: rights, health coverage, taxes, work and the national help numbers, then each state.",

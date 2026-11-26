@@ -1,0 +1,95 @@
+{
+  "slug": "india",
+  "name": "India",
+  "continent": "asia",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "1.46 billion people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/ZAF;NGA;KEN;IND;IDN;PHL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "New Delhi",
+      "year": "2026",
+      "src": [
+        "https://api.worldbank.org/v2/country/ZAF;NGA;KEN;IND;IDN;PHL?format=json",
+        "World Bank: country data, capital city"
+      ]
+    },
+    "languages": {
+      "value": "Hindi and English",
+      "year": "2026",
+      "src": [
+        "https://www.britannica.com/place/India",
+        "Encyclopaedia Britannica: India"
+      ]
+    },
+    "money": {
+      "value": "Indian rupee (INR)",
+      "year": "2026",
+      "src": [
+        "https://www.gov.uk/foreign-travel-advice/india/entry-requirements",
+        "UK government: India travel advice, entry requirements"
+      ]
+    },
+    "government": {
+      "value": "A democracy where people elect a parliament, which picks the prime minister. A president is head of state",
+      "year": "2026",
+      "src": [
+        "https://www.britannica.com/place/India",
+        "Encyclopaedia Britannica: India"
+      ]
+    },
+    "religions": {
+      "value": "Mostly Hindu: about 79 in 100. About 15 in 100 Muslim, 2 in 100 Christian",
+      "year": "2020",
+      "src": [
+        "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/02/PR_2026.02.12_religious-diversity-around-the-world_appendix-c.pdf",
+        "Pew Research Center: religious composition by country, 2020 (appendix C)"
+      ]
+    },
+    "life_expectancy": {
+      "value": "72 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/ZAF;NGA;KEN;IND;IDN;PHL/indicator/SP.DYN.LE00.IN?format=json&mrnev=1",
+        "World Bank: Life expectancy at birth, total (years)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "112",
+      "Police, fire and ambulance"
+    ]
+  ],
+  "help": [
+    [
+      "14416",
+      "Tele MANAS mental health line, free, any time"
+    ],
+    [
+      "14490",
+      "National Commission for Women helpline, free, any time"
+    ],
+    [
+      "1098",
+      "CHILDLINE, for children in danger"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/india/getting-help",
+      "UK government: India travel advice, getting help"
+    ],
+    [
+      "https://findahelpline.com/countries/in",
+      "findahelpline.com: helplines in India"
+    ]
+  ],
+  "note": "Dial 112 for police, fire or ambulance anywhere in India."
+}
