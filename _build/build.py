@@ -23,6 +23,8 @@ PAGE_ICONS = {
     "money.html": "dollar", "help-groups.html": "peer_support", "coverage.html": "medical", "papers.html": "idcard",
     "basics.html": "food", "work.html": "wrench", "rides.html": "transportation", "business.html": "store",
     "how-people-work.html": "globe", "places/index.html": "map_pin", "places/world.html": "globe", "places/us.html": "map_pin",
+    "manipulation.html": "megaphone", "scams.html": "siren", "attention.html": "device", "disagree.html": "chat_q",
+    "fine-print.html": "search", "when-someone-dies.html": "comfort", "body-basics.html": "clock",
     "my-year/index.html": "calendar", "my-year/18-29.html": "calendar", "my-year/30-39.html": "calendar",
     "my-year/40-49.html": "calendar", "my-year/50-64.html": "calendar", "my-year/65.html": "calendar",
 }
@@ -116,9 +118,16 @@ TILE_GROUPS = [
                    ("papers.html", "idcard", "Papers and ID", "Replace and keep", ""),
                    ("moving.html", "housing", "Home", "Moving and renting", ""),
                    ("taxes.html", "document", "Taxes", "File for free", ""),
-                   ("friends.html", "peer_support", "Friends", "Meet people", ""),
+                   ("friends.html", "peer_support", "Friends", "Meet people, beat loneliness", ""),
+                   ("body-basics.html", "clock", "Sleep and food", "The basics", ""),
+                   ("when-someone-dies.html", "comfort", "When someone dies", "What to do", ""),
                    ("business.html", "store", "Start a business", "Step one", "")]),
     ("Know how it works", [("rights/index.html", "rights_legal", "My rights", "What's yours", ""),
+                           ("scams.html", "siren", "Scams", "Spot and report", ""),
+                           ("manipulation.html", "megaphone", "Spot the trick", "Tricks and biases", ""),
+                           ("attention.html", "device", "Phone traps", "Why you can't stop", ""),
+                           ("disagree.html", "chat_q", "Disagree well", "Without a fight", ""),
+                           ("fine-print.html", "search", "Fine print", "Before you sign", ""),
                            ("how-people-work.html", "globe", "How people work", "Teams, tribes, culture", ""),
                            ("stages.html", "children", "Life stages", "From 18 to retired", ""),
                            ("whats-normal.html", "chart", "What's normal", "How others live", ""),
@@ -267,8 +276,9 @@ fr = f"""
  ("peer_support", "Keep the friends you have. A short check-in every few weeks keeps a friendship from fading."),
  ("yes", "Expect some invitations to go nowhere. That's the average, not a verdict on you."),
 ])}</section>
-<section aria-labelledby="f3"><h2 id="f3">If it's become loneliness</h2><p>Loneliness is common and it affects health. If it has become hard to get through the day, call or text 988 to talk with someone, any time. Local groups and activities are often listed through 211.</p></section>
-{checked([ext("https://news.ku.edu/2018/03/06/study-reveals-number-hours-it-takes-make-friend", "University of Kansas: hours it takes to make a friend (Hall, 2018)"), ext("https://988lifeline.org/", "988 Suicide and Crisis Lifeline"), ext("https://www.211.org/", "211")])}
+<section aria-labelledby="f0"><h2 id="f0">Why it's harder after school</h2><p>School and early jobs hand you the same people every day. Adult life doesn't. People move, work long hours, raise kids and stay home with their phones. The friendships that used to happen by accident now take a plan.</p></section>
+<section aria-labelledby="f3"><h2 id="f3">If it's become loneliness</h2><p>You're far from alone: in 2023 the US Surgeon General reported that about half of US adults say they've felt lonely, and that loneliness harms health about as much as smoking. Start small: one regular thing with the same people. Local groups and activities are listed through <a href="tel:211">211</a>. If it has become hard to get through the day, call or text <a href="tel:988">988</a>, any time.</p></section>
+{checked([ext("https://news.ku.edu/2018/03/06/study-reveals-number-hours-it-takes-make-friend", "University of Kansas: hours it takes to make a friend (Hall, 2018)"), ext("https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf", "US Surgeon General: our epidemic of loneliness and isolation (2023)"), ext("https://988lifeline.org/", "988 Suicide and Crisis Lifeline"), ext("https://www.211.org/", "211")])}
 """
 URLS.append(page("friends.html", "How to make friends as an adult | Earth Rules",
                  "What research says it takes to make a friend as an adult, and the habits that work: showing up regularly, inviting, following up.",
@@ -405,6 +415,8 @@ import rights
 rights.build(page, ic, ext, checklist, checked, URLS)
 import life
 life.build(page, ic, ext, checklist, checked, tiles, URLS)
+import mind
+mind.build(page, ic, ext, checklist, checked, tiles, URLS)
 
 # ---------------- sitemap, robots, CNAME, favicon ----------------
 with open(os.path.join(ROOT, "sitemap.xml"), "w") as f:

@@ -390,6 +390,12 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
 <p>If you bet more than you planned, chase losses, or hide it, that's the sign. <a href="help-groups.html">Help groups</a> are free.</p></section>
 <section aria-labelledby="h4"><h2 id="h4">{ic("no")} Alcohol</h2>
 <p>Many places treat drinking as normal or even expected. It's also one of the leading causes of preventable death in the US, and the US Surgeon General says it raises the risk of several cancers. Less is safer, and not drinking is a normal choice. If it's costing you, <a href="help-groups.html">help groups</a> are free.</p></section>
+<section aria-labelledby="h6"><h2 id="h6">{ic("megaphone")} Go deeper</h2>{tiles([
+ ("manipulation.html", "megaphone", "Spot the trick", "Tricks, propaganda, biases", ""),
+ ("scams.html", "siren", "Scams", "Spot and report", ""),
+ ("attention.html", "device", "Phone traps", "Why you can't stop", ""),
+ ("disagree.html", "chat_q", "Disagree well", "Without a fight", ""),
+])}</section>
 <section aria-labelledby="h5"><h2 id="h5">{ic("globe")} Culture: the unwritten rules</h2>
 <p>Every place has rules nobody writes down: how close to stand, whether to look people in the eye, how much to tip, what time \"on time\" means, how direct to be, what you can joke about. None of them is the right way. They're just the local way.</p>{checklist([
  ("search", "When you're new somewhere, watch first. Do what people around you do."),
