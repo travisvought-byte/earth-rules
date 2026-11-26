@@ -333,7 +333,7 @@ def build(page, ic, ext, checklist, checked, URLS):
         ("map_pin", "<strong>Your state:</strong> its own constitution and laws can add more. Every situation page lists Ohio's, and more states are coming."),
         ("navigation", "<strong>Your city:</strong> many cities add protections, such as for sexual orientation in housing or for paid sick time. Check your city's code."),
         ("lock", "<strong>At the border and airport security:</strong> agents can search bags and devices with less cause than police need inside the country."),
-        ("plane", "<strong>In another country:</strong> its laws apply to you. As a US citizen arrested abroad, you have the right to ask that the US embassy be told. See the " + ext("https://travel.state.gov/en/international-travel/help-abroad.html", "State Department's guide") + "."),
+        ("plane", "<strong>In another country:</strong> its laws apply to you. As a US citizen arrested abroad, you have the right to ask that the US embassy be told. See the " + ext("https://travel.state.gov/helpabroad", "State Department's guide") + "."),
     ])
     idx = f"""
 <section aria-labelledby="why-r" class="panel"><h2 id="why-r">Your rights are already yours</h2>

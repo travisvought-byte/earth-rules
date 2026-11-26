@@ -8,7 +8,7 @@ NAME = "Earth Rules"
 CHECKED = "November 25, 2026"
 
 NAV = [("index.html", "Home"), ("help.html", "Get help"), ("rights/index.html", "Rights"), ("calendar.html", "Calendar"),
-       ("stages.html", "Life stages"), ("whats-normal.html", "What's normal"), ("states/index.html", "States"), ("about.html", "About")]
+       ("stages.html", "Life stages"), ("whats-normal.html", "What's normal"), ("places/index.html", "Places"), ("about.html", "About")]
 
 # One big picture at the top of every page, so the page can be recognized without reading.
 PAGE_ICONS = {
@@ -20,6 +20,11 @@ PAGE_ICONS = {
     "rights/patients.html": "medical", "rights/tenants.html": "housing", "rights/workers.html": "work_school",
     "rights/consumers.html": "store", "rights/voters.html": "ballot", "rights/students.html": "school",
     "rights/veterans.html": "veterans", "rights/disability.html": "service_dog",
+    "money.html": "dollar", "help-groups.html": "peer_support", "coverage.html": "medical", "papers.html": "idcard",
+    "basics.html": "food", "work.html": "wrench", "rides.html": "transportation", "business.html": "store",
+    "how-people-work.html": "globe", "places/index.html": "map_pin", "places/world.html": "globe", "places/us.html": "map_pin",
+    "my-year/index.html": "calendar", "my-year/18-29.html": "calendar", "my-year/30-39.html": "calendar",
+    "my-year/40-49.html": "calendar", "my-year/50-64.html": "calendar", "my-year/65.html": "calendar",
 }
 
 # Big tap-to-call buttons that sit at the top of every page.
@@ -97,19 +102,28 @@ URLS = []
 
 # ---------------- Home ----------------
 # Picture tiles: one big symbol and one to three words each, so the site can be used without reading much.
-TILES = [("help.html", "phone", "Get help", "Call or text someone", "tile-help"),
-         ("credit.html", "dollar", "Money", "Credit, debt, banks", ""),
-         ("taxes.html", "document", "Taxes", "File for free", ""),
-         ("moving.html", "housing", "Home", "Moving and renting", ""),
-         ("checkups.html", "medical", "Health", "Checkups by age", ""),
-         ("friends.html", "heart", "Friends", "Meet people", ""),
-         ("rights/index.html", "rights_legal", "My rights", "What's yours", ""),
-         ("rights/police.html", "shield", "Police", "Stopped or arrested", ""),
-         ("turning-18.html", "idcard", "Turning 18", "Vote, ID, first job", ""),
-         ("calendar.html", "calendar", "What's due", "Month by month", ""),
-         ("stages.html", "children", "Life stages", "From 18 to retired", ""),
-         ("whats-normal.html", "chart", "What's normal", "How others live", ""),
-         ("states/index.html", "map_pin", "My state", "Ohio and more", "")]
+TILE_GROUPS = [
+    ("Help now", [("help.html", "phone", "Get help", "Call or text someone", "tile-help"),
+                  ("basics.html", "food", "Food and bills", "Food, heat, phone", ""),
+                  ("help-groups.html", "peer_support", "Help groups", "Drinking, drugs, betting", ""),
+                  ("rides.html", "transportation", "Rides", "Bus, Medicaid, seniors", ""),
+                  ("rights/police.html", "shield", "Police", "Stopped or arrested", "")]),
+    ("Your life", [("money.html", "dollar", "Money", "Interest, credit, debt", ""),
+                   ("work.html", "wrench", "Work", "Real job programs", ""),
+                   ("coverage.html", "medical", "Health coverage", "Medicaid, Medicare, VA", ""),
+                   ("checkups.html", "heart", "Checkups", "By age", ""),
+                   ("my-year/index.html", "calendar", "My year", "Print a checklist", ""),
+                   ("papers.html", "idcard", "Papers and ID", "Replace and keep", ""),
+                   ("moving.html", "housing", "Home", "Moving and renting", ""),
+                   ("taxes.html", "document", "Taxes", "File for free", ""),
+                   ("friends.html", "peer_support", "Friends", "Meet people", ""),
+                   ("business.html", "store", "Start a business", "Step one", "")]),
+    ("Know how it works", [("rights/index.html", "rights_legal", "My rights", "What's yours", ""),
+                           ("how-people-work.html", "globe", "How people work", "Teams, tribes, culture", ""),
+                           ("stages.html", "children", "Life stages", "From 18 to retired", ""),
+                           ("whats-normal.html", "chart", "What's normal", "How others live", ""),
+                           ("places/index.html", "map_pin", "Where I live", "World, US, Ohio", "")]),
+]
 
 
 def tiles(items):
@@ -119,7 +133,8 @@ def tiles(items):
 
 
 home = f"""
-<section aria-labelledby="start-h"><h2 id="start-h">Tap a picture</h2>{tiles(TILES)}</section>
+<p class="lead2">Tap a picture.</p>
+{"".join(f'<section aria-labelledby="tg{n}"><h2 id="tg{n}">{g}</h2>{tiles(t)}</section>' for n, (g, t) in enumerate(TILE_GROUPS))}
 <section aria-labelledby="why-h" class="panel"><h2 id="why-h">Why this exists</h2><p>Nobody hands you a manual. School covers the quadratic formula and skips how to file a tax return, build credit, change your address or make a friend after college. Earth Rules puts those things in one place, in plain words, with a link to the official source for every rule and the date it was checked.</p><p>Where someone already explains a topic well, such as the IRS, USA.gov or Khan Academy, we link to them instead of rewriting it.</p></section>
 """
 URLS.append(page("index.html", "Earth Rules: the user manual for being a person",
@@ -388,6 +403,8 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import rights
 rights.build(page, ic, ext, checklist, checked, URLS)
+import life
+life.build(page, ic, ext, checklist, checked, tiles, URLS)
 
 # ---------------- sitemap, robots, CNAME, favicon ----------------
 with open(os.path.join(ROOT, "sitemap.xml"), "w") as f:

@@ -1,3 +1,8 @@
+// Print buttons on printable checklists and worksheets.
+document.addEventListener('click', function (e) {
+  var b = e.target.closest && e.target.closest('.printbtn');
+  if (b) window.print();
+});
 // "Read aloud": reads the page out loud with the browser's own voice (speechSynthesis).
 // The button stays hidden in browsers that can't speak. Sources and the footer are skipped.
 (function () {
