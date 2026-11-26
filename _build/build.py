@@ -7,9 +7,27 @@ SITE = "https://earthrules.org"
 NAME = "Earth Rules"
 CHECKED = "November 25, 2026"
 
-NAV = [("index.html", "Home"), ("calendar.html", "Yearly calendar"), ("stages.html", "Life stages"),
-       ("whats-normal.html", "What's normal"), ("states/index.html", "States"), ("rights/index.html", "Your rights"), ("help.html", "Get help now"),
-       ("about.html", "About")]
+NAV = [("index.html", "Home"), ("help.html", "Get help"), ("rights/index.html", "Rights"), ("calendar.html", "Calendar"),
+       ("stages.html", "Life stages"), ("whats-normal.html", "What's normal"), ("states/index.html", "States"), ("about.html", "About")]
+
+# One big picture at the top of every page, so the page can be recognized without reading.
+PAGE_ICONS = {
+    "index.html": "globe", "help.html": "phone", "calendar.html": "calendar", "stages.html": "children",
+    "whats-normal.html": "chart", "taxes.html": "document", "credit.html": "dollar", "moving.html": "housing",
+    "friends.html": "heart", "checkups.html": "medical", "turning-18.html": "idcard", "about.html": "book",
+    "privacy.html": "lock", "404.html": "search", "states/index.html": "map_pin", "states/ohio.html": "map_pin",
+    "rights/index.html": "rights_legal", "rights/everyone.html": "peer_support", "rights/police.html": "shield",
+    "rights/patients.html": "medical", "rights/tenants.html": "housing", "rights/workers.html": "work_school",
+    "rights/consumers.html": "store", "rights/voters.html": "ballot", "rights/students.html": "school",
+    "rights/veterans.html": "veterans", "rights/disability.html": "service_dog",
+}
+
+# Big tap-to-call buttons that sit at the top of every page.
+HELPBAR = ('<nav class="helpbar" aria-label="Get help now"><span class="hb-t">Get help now</span>'
+           '<a class="hb red" href="tel:911">{i911}<span><span class="sr">Call </span><b>911</b><small>Emergency</small></span></a>'
+           '<a class="hb green" href="tel:988">{i988}<span><span class="sr">Call </span><b>988</b><small>Crisis, talk</small></span></a>'
+           '<a class="hb blue" href="tel:211">{i211}<span><span class="sr">Call </span><b>211</b><small>Food, rent, bills</small></span></a>'
+           '<a class="hb more" href="{P}help.html">{imore}<span><b>More</b><small>help</small></span></a></nav>')
 
 
 def ic(name):
@@ -32,6 +50,8 @@ def page(path, title, desc, kicker, h1, lead, body, crumbs=None):
     gc = ('<script>window.goatcounter={path:function(){return "/earthrules.org"+location.pathname},'
           'referrer:function(){try{var u=new URL(document.referrer);return u.origin+u.pathname}catch(e){return ""}}};</script>'
           '<script data-goatcounter="https://vhg-guide.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>')
+    pic = ic(PAGE_ICONS.get(path, "book"))
+    helpbar = HELPBAR.format(i911=ic("siren"), i988=ic("crisis"), i211=ic("phone"), imore=ic("bigarrow"), P="{P}")
     out = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title>
@@ -46,13 +66,15 @@ def page(path, title, desc, kicker, h1, lead, body, crumbs=None):
 {gc}
 </head>
 <body><a class="skip" href="#main">Skip to main content</a>
+{helpbar}
 <header><nav id="site-nav" aria-label="Main"><a class="brand" href="{P}index.html">{NAME}</a><button type="button" class="navtoggle" aria-expanded="false" aria-controls="site-nav">Menu</button>{nav}</nav>
-<small>{kicker}</small><h1>{h1}</h1><p>{lead}</p></header>
+<small>{kicker}</small><div class="hero"><span class="pic">{pic}</span><h1>{h1}</h1></div><p>{lead}</p>
+<button type="button" class="readaloud" hidden>{ic("speaker")}<span>Read aloud</span></button></header>
 <main id="main">
 {body}
 <footer><p>{NAME} is a free guide to the things everyone is expected to know and do, created and maintained by <a href="https://travisvought.com/">Travis Vought</a>. <a href="mailto:travis@vethomeguard.org?subject=Earth%20Rules%20correction">Report a mistake</a> · <a href="{P}about.html">About and sources</a> · <a href="{P}privacy.html">Privacy</a></p>
 <p>General information from official and published sources, with the date each was checked. It is not legal, tax, financial or medical advice. Rules change and differ by state, so confirm with the source before you act.</p></footer>
-</main><script src="{P}assets/nav.js" defer></script></body></html>
+</main><script src="{P}assets/nav.js" defer></script><script src="{P}assets/read.js" defer></script></body></html>
 """
     out = out.replace("{P}", P)
     full = os.path.join(ROOT, path)
@@ -74,38 +96,36 @@ def checklist(items):
 URLS = []
 
 # ---------------- Home ----------------
-finder = [("turning-18.html", "school", "I'm turning 18"), ("moving.html", "housing", "I'm moving"),
-          ("taxes.html", "document", "Taxes are due"), ("credit.html", "funding", "Money and credit"),
-          ("friends.html", "peer_support", "I want more friends"), ("checkups.html", "medical", "Checkups and screenings"),
-          ("help.html", "crisis", "I need help right now"), ("rights/police.html", "rights_legal", "Police stopped me"), ("calendar.html", "clock", "What's due this month?")]
-fhtml = '<nav class="finder" aria-label="Start with what is going on">' + "".join(
-    f'<a href="{h}">{ic(i)}<span>{t}</span></a>' for h, i, t in finder) + "</nav>"
+# Picture tiles: one big symbol and one to three words each, so the site can be used without reading much.
+TILES = [("help.html", "phone", "Get help", "Call or text someone", "tile-help"),
+         ("credit.html", "dollar", "Money", "Credit, debt, banks", ""),
+         ("taxes.html", "document", "Taxes", "File for free", ""),
+         ("moving.html", "housing", "Home", "Moving and renting", ""),
+         ("checkups.html", "medical", "Health", "Checkups by age", ""),
+         ("friends.html", "heart", "Friends", "Meet people", ""),
+         ("rights/index.html", "rights_legal", "My rights", "What's yours", ""),
+         ("rights/police.html", "shield", "Police", "Stopped or arrested", ""),
+         ("turning-18.html", "idcard", "Turning 18", "Vote, ID, first job", ""),
+         ("calendar.html", "calendar", "What's due", "Month by month", ""),
+         ("stages.html", "children", "Life stages", "From 18 to retired", ""),
+         ("whats-normal.html", "chart", "What's normal", "How others live", ""),
+         ("states/index.html", "map_pin", "My state", "Ohio and more", "")]
 
-sections = [
-    ("calendar.html", "clock", "The yearly calendar", "What comes due each month: tax deadlines, open enrollment, renewals and checkups."),
-    ("stages.html", "chart", "Life stages", "What to expect and what to do at 18, in your twenties, as a parent, mid-life and in retirement."),
-    ("taxes.html", "document", "Money and paperwork", "Filing taxes for free, credit, banking, insurance and the papers to keep."),
-    ("moving.html", "housing", "Home and car", "Moving, renting, registering a car and keeping your address current."),
-    ("friends.html", "peer_support", "People", "Making friends as an adult, what research says it takes, and how to start."),
-    ("checkups.html", "medical", "Body and mind", "Which screenings are recommended at which age, and where to read about a condition."),
-    ("whats-normal.html", "chart", "What's normal", "Averages for income, home buying, sleep and friendship, and how much they vary."),
-    ("turning-18.html", "ballot", "Civic duties", "Registering to vote, Selective Service, IDs and jury duty."),
-    ("rights/index.html", "rights_legal", "Your rights", "What's yours as a person, patient, renter, worker, voter and more, and the law behind each one."),
-    ("help.html", "crisis", "Getting help", "Crisis lines, local help, legal aid and benefits, in one place."),
-    ("states/index.html", "map_pin", "Your state", "The rules that change by state, starting with Ohio."),
-]
-cards = '<div class="grid">' + "".join(
-    f'<a class="card" href="{h}"><div class="iconrow">{ic(i)}<h3>{t}</h3></div><p>{d}</p></a>' for h, i, t, d in sections) + "</div>"
+
+def tiles(items):
+    return '<ul class="tiles">' + "".join(
+        f'<li><a class="tile {c}" href="{h}"><span class="pic">{ic(i)}</span><span class="tl">{t}</span><span class="th">{d}</span></a></li>'
+        for h, i, t, d, c in items) + "</ul>"
+
 
 home = f"""
-<section aria-labelledby="start-h"><h2 id="start-h">What's going on?</h2><p>Pick what fits and get a short checklist.</p>{fhtml}</section>
-<section aria-labelledby="sec-h"><h2 id="sec-h">The manual, by section</h2>{cards}</section>
+<section aria-labelledby="start-h"><h2 id="start-h">Tap a picture</h2>{tiles(TILES)}</section>
 <section aria-labelledby="why-h" class="panel"><h2 id="why-h">Why this exists</h2><p>Nobody hands you a manual. School covers the quadratic formula and skips how to file a tax return, build credit, change your address or make a friend after college. Earth Rules puts those things in one place, in plain words, with a link to the official source for every rule and the date it was checked.</p><p>Where someone already explains a topic well, such as the IRS, USA.gov or Khan Academy, we link to them instead of rewriting it.</p></section>
 """
 URLS.append(page("index.html", "Earth Rules: the user manual for being a person",
                  "A free, plain guide to what everyone is expected to know and do: taxes, credit, moving, checkups, making friends, what's normal, and a yearly calendar of what comes due.",
                  "EARTH RULES", "The user manual for being a person.",
-                 "What school should have taught you: the things you have to do every year, the things you only do once, and how everyone else is getting by.",
+                 "What you have to do, what's yours, and where to get help. Tap a picture to start.",
                  home))
 
 # ---------------- Calendar ----------------
@@ -277,19 +297,35 @@ URLS.append(page("checkups.html", "Checkups and screenings by age | Earth Rules"
                  "EARTH RULES · BODY AND MIND", "Checkups and screenings by age.", "General guidance from the U.S. Preventive Services Task Force. Your own clinician has the final word.", ckp))
 
 # ---------------- Help ----------------
+HELP_BIG = [
+    ("tel:911", "siren", "Call 911", "Danger, fire, someone hurt", "tile-help"),
+    ("tel:988", "crisis", "Call 988", "Crisis, sad, want to die. Veterans press 1.", "tile-calm"),
+    ("sms:988", "text_msg", "Text 988", "Same help, by text", "tile-calm"),
+    ("tel:211", "phone", "Call 211", "Food, rent, bills, rides", "tile-blue"),
+]
 hp = f"""
-<section class="crisis" aria-labelledby="h1x"><h2 id="h1x">In danger right now</h2><p>Call <a href="tel:911">911</a>. For a mental health or suicide crisis, call or text <a href="tel:988">988</a>. Veterans, press 1 after dialing 988.</p></section>
-<section aria-labelledby="h2x"><h2 id="h2x">Everything else</h2>{checklist([
- ("phone", "<a href=\"tel:211\">211</a>: food, rent, utilities, rides and local programs, by phone or at " + ext("https://www.211.org/", "211.org") + "."),
- ("benefits", ext("https://www.usa.gov/benefits", "USA.gov benefits") + ": the government's benefit finder by life event, such as a death, retirement or disability."),
- ("rights_legal", ext("https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help", "Legal Services Corporation") + ": free civil legal aid near you."),
- ("funding", ext("https://www.consumerfinance.gov/", "Consumer Financial Protection Bureau") + ": money problems, debt collectors and complaints."),
+<section aria-labelledby="h1x"><h2 id="h1x">Call or text now</h2><p>Free. Any time, day or night.</p>
+<ul class="tiles big">{"".join(f'<li><a class="tile {c}" href="{h}"><span class="pic">{ic(i)}</span><span class="tl">{t}</span><span class="th">{d}</span></a></li>' for h, i, t, d, c in HELP_BIG)}</ul></section>
+<section aria-labelledby="h2x"><h2 id="h2x">More help</h2>
+<ul class="tiles">
+<li><a class="tile" href="https://www.211.org/" target="_blank" rel="noopener"><span class="pic">{ic("food")}</span><span class="tl">Food and rent</span><span class="th">211.org</span><span class="sr"> (opens in a new tab)</span></a></li>
+<li><a class="tile" href="https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help" target="_blank" rel="noopener"><span class="pic">{ic("rights_legal")}</span><span class="tl">Free lawyer</span><span class="th">Legal aid near you</span><span class="sr"> (opens in a new tab)</span></a></li>
+<li><a class="tile" href="https://www.consumerfinance.gov/" target="_blank" rel="noopener"><span class="pic">{ic("dollar")}</span><span class="tl">Money trouble</span><span class="th">Debt, bills, scams</span><span class="sr"> (opens in a new tab)</span></a></li>
+<li><a class="tile" href="https://www.usa.gov/benefits" target="_blank" rel="noopener"><span class="pic">{ic("benefits")}</span><span class="tl">Benefits</span><span class="th">Government help</span><span class="sr"> (opens in a new tab)</span></a></li>
+</ul></section>
+<section aria-labelledby="h3x"><h2 id="h3x">What each one does</h2>{checklist([
+ ("siren", "<strong>911</strong> sends police, fire or an ambulance. Use it when someone is in danger right now."),
+ ("crisis", "<strong>988</strong> is the Suicide and Crisis Lifeline. Call or text when things feel too heavy, for you or someone else. Veterans, press 1."),
+ ("phone", "<strong>211</strong> connects you to local help: food, rent, utilities, rides and programs near you. You can also search at " + ext("https://www.211.org/", "211.org") + "."),
+ ("rights_legal", ext("https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help", "Legal Services Corporation") + " finds free civil legal aid near you."),
+ ("dollar", ext("https://www.consumerfinance.gov/", "Consumer Financial Protection Bureau") + " helps with debt collectors, bank problems and complaints."),
+ ("benefits", ext("https://www.usa.gov/benefits", "USA.gov benefits") + " is the government's benefit finder by life event, such as a death, retirement or disability."),
 ])}</section>
 {checked([ext("https://988lifeline.org/", "988 Lifeline"), ext("https://www.211.org/", "211"), ext("https://www.usa.gov/benefits", "USA.gov"), ext("https://www.lsc.gov/", "Legal Services Corporation")])}
 """
 URLS.append(page("help.html", "Get help now: crisis lines, local help and legal aid | Earth Rules",
                  "Where to turn: 911, 988, 211, the USA.gov benefit finder, free legal aid and money help.",
-                 "EARTH RULES · GET HELP", "Get help now.", "The numbers and places to start, whatever is going on.", hp))
+                 "EARTH RULES · GET HELP", "Get help now.", "Tap a picture to call. It's free.", hp))
 
 # ---------------- Life stages ----------------
 st = [("school", "Turning 18", "Vote, Selective Service, ID, first bank account, first job papers.", "turning-18.html"),
