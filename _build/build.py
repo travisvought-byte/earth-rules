@@ -90,7 +90,8 @@ def page(path, title, desc, kicker, h1, lead, body, crumbs=None):
 <main id="main">
 {body}
 <footer><p>{NAME} is a free guide to the things everyone is expected to know and do, created and maintained by <a href="https://travisvought.com/">Travis Vought</a>. <a href="mailto:travis@vethomeguard.org?subject=Earth%20Rules%20correction">Report a mistake</a> · <a href="{P}about.html">About and sources</a> · <a href="{P}privacy.html">Privacy</a></p>
-<p>General information from official and published sources, with the date each was checked. It is not legal, tax, financial or medical advice. Rules change and differ by state, so confirm with the source before you act.</p></footer>
+<p>General information from official and published sources, with the date each was checked. It is not legal, tax, financial or medical advice. Rules change and differ by state, so confirm with the source before you act.</p>
+<p>Need help finding local services? <a href="https://www.yogamomtalk.com/">Yoga Mom Talk</a> (moms and families) · <a href="https://mobilitytalk.org/">Mobility Talk</a> (disability and mobility) · <a href="https://guide.vethomeguard.org/">Veteran Resource Guide</a> (veterans and their families) · <a href="https://ninas-map.com/">Nina's Map</a> (Native communities)</p></footer>
 </main><script src="{P}assets/nav.js" defer></script><script src="{P}assets/read.js" defer></script><script src="{P}assets/dex.js" defer></script></body></html>
 """
     out = out.replace("{P}", P)
