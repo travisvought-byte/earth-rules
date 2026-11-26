@@ -177,3 +177,4 @@ ul.dextiles .tile.done{background:#f2f8f3}
 a.quickexit{display:inline-flex;align-items:center;min-height:48px;padding:10px 20px;border-radius:10px;background:#8b1d1d;color:#fff;font-weight:700;text-decoration:none}
 .dx-region .ic,button.learn .ic,.dx-done .ic{color:currentColor}
 ul.dextiles .tile .pic .ic{color:var(--rg)}
+.rg-love{--rg:#a3266b}.rg-world{--rg:#0f6b6b}.rg-skills{--rg:#4f5d16}

@@ -128,7 +128,7 @@ def tiles(items):
 home = f"""
 <p class="lead2">Tap a picture.</p>
 {"".join(f'<section aria-labelledby="tg{n}"><h2 id="tg{n}">{g}</h2>{tiles(t)}</section>' for n, (g, t) in enumerate(TILE_GROUPS))}
-<section aria-labelledby="rg-h"><h2 id="rg-h">Explore your life</h2><p class="lead2">Eight regions. Learn them in any order and watch your progress fill up. <a href="explore.html">See the whole map</a>.</p>{dex.region_cards(ic, PAGE_ICONS)}</section>
+<section aria-labelledby="rg-h"><h2 id="rg-h">Explore your life</h2><p class="lead2">{len(dex.REGIONS)} regions. Learn them in any order and watch your progress fill up. <a href="explore.html">See the whole map</a>.</p>{dex.region_cards(ic, PAGE_ICONS)}</section>
 <section aria-labelledby="why-h" class="panel"><h2 id="why-h">Why this exists</h2><p>Nobody hands you a manual. School covers the quadratic formula and skips how to file a tax return, build credit, change your address or make a friend after college. Earth Rules puts those things in one place, in plain words, with a link to the official source for every rule and the date it was checked.</p><p>Where someone already explains a topic well, such as the IRS, USA.gov or Khan Academy, we link to them instead of rewriting it.</p></section>
 """
 URLS.append(page("index.html", "Earth Rules: the user manual for being a person",

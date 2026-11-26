@@ -4,27 +4,30 @@ import re
 import importlib
 
 ENTRIES = []
-for _m in ("dex_a", "dex_b", "dex_c", "dex_d"):
+for _m in ("dex_a", "dex_b", "dex_c", "dex_d", "dex_e", "dex_f", "dex_g", "dex_h"):
     ENTRIES += importlib.import_module(_m).ENTRIES
 BY_SLUG = {e["slug"]: e for e in ENTRIES}
+ALMANAC = importlib.import_module("dex_g").ALMANAC
 
 # id, name, icon, colour, one line, topics. A topic is a new entry slug, or (existing path, title, hint).
 REGIONS = [
     ("survival", "Help now", "siren", "#a33a1a", "When things go wrong: who to call and what to do.", [
         ("help.html", "Get help", "Every hotline"), "homelessness", "leaving-abuse", "go-bag",
         ("help-groups.html", "Help groups", "AA, NA, gambling"), "immigration-basics"]),
-    ("body", "Body", "heart", "#a8323e", "Keep yourself and the people around you alive and well.", [
+    ("body", "Body", "medical", "#a8323e", "Keep yourself and the people around you alive and well.", [
         "first-aid", ("body-basics.html", "Sleep and food", "The basics that run everything"),
         ("checkups.html", "Checkups", "What to get and when"), "nutrition-labels", "mental-health-first-aid",
-        "sex-ed-consent", ("coverage.html", "Health coverage", "Medicaid, Medicare, VA"), "aging-caregiving"]),
+        "sex-ed-consent", ("coverage.html", "Health coverage", "Medicaid, Medicare, VA")]),
     ("home", "Home", "housing", "#7a5410", "A roof, food on the stove, and things that don't break on you.", [
-        ("basics.html", "Basics", "Food, heat, phone, child care"), "cheap-cooking", "cleaning", "home-repairs",
+        ("basics.html", "Basics", "Food, heat, phone, child care"), "cleaning",
         "home-emergencies", "renting-vs-buying", ("moving.html", "Moving", "The checklist"),
         ("rights/tenants.html", "Renter rights", "What your landlord owes you")]),
-    ("people", "People", "peer_support", "#6b3fa0", "Friends, love, family, fights and loss.", [
+    ("people", "People", "peer_support", "#6b3fa0", "Friends, getting along, fights and loss.", [
         ("friends.html", "Making friends", "And keeping them"), ("how-people-work.html", "How people work", "Why we do what we do"),
-        "apologize", ("disagree.html", "Disagree well", "Argue without wrecking it"), "dating-red-flags",
-        "breakups-divorce", "parenting", "grief", ("when-someone-dies.html", "When someone dies", "What to do, step by step")]),
+        "apologize", ("disagree.html", "Disagree well", "Argue without wrecking it"), "grief", ("when-someone-dies.html", "When someone dies", "What to do, step by step")]),
+    ("love", "Love and family", "heart", "#a3266b", "Dating, marriage, kids, and caring for the people you love.", [
+        "dating-courtship", "dating-red-flags", "marriage", "weddings", "pregnancy-birth", "parenting",
+        "adoption-fostering", "breakups-divorce", "aging-caregiving"]),
     ("money", "Money and papers", "dollar", "#1f6a3a", "Earn it, keep it, and handle the paperwork that comes with it.", [
         ("money.html", "Money", "Interest, credit, debt traps"), ("credit.html", "Credit", "Your score and report"),
         ("work.html", "Work", "Job programs that work"), ("taxes.html", "Taxes", "Filing, step by step"),
@@ -41,7 +44,12 @@ REGIONS = [
     ("time", "Your timeline", "calendar", "#5b4a1f", "What's expected of you at each age, and each month of the year.", [
         ("turning-18.html", "Turning 18", "What changes"), ("my-year/index.html", "My year", "Printable checklists by age"),
         ("stages.html", "Life stages", "Age by age"), ("whats-normal.html", "What's normal", "Real numbers on real life"),
-        ("calendar.html", "Calendar", "What's due when")]),
+        ("calendar.html", "Calendar", "What's due when"), "legal-ages", "retirement"]),
+    ("world", "World and culture", "globe", "#0f6b6b", "How people live, believe and celebrate around the planet.", [
+        "world-almanac", ("places/index.html", "Where you live", "Pick your part of the world"), "religions",
+        "greetings-manners", "holidays", "coming-of-age", "mourning-customs"]),
+    ("skills", "Skills and fun", "wrench", "#4f5d16", "Cook, fix things, care for a pet, and have some fun.", [
+        "cheap-cooking", "home-repairs", "pets", "play-and-fun"]),
 ]
 
 
