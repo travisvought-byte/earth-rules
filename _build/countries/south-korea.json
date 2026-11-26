@@ -1,0 +1,99 @@
+{
+  "slug": "south-korea",
+  "name": "South Korea",
+  "continent": "asia",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "52 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/CN;JP;KR;AU;NZ/indicator/SP.POP.TOTL?format=json&mrv=1",
+        "World Bank: Population, total (2025)"
+      ]
+    },
+    "capital": {
+      "value": "Seoul",
+      "year": "2026",
+      "src": [
+        "https://www.korea.net/AboutKorea/Korea-at-a-Glance/Facts-about-Korea",
+        "Korea.net (Korean government): Facts about Korea"
+      ]
+    },
+    "languages": {
+      "value": "Korean, written in Hangeul",
+      "year": "2026",
+      "src": [
+        "https://www.korea.net/AboutKorea/Korea-at-a-Glance/Facts-about-Korea",
+        "Korea.net (Korean government): Facts about Korea"
+      ]
+    },
+    "money": {
+      "value": "Won (KRW)",
+      "year": "2026",
+      "src": [
+        "https://www.korea.net/AboutKorea/Korea-at-a-Glance/Facts-about-Korea",
+        "Korea.net (Korean government): Facts about Korea"
+      ]
+    },
+    "government": {
+      "value": "A republic with a president elected by the people for one 5-year term",
+      "year": "2026",
+      "src": [
+        "https://www.korea.net/AboutKorea/Korea-at-a-Glance/Facts-about-Korea",
+        "Korea.net (Korean government): Facts about Korea"
+      ]
+    },
+    "religions": {
+      "value": "About half no religion, about 3 in 10 Christian, about 1 in 7 Buddhist",
+      "year": "2023",
+      "src": [
+        "https://www.pewresearch.org/religion/2024/06/17/religious-landscape-and-change-in-east-asia/",
+        "Pew Research Center: Religious landscape and change in East Asia (2023 survey, published 2024)"
+      ]
+    },
+    "life_expectancy": {
+      "value": "84 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/CN;JP;KR;AU;NZ/indicator/SP.DYN.LE00.IN?format=json&mrv=1",
+        "World Bank: Life expectancy at birth, total (2024)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "112",
+      "Police"
+    ],
+    [
+      "119",
+      "Fire and ambulance"
+    ]
+  ],
+  "help": [
+    [
+      "109",
+      "Suicide prevention line"
+    ],
+    [
+      "1588-9191",
+      "Lifeline Korea, crisis support, any time"
+    ],
+    [
+      "1366",
+      "Women's emergency line for domestic and sexual violence, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/south-korea/getting-help",
+      "UK FCDO travel advice: South Korea, getting help"
+    ],
+    [
+      "https://findahelpline.com/countries/kr",
+      "Find A Helpline: South Korea"
+    ]
+  ],
+  "note": ""
+}

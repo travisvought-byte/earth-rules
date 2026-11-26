@@ -1,0 +1,107 @@
+{
+  "slug": "south-africa",
+  "name": "South Africa",
+  "continent": "africa",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "65 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/ZAF;NGA;KEN;IND;IDN;PHL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "Pretoria, Cape Town and Bloemfontein (three capitals)",
+      "year": "2026",
+      "src": [
+        "https://www.gov.za/about-sa/south-africa-glance",
+        "South African Government: South Africa at a glance"
+      ]
+    },
+    "languages": {
+      "value": "12 official languages, including isiZulu, isiXhosa and English",
+      "year": "2026",
+      "src": [
+        "https://www.gov.za/about-sa/south-africa-glance",
+        "South African Government: South Africa at a glance"
+      ]
+    },
+    "money": {
+      "value": "Rand (ZAR)",
+      "year": "2026",
+      "src": [
+        "https://www.gov.za/about-sa/south-africa-glance",
+        "South African Government: South Africa at a glance"
+      ]
+    },
+    "government": {
+      "value": "A democracy where people elect a parliament, and the parliament picks the president",
+      "year": "2026",
+      "src": [
+        "https://www.gov.za/government-system",
+        "South African Government: Government system"
+      ]
+    },
+    "religions": {
+      "value": "Mostly Christian: about 85 in 100. About 9 in 100 follow other faiths",
+      "year": "2020",
+      "src": [
+        "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/02/PR_2026.02.12_religious-diversity-around-the-world_appendix-c.pdf",
+        "Pew Research Center: religious composition by country, 2020 (appendix C)"
+      ]
+    },
+    "life_expectancy": {
+      "value": "66 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/ZAF;NGA;KEN;IND;IDN;PHL/indicator/SP.DYN.LE00.IN?format=json&mrnev=1",
+        "World Bank: Life expectancy at birth, total (years)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "10111",
+      "Police"
+    ],
+    [
+      "10177",
+      "Ambulance and fire"
+    ],
+    [
+      "112",
+      "Any emergency from a mobile phone"
+    ]
+  ],
+  "help": [
+    [
+      "0800 567 567",
+      "SADAG Suicide Crisis Line"
+    ],
+    [
+      "0861 322 322",
+      "LifeLine South Africa trauma and crisis line, free, any time"
+    ],
+    [
+      "0800 428 428",
+      "Gender-Based Violence Command Centre"
+    ],
+    [
+      "116",
+      "Childline, for under 18s, free, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/south-africa/getting-help",
+      "UK government: South Africa travel advice, getting help"
+    ],
+    [
+      "https://findahelpline.com/countries/za",
+      "findahelpline.com: helplines in South Africa"
+    ]
+  ],
+  "note": "South Africa has three capital cities: Pretoria for the government, Cape Town for parliament and Bloemfontein for the top courts."
+}

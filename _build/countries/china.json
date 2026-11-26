@@ -1,0 +1,99 @@
+{
+  "slug": "china",
+  "name": "China",
+  "continent": "asia",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "1.4 billion people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/CN;JP;KR;AU;NZ/indicator/SP.POP.TOTL?format=json&mrv=1",
+        "World Bank: Population, total (2025)"
+      ]
+    },
+    "capital": {
+      "value": "Beijing",
+      "year": "2026",
+      "src": [
+        "https://data.un.org/CountryProfile.aspx/_Images/CountryProfile.aspx?crName=China",
+        "UN data: China country profile"
+      ]
+    },
+    "languages": {
+      "value": "",
+      "year": "",
+      "src": [
+        "",
+        ""
+      ]
+    },
+    "money": {
+      "value": "Yuan renminbi (CNY)",
+      "year": "2026",
+      "src": [
+        "https://data.un.org/CountryProfile.aspx/_Images/CountryProfile.aspx?crName=China",
+        "UN data: China country profile"
+      ]
+    },
+    "government": {
+      "value": "Ruled by the Communist Party of China, which leads the government and lawmakers",
+      "year": "2026",
+      "src": [
+        "https://www.gov.uk/government/publications/overseas-business-risk-china/overseas-business-risk-china",
+        "UK government: Overseas business risk, China"
+      ]
+    },
+    "religions": {
+      "value": "About 9 in 10 no religion, about 1 in 10 follow a religion",
+      "year": "2020",
+      "src": [
+        "https://www.pewresearch.org/religion/2025/06/09/how-the-global-religious-landscape-changed-from-2010-to-2020/markdown",
+        "Pew Research Center: How the Global Religious Landscape Changed From 2010 to 2020 (June 2025)"
+      ]
+    },
+    "life_expectancy": {
+      "value": "78 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/CN;JP;KR;AU;NZ/indicator/SP.DYN.LE00.IN?format=json&mrv=1",
+        "World Bank: Life expectancy at birth, total (2024)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "110",
+      "Police"
+    ],
+    [
+      "119",
+      "Fire"
+    ],
+    [
+      "120",
+      "Ambulance"
+    ]
+  ],
+  "help": [
+    [
+      "12356",
+      "National mental health support hotline"
+    ],
+    [
+      "400-161-9995",
+      "Hope Line, suicide and crisis support, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/china/getting-help",
+      "UK FCDO travel advice: China, getting help"
+    ],
+    [
+      "https://findahelpline.com/countries/cn",
+      "Find A Helpline: China"
+    ]
+  ],
+  "note": ""
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "peru",
+  "name": "Peru",
+  "continent": "south-america",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "35 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/CL;PE;GB;DE;FR;EG/indicator/SP.POP.TOTL?format=json&mrnev=1",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "Lima",
+      "year": "2026",
+      "src": [
+        "https://www.constituteproject.org/constitution/Peru_2021",
+        "Constitute Project: Constitution of Peru, Article 49"
+      ]
+    },
+    "languages": {
+      "value": "Spanish, plus Quechua and Aymara where most people speak them",
+      "year": "2026",
+      "src": [
+        "https://www.constituteproject.org/constitution/Peru_2021",
+        "Constitute Project: Constitution of Peru, Article 48"
+      ]
+    },
+    "money": {
+      "value": "Sol (PEN)",
+      "year": "2026",
+      "src": [
+        "https://en.wikipedia.org/wiki/Peru",
+        "Wikipedia: Peru"
+      ]
+    },
+    "government": {
+      "value": "A republic with an elected president and an elected congress",
+      "year": "2026",
+      "src": [
+        "https://www.constituteproject.org/constitution/Peru_2021",
+        "Constitute Project: Constitution of Peru, Articles 43 and 111"
+      ]
+    },
+    "religions": {
+      "value": "Mostly Christian, about 19 in 20. About 1 in 20 no religion",
+      "year": "2020",
+      "src": [
+        "https://alpha.pewresearch.org/pewresearch-org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+        "Pew Research Center: Global Religious Landscape 2010 to 2020, Appendix B"
+      ]
+    },
+    "life_expectancy": {
+      "value": "78 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/CL;PE;GB;DE;FR;EG/indicator/SP.DYN.LE00.IN?format=json&mrnev=1",
+        "World Bank: Life expectancy at birth, total (years)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "105",
+      "Police"
+    ],
+    [
+      "106",
+      "Ambulance"
+    ],
+    [
+      "116",
+      "Fire"
+    ]
+  ],
+  "help": [
+    [
+      "113",
+      "Línea 113 Salud, mental health support, free, any time"
+    ],
+    [
+      "100",
+      "Línea 100 for family and sexual violence, free, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/peru/getting-help",
+      "UK government travel advice: Peru, getting help"
+    ],
+    [
+      "https://findahelpline.com/countries/pe",
+      "Find A Helpline: Peru"
+    ]
+  ],
+  "note": "Peru has no single emergency number, so call 105 for police, 106 for an ambulance and 116 for fire."
+}

@@ -70,6 +70,11 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
 
     def continent(slug, name, lead, nums, crisis, rights, countries, sources):
         import dex
+        import factcards
+        fc = factcards.tiles_for(slug)
+        if fc:
+            countries = (countries if countries != none_yet else "") + tiles(fc) + (
+                '<p>Each country has a fact card with the year and source for every figure. More countries are added over time.</p>')
         alm = dex.ALMANAC.get(slug)
         alm_html, alm_src = "", []
         if alm:
@@ -104,7 +109,7 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
             ("crisis", f"<strong>Mexico:</strong> Línea de la Vida, {tel('800 911 2000')}."),
         ]),
         "<p>Mexico has joined the American Convention on Human Rights, a treaty that lets people take a country to the Inter-American Court of Human Rights in San José, Costa Rica. The United States signed it in 1977 but never ratified it, and Canada hasn't joined. In those two countries, your rights come from their own constitutions and laws.</p>",
-        f'{tiles([("us.html", "map_pin", "United States", "Full guide", ""), ("../states/ohio.html", "map_pin", "Ohio", "Full guide", "")])}<p>Canada and Mexico are next on the list.</p>',
+        tiles([("us.html", "map_pin", "United States", "Full guide", ""), ("../states/ohio.html", "map_pin", "Ohio", "Full guide", "")]),
         [ukadvice("the USA", "usa"), ukadvice("Canada", "canada"), ukadvice("Mexico", "mexico"),
          ext("https://988.ca/get-help/help-right-now", "9-8-8 Canada"), ext("https://988lifeline.org/", "988 Suicide and Crisis Lifeline (US)"),
          ext("https://www.conasama.salud.gob.mx/cnps/Img/suicidio.pdf", "Mexico CONASAMA: Línea de la Vida"),

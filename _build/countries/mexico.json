@@ -1,0 +1,87 @@
+{
+  "slug": "mexico",
+  "name": "Mexico",
+  "continent": "north-america",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "132 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO/indicator/SP.POP.TOTL?format=json&date=2023:2025",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "Mexico City",
+      "year": "2026",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO?format=json",
+        "World Bank: country data (capital city)"
+      ]
+    },
+    "languages": {
+      "value": "Spanish, plus many Indigenous languages, all national languages by law",
+      "year": "2026",
+      "src": [
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGDLPI.pdf",
+        "Mexico, Chamber of Deputies: General Law of Linguistic Rights of Indigenous Peoples, Art. 4"
+      ]
+    },
+    "money": {
+      "value": "Mexican peso (MXN)",
+      "year": "2026",
+      "src": [
+        "https://www.gov.uk/foreign-travel-advice/mexico/entry-requirements",
+        "UK government: Mexico entry requirements"
+      ]
+    },
+    "government": {
+      "value": "A democratic federal republic with an elected president",
+      "year": "2026",
+      "src": [
+        "https://www.constituteproject.org/constitution/Mexico_2015",
+        "Constitution of Mexico, Article 40 (Constitute Project)"
+      ]
+    },
+    "religions": {
+      "value": "About 9 in 10 Christian, 1 in 10 no religion",
+      "year": "2020",
+      "src": [
+        "https://alpha.pewresearch.org/pewresearch-org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+        "Pew Research Center: Global Religious Landscape 2010 to 2020, Appendix B"
+      ]
+    },
+    "life_expectancy": {
+      "value": "75 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO/indicator/SP.DYN.LE00.IN?format=json&date=2021:2025",
+        "World Bank: Life expectancy at birth, total"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "911",
+      "Police, fire and ambulance"
+    ]
+  ],
+  "help": [
+    [
+      "800 911 2000",
+      "Línea de la Vida, emotional and suicide support, free, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/mexico/getting-help",
+      "UK government: Getting help in Mexico"
+    ],
+    [
+      "https://findahelpline.com/countries/mx",
+      "Find A Helpline: Mexico"
+    ]
+  ],
+  "note": "Mexico has no single official language by law, and Spanish and Indigenous languages count equally as national languages."
+}

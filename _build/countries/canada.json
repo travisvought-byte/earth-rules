@@ -1,0 +1,95 @@
+{
+  "slug": "canada",
+  "name": "Canada",
+  "continent": "north-america",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "42 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO/indicator/SP.POP.TOTL?format=json&date=2023:2025",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "Ottawa",
+      "year": "2026",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO?format=json",
+        "World Bank: country data (capital city)"
+      ]
+    },
+    "languages": {
+      "value": "English and French, both official",
+      "year": "2026",
+      "src": [
+        "https://www.canada.ca/en/canadian-heritage/services/official-languages-bilingualism.html",
+        "Government of Canada: Official languages and bilingualism"
+      ]
+    },
+    "money": {
+      "value": "Canadian dollar (CAD)",
+      "year": "2026",
+      "src": [
+        "https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/",
+        "Bank of Canada: Daily exchange rates"
+      ]
+    },
+    "government": {
+      "value": "A democracy with a king as a symbol, and an elected parliament that picks the prime minister",
+      "year": "2026",
+      "src": [
+        "https://www.canada.ca/en/canadian-heritage/services/crown-canada.html",
+        "Government of Canada: The Crown in Canada"
+      ]
+    },
+    "religions": {
+      "value": "About half Christian, about 1 in 3 no religion, 1 in 20 Muslim",
+      "year": "2020",
+      "src": [
+        "https://alpha.pewresearch.org/pewresearch-org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_appendix-b.pdf",
+        "Pew Research Center: Global Religious Landscape 2010 to 2020, Appendix B"
+      ]
+    },
+    "life_expectancy": {
+      "value": "82 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/US;CA;MX;BR;AR;CO/indicator/SP.DYN.LE00.IN?format=json&date=2021:2025",
+        "World Bank: Life expectancy at birth, total"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "911",
+      "Police, fire and ambulance"
+    ]
+  ],
+  "help": [
+    [
+      "988",
+      "Suicide Crisis Helpline, call or text, free, any time"
+    ],
+    [
+      "1-800-668-6868",
+      "Kids Help Phone for young people, or text 686868, any time"
+    ],
+    [
+      "1-855-242-3310",
+      "Hope for Wellness line for Indigenous people, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/canada/getting-help",
+      "UK government: Getting help in Canada"
+    ],
+    [
+      "https://findahelpline.com/countries/ca",
+      "Find A Helpline: Canada"
+    ]
+  ],
+  "note": "Canada has two official languages, English and French, so many signs and forms come in both."
+}

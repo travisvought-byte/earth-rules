@@ -1,0 +1,107 @@
+{
+  "slug": "japan",
+  "name": "Japan",
+  "continent": "asia",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "123 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/CN;JP;KR;AU;NZ/indicator/SP.POP.TOTL?format=json&mrv=1",
+        "World Bank: Population, total (2025)"
+      ]
+    },
+    "capital": {
+      "value": "Tokyo",
+      "year": "2026",
+      "src": [
+        "https://www.japan.go.jp/japan/",
+        "Government of Japan: About Japan"
+      ]
+    },
+    "languages": {
+      "value": "Japanese",
+      "year": "2026",
+      "src": [
+        "https://www.japan.go.jp/japan/",
+        "Government of Japan: About Japan"
+      ]
+    },
+    "money": {
+      "value": "Japanese yen (JPY)",
+      "year": "2026",
+      "src": [
+        "https://www.japan.go.jp/japan/",
+        "Government of Japan: About Japan"
+      ]
+    },
+    "government": {
+      "value": "A democracy with an emperor as a symbol, and an elected parliament (the Diet) that picks the prime minister",
+      "year": "2026",
+      "src": [
+        "https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html",
+        "Prime Minister's Office of Japan: The Constitution of Japan"
+      ]
+    },
+    "religions": {
+      "value": "Almost half Buddhist, about 4 in 10 no religion",
+      "year": "2023",
+      "src": [
+        "https://www.pewresearch.org/religion/2024/06/17/religious-landscape-and-change-in-east-asia/",
+        "Pew Research Center: Religious landscape and change in East Asia (2023 survey, published 2024)"
+      ]
+    },
+    "life_expectancy": {
+      "value": "84 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/CN;JP;KR;AU;NZ/indicator/SP.DYN.LE00.IN?format=json&mrv=1",
+        "World Bank: Life expectancy at birth, total (2024)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "110",
+      "Police"
+    ],
+    [
+      "119",
+      "Fire and ambulance"
+    ]
+  ],
+  "help": [
+    [
+      "0570-064-556",
+      "National mental health phone line"
+    ],
+    [
+      "0120-279-338",
+      "Yorisoi Hotline, for any worry"
+    ],
+    [
+      "0800-300-8355",
+      "TELL Lifeline, emotional support in English"
+    ],
+    [
+      "#8008",
+      "Domestic violence help, connects you to your local support center"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/japan/getting-help",
+      "UK FCDO travel advice: Japan, getting help"
+    ],
+    [
+      "https://findahelpline.com/countries/jp",
+      "Find A Helpline: Japan"
+    ],
+    [
+      "https://www.gender.go.jp/policy/no_violence/dv_navi/index.html",
+      "Cabinet Office Gender Equality Bureau: DV consultation (#8008)"
+    ]
+  ],
+  "note": ""
+}

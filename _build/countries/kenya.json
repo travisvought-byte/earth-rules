@@ -1,0 +1,91 @@
+{
+  "slug": "kenya",
+  "name": "Kenya",
+  "continent": "africa",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "58 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/ZAF;NGA;KEN;IND;IDN;PHL/indicator/SP.POP.TOTL?format=json&mrnev=1",
+        "World Bank: Population, total"
+      ]
+    },
+    "capital": {
+      "value": "Nairobi",
+      "year": "2026",
+      "src": [
+        "https://api.worldbank.org/v2/country/ZAF;NGA;KEN;IND;IDN;PHL?format=json",
+        "World Bank: country data, capital city"
+      ]
+    },
+    "languages": {
+      "value": "Swahili and English",
+      "year": "2026",
+      "src": [
+        "https://www.britannica.com/place/Kenya",
+        "Encyclopaedia Britannica: Kenya"
+      ]
+    },
+    "money": {
+      "value": "Kenya shilling (KES)",
+      "year": "2026",
+      "src": [
+        "https://www.centralbank.go.ke/currency-history/",
+        "Central Bank of Kenya: Currency history"
+      ]
+    },
+    "government": {
+      "value": "A republic where people elect a president and a two-house parliament",
+      "year": "2026",
+      "src": [
+        "https://www.britannica.com/place/Kenya",
+        "Encyclopaedia Britannica: Kenya"
+      ]
+    },
+    "religions": {
+      "value": "Mostly Christian: about 86 in 100. About 11 in 100 Muslim",
+      "year": "2020",
+      "src": [
+        "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/02/PR_2026.02.12_religious-diversity-around-the-world_appendix-c.pdf",
+        "Pew Research Center: religious composition by country, 2020 (appendix C)"
+      ]
+    },
+    "life_expectancy": {
+      "value": "64 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/ZAF;NGA;KEN;IND;IDN;PHL/indicator/SP.DYN.LE00.IN?format=json&mrnev=1",
+        "World Bank: Life expectancy at birth, total (years)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "999",
+      "Police, fire and ambulance"
+    ]
+  ],
+  "help": [
+    [
+      "+254 722 178177",
+      "Befrienders Kenya suicide prevention, free, weekdays 9 am to 5 pm"
+    ],
+    [
+      "116",
+      "National Child Helpline, free, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/kenya/getting-help",
+      "UK government: Kenya travel advice, getting help"
+    ],
+    [
+      "https://findahelpline.com/countries/ke",
+      "findahelpline.com: helplines in Kenya"
+    ]
+  ],
+  "note": "Dial 999 for police, fire or ambulance."
+}

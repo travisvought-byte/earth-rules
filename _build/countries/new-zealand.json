@@ -1,0 +1,95 @@
+{
+  "slug": "new-zealand",
+  "name": "New Zealand",
+  "continent": "oceania",
+  "checked": "2026-11",
+  "facts": {
+    "population": {
+      "value": "5.3 million people",
+      "year": "2025",
+      "src": [
+        "https://api.worldbank.org/v2/country/CN;JP;KR;AU;NZ/indicator/SP.POP.TOTL?format=json&mrv=1",
+        "World Bank: Population, total (2025)"
+      ]
+    },
+    "capital": {
+      "value": "Wellington",
+      "year": "2026",
+      "src": [
+        "https://api.worldbank.org/v2/country/CN;JP;KR;AU;NZ?format=json",
+        "World Bank: country metadata, capital city"
+      ]
+    },
+    "languages": {
+      "value": "English, te reo Māori and New Zealand Sign Language",
+      "year": "2026",
+      "src": [
+        "https://www.immigration.govt.nz/live/setting-up-your-life-in-new-zealand/maori-culture-and-the-treaty-of-waitangi/",
+        "Immigration New Zealand: Māori culture and the Treaty of Waitangi"
+      ]
+    },
+    "money": {
+      "value": "New Zealand dollar (NZD)",
+      "year": "2026",
+      "src": [
+        "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index",
+        "Reserve Bank of New Zealand: Exchange rates"
+      ]
+    },
+    "government": {
+      "value": "A democracy with a king as a symbol, and an elected parliament that picks the government",
+      "year": "2026",
+      "src": [
+        "https://www.govt.nz/browse/engaging-with-government/government-in-new-zealand/",
+        "Govt.nz: How government works"
+      ]
+    },
+    "religions": {
+      "value": "About half no religion, about 4 in 10 Christian",
+      "year": "2020",
+      "src": [
+        "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/06/PR_2025.06.09_global-religious-change_report.pdf",
+        "Pew Research Center: Global religious change report, PDF (June 2025)"
+      ]
+    },
+    "life_expectancy": {
+      "value": "82 years",
+      "year": "2024",
+      "src": [
+        "https://api.worldbank.org/v2/country/CN;JP;KR;AU;NZ/indicator/SP.DYN.LE00.IN?format=json&mrv=1",
+        "World Bank: Life expectancy at birth, total (2024)"
+      ]
+    }
+  },
+  "emergency": [
+    [
+      "111",
+      "Police, fire and ambulance"
+    ]
+  ],
+  "help": [
+    [
+      "1737",
+      "Need to Talk, call or text, any time"
+    ],
+    [
+      "0800 543 354",
+      "Lifeline, crisis and suicide support"
+    ],
+    [
+      "0508 828 865",
+      "Suicide Crisis Helpline, any time"
+    ]
+  ],
+  "help_src": [
+    [
+      "https://www.gov.uk/foreign-travel-advice/new-zealand/getting-help",
+      "UK FCDO travel advice: New Zealand, getting help"
+    ],
+    [
+      "https://findahelpline.com/countries/nz",
+      "Find A Helpline: New Zealand"
+    ]
+  ],
+  "note": "New Zealand has three official languages: English, te reo Māori and New Zealand Sign Language."
+}
