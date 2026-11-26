@@ -69,14 +69,22 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
         return ext(f"https://www.gov.uk/foreign-travel-advice/{slug}/getting-help", f"UK travel advice: emergency services in {country}")
 
     def continent(slug, name, lead, nums, crisis, rights, countries, sources):
+        import dex
+        alm = dex.ALMANAC.get(slug)
+        alm_html, alm_src = "", []
+        if alm:
+            alm_html = (f'<section aria-labelledby="al-h"><h2 id="al-h">{ic("chart")} {name} at a glance</h2>{alm["html"]}'
+                        f'<p><a href="{{P}}world-almanac.html">The whole world at a glance</a></p></section>')
+            alm_src = [ext(u, t) for u, t in alm["sources"]]
         body = f"""
 <section aria-labelledby="em-h"><h2 id="em-h">{ic("siren")} Emergency numbers</h2>{nums}</section>
 <section aria-labelledby="cr-h"><h2 id="cr-h">{ic("crisis")} If you're thinking about suicide or can't cope</h2>{crisis}
 <p>{"For any other country, " if crisis else ""}{findhelp} lists free, checked help lines in more than 150 countries. It's run by ThroughLine and backed by the International Association for Suicide Prevention.</p></section>
 {everyone}
 <section aria-labelledby="rg-h"><h2 id="rg-h">{ic("globe")} Rights in {name}</h2>{rights}</section>
+{alm_html}
 <section aria-labelledby="ct-h"><h2 id="ct-h">{ic("map_pin")} Countries in this guide</h2>{countries}</section>
-{checked(sources + common_src)}
+{checked(sources + alm_src + common_src)}
 """
         URLS.append(page(f"places/{slug}.html", f"{name}: emergency numbers, help lines and rights | Earth Rules",
                          f"Starter guide for {name}: emergency numbers by country, crisis help lines, and the rights that apply there.",
