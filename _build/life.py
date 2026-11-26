@@ -214,7 +214,7 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
 ])}</section>
 <section aria-labelledby="food-h" id="food"><h2 id="food-h">{ic("food")} Food</h2>{checklist([
  ("food", "<strong>SNAP</strong> puts money for groceries on a card each month. Apply in Ohio at " + ext("https://benefits.ohio.gov/", "Ohio Benefits") + "."),
- ("children", "<strong>WIC</strong> gives food, formula and support to pregnant people and children under 5. " + ext("https://www.fns.usda.gov/wic", "About WIC") + "."),
+ ("children", "<strong>WIC</strong> gives food, formula and support to pregnant people and children under 5. " + ext("https://www.fna.usda.gov/wic", "About WIC") + "."),
  ("map_pin", "<strong>Food banks and pantries</strong> give food free, no long forms. Dial <a href=\"tel:211\">211</a> or search " + ext("https://www.feedingamerica.org/find-your-local-foodbank", "Feeding America") + "."),
 ])}</section>
 <section aria-labelledby="heat-h" id="heat"><h2 id="heat-h">{ic("housing")} Heat and lights</h2>{checklist([
@@ -230,7 +230,7 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
  ("search", "Find licensed child care and help paying at " + ext("https://childcare.gov/", "ChildCare.gov") + "."),
  ("map_pin", "<strong>Ohio:</strong> your county Job and Family Services office handles publicly funded child care."),
 ])}</section>
-{checked([ext("https://www.fns.usda.gov/snap", "USDA SNAP"), ext("https://www.fns.usda.gov/wic", "USDA WIC"), ext("https://www.occ.ohio.gov/factsheet/home-energy-assistance-program-heap", "Ohio Consumers' Counsel: HEAP"),
+{checked([ext("https://www.fna.usda.gov/snap", "USDA SNAP"), ext("https://www.fna.usda.gov/wic", "USDA WIC"), ext("https://www.occ.ohio.gov/factsheet/home-energy-assistance-program-heap", "Ohio Consumers' Counsel: HEAP"),
           ext("https://www.fcc.gov/lifeline-consumers", "FCC Lifeline"), ext("https://childcare.gov/", "ChildCare.gov")])}
 """
     URLS.append(page("basics.html", "Food, heat, phone and child care help | Earth Rules",
@@ -436,10 +436,10 @@ def build(page, ic, ext, checklist, checked, tiles, URLS):
  ("peer_support", "<strong>Manners:</strong> greetings, personal space, time and how direct people are. See " + "<a href=\"../how-people-work.html\">how people work</a>."),
 ])}</section>
 <section aria-labelledby="wd2"><h2 id="wd2">{ic("idcard")} Countries in this guide</h2><p><a href="us.html">United States</a>. More are on the way.</p></section>
-{checked([ext("https://european-union.europa.eu/live-work-study/emergency-number-112_en", "European Union: 112"),
+{checked([ext("https://digital-strategy.ec.europa.eu/en/policies/112", "European Union: 112"),
           ext("https://www.gov.uk/guidance/999-and-112-the-uks-national-emergency-numbers", "GOV.UK: 999 and 112"),
           ext("https://www.triplezero.gov.au/", "Triple Zero (Australia)"), ext("https://112.gov.in/", "India: 112"),
-          ext("https://travel.state.gov/en/international-travel/help-abroad.html", "U.S. State Department: help abroad")])}
+          ext("https://travel.state.gov/helpabroad", "U.S. State Department: help abroad")])}
 """
     URLS.append(page("places/world.html", "What's true everywhere | Earth Rules",
                      "The big picture that holds in every country: emergency numbers around the world, and what changes from place to place.",
