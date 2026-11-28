@@ -74,7 +74,7 @@ def page(path, title, desc, kicker, h1, lead, body, crumbs=None):
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
 <link rel="canonical" href="{url}">
-<meta property="og:type" content="website"><meta property="og:site_name" content="{NAME}"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(desc)}"><meta property="og:url" content="{url}"><meta name="theme-color" content="#17423b">
+<meta property="og:type" content="website"><meta property="og:site_name" content="{NAME}"><meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}/assets/og-earth-rules.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Earth Rules: the user manual for being a person"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#17423b">
 <link rel="icon" href="{P}favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="{P}assets/site.css">
 <style>.sr{{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}</style>
@@ -420,6 +420,13 @@ with open(os.path.join(ROOT, "sitemap.xml"), "w") as f:
             "".join(f"<url><loc>{u}</loc></url>\n" for u in URLS) + "</urlset>\n")
 with open(os.path.join(ROOT, "robots.txt"), "w") as f:
     f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
+# IndexNow key file: proves the site is ours when .github/workflows/indexnow.yml tells Bing which pages changed
+INDEXNOW_KEY = "ff042ed91312ea4dadf0d107bfc7edd0"
+with open(os.path.join(ROOT, INDEXNOW_KEY + ".txt"), "w") as f:
+    f.write(INDEXNOW_KEY)
+# Google Search Console ownership file, the same one the other sites carry
+with open(os.path.join(ROOT, "googleae90b5079bda9bbc.html"), "w") as f:
+    f.write("google-site-verification: googleae90b5079bda9bbc.html")
 with open(os.path.join(ROOT, "CNAME"), "w") as f:
     f.write("earthrules.org\n")
 with open(os.path.join(ROOT, "favicon.svg"), "w") as f:
